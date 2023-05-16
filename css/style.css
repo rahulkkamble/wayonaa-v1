@@ -3693,7 +3693,8 @@ table.specifications tr:last-child th {
 .image-wrapper-in-cards{
     height: 35vh;
     width: 52vw;
-    float: right;
+    margin: auto;
+    /* float: right; */
 }
 .image-wrapper-in-cards img{
     height: 100%;
@@ -3709,4 +3710,14 @@ table.specifications tr:last-child th {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+    .image-wrapper-in-cards{
+        height: 30vh;
+        width: 65vw;
+    }
+    .image-wrapper-in-cards-vertical{
+        display: none;
+    }
 }
