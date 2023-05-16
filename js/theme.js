@@ -228,7 +228,7 @@
               var Link = $(this).attr('href');
               $('html, body').animate({
                   scrollTop: $(Link).offset().top - topMenuHeight+1
-              }, 1000);
+              }, 400);
           });
   
           $(document).click(function(e){
@@ -247,16 +247,6 @@
           $(".ft-point").on("click", function(e){
               $('.ft-col').removeClass('active');
               $(this).parent('.ft-col').addClass('active');
-          });
-  
-  
-          $(".start-engine").on("click", function(e){
-              var sound = document.getElementById("audio");
-              sound.play();
-              $('.engine-ico').addClass("start-humming");
-              setTimeout(function(){
-                  $('.engine-ico').removeClass("start-humming")
-              }, 2500);
           });
   
   

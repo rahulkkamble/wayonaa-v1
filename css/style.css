@@ -920,6 +920,7 @@ header.fixed {
 }
 
 .logo img.regular-logo {
+    transition: all 500ms;
     display: block;
 }
 
@@ -932,6 +933,13 @@ header.fixed .logo img.regular-logo {
 }
 
 header.fixed .logo img.sticky-logo {
+    display: block;
+}
+
+body.menu-open .logo img.regular-logo {
+    display: none;
+}
+body.menu-open .logo img.sticky-logo {
     display: block;
 }
 
@@ -3555,4 +3563,12 @@ table.specifications tr:last-child th {
 }
 .my-shadow-sm{
     box-shadow: 0 0 5px 1px grey;
+}
+
+.fs--14{
+    font-size: 14px !important;
+}
+
+.light-header .be-dealer{
+    color:var(--dark-gray-2);
 }
