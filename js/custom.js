@@ -111,7 +111,7 @@ gsap.timeline({
       end: () => innerHeight * 2,
       scrub: true,
     //   pin: ".astino-body",
-      anticipatePin: 1
+    //   anticipatePin: 1
     }
   }).fromTo(".astino-body .text-block", {y: 200, autoAlpha:0.2, duration: 0.3, ease:'ease-in-out'}, {y:0, autoAlpha:1, duration: 0.3, ease:'ease-in-out'})
 // Second animation - astino dashboard ends here
