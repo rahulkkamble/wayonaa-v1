@@ -77,3 +77,42 @@ let circles = gsap.utils.toArray(".nav .circle");
 function setActiveNav(index) {
     circles.forEach((circle, i) => circle.classList[i === index ? "add" : "remove"]("active"));
 }
+
+// second animation with GSAP <section Astino dashboard>
+gsap.timeline({
+    scrollTrigger: {
+      trigger: ".grid-container",
+      start: "top top",
+      end: () => innerHeight * 7.2,
+      scrub: true,
+      pin: ".grid",
+      anticipatePin: 1
+    }
+  })
+  .set(".gridBlock:not(.centerBlock)", {autoAlpha: 0})
+  .fromTo(".main-header",{y:0,duration:0.4},{y:-100,duration:0.4})
+  .to(".gridBlock:not(.centerBlock)", {duration: 0.51, autoAlpha: 1}, 0.001)
+  .fromTo(".gridBlock.centerBlock",{duration:0.27, backgroundSize: '120%', scale:0.8},{duration:0.27, backgroundSize: '100%', scale:0.9},)
+  .fromTo(".gridLayer", {scale: 3.4, ease: "none",},{scale: 1.6, ease: "none",})
+  .fromTo(".main-header",{y:-100,duration:0.4},{y:0,duration:0.4});
+  
+  const bigImg = new Image;    
+  bigImg.addEventListener("load", function () {
+    gsap.to(".centerPiece .gridBlock", {autoAlpha: 1, scale:0.9, duration: 0.8});
+  });
+  
+  bigImg.src = `https://sacredthemes.net/wheels/images/bg-5.jpg`;
+
+//   astino body
+gsap.timeline({
+    scrollTrigger: {
+      trigger: ".astino-body",
+      start: "top center",
+      end: () => innerHeight * 2,
+      scrub: true,
+    //   pin: ".astino-body",
+      anticipatePin: 1
+    }
+  }).fromTo(".astino-body .text-block", {y: 200, autoAlpha:0.2, duration: 0.3, ease:'ease-in-out'}, {y:0, autoAlpha:1, duration: 0.3, ease:'ease-in-out'})
+// Second animation - astino dashboard ends here
+
