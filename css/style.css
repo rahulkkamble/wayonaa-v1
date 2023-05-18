@@ -61,6 +61,12 @@ Table of Contents
     font-weight: bold !important;
 }
 
+.semi-bold-heading{
+    font-size: 2.75rem !important;
+    letter-spacing: 3px;
+    font-weight: 700 !important;
+}
+
 /*--------------------------------------------------------------*
     Preloader
   *--------------------------------------------------------------*/
