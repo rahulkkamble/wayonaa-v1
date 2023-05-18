@@ -25,14 +25,40 @@ Table of Contents
  *--------------------------------------------------------------*/
 :root {
     --main-color: #fb7c00;
+    --main-color-light: #ffc082;
     --text-color: #1e1c4e;
     --heading-color: #1e1c4e;
+    --action-color: #1e1c4e9d;
+    --action-color-light: #eaeaf3;
     --light-gray: #eeeeee;
     --white-color: #ffffff;
     --dark-gray: #282828;
     --dark-gray-2: #8c8c8c;
     --bike-colors-gradients: linear-gradient(90deg, #fb7c00 0%, #d2d2d2 50%, #9bd916 90%);
     --black-color: #000000;
+
+
+    /* images used in Astino section */
+    --img-center: url('/assets/images/dummy/dashboard.jpg');
+    --img-top-left: url('https://atherenergy.com/_next/image?url=%2Fimages%2Fhome-page3.1%2Fperformance%2Fdesk%2Fhero.jpg&w=1920&q=75');
+    --img-top-right: url('https://www.atherenergy.com/images/home-page3.1/introduction/landing-sequence-no-ramp/desk/39.webp');
+    --img-bottom-left: url('https://www.atherenergy.com/_next/image?url=https%3A%2F%2Fatlas-cms-assets.s3.ap-south-1.amazonaws.com%2Ftripplanner_34c78d8905.jpg&w=1920&q=100');
+    --img-bottom-right:url('https://www.bikes4sale.in/pictures/default/strikeco-sprint-e/strikeco-sprint-e-640.jpg');
+    --img-right: url("https://media.tenor.com/QsxN6R6JzgUAAAAi/coming-soon-coming.gif");
+    --img-bottom-center: url("https://images2.giant-bicycles.com/b_white,c_crop,h_600,q_70,w_1920/amk4alkpzskv9xqeiov6/giant_ebike_banner_navi21.jpg");
+    --img-bottom-center-2: url("/assets/images/coming-soon.png"); 
+
+}
+
+.z--1{
+    z-index: 1;
+}
+
+.bg-main-light{
+    background-color: var(--main-color-light) !important;
+}
+.bg-action-light{
+    background-color: var(--action-color-light) !important;
 }
 
 /*--------------------------------------------------------------*
@@ -3749,8 +3775,8 @@ table.specifications tr:last-child th {
   @media only screen and (max-width: 580px) {
     .grid {
       margin: 0;
-      top: 150px;
-      width: 100vw;
+      top: 45px;
+      width: 50vw;
       height: 89.444vw;
     }
   }
@@ -3772,108 +3798,107 @@ table.specifications tr:last-child th {
     will-change: transform;
     transform-origin: 44.951% 50%;
   }
-  .gridLayer:nth-child(1) .gridBlock {
+  .gridLayer .gridBlock.img-top-left {
     top: 10vw;
     left: 18vw;
     width: 13vw;
     height: 7vw;
-  }
-  @media only screen and (max-width: 580px) {
-    .gridLayer:nth-child(1) .gridBlock {
-      top: 11.111vw;
-      left: 23.889vw;
-      width: 15vw;
-      height: 15vw;
+    background: var(--img-top-left);
+    background-size: cover;
+    background-position: center center;
+}
+@media only screen and (max-width: 580px) {
+    .gridLayer .gridBlock.img-top-left {
+        top: 11.111vw;
+        left: 23.889vw;
+        width: 15vw;
+        height: 15vw;
+    }
+    .gridBlock.centerBlock{
+        height: 60vh !important;
+        padding: 2rem;
+        background-image: var(--img-center);
     }
   }
-  .gridLayer:nth-child(2) .gridBlock {
+  .gridLayer .gridBlock.img-top-right {
     top: 7vw;
     left: 31.5vw;
     width: 15vw;
     height: 10vw;
-    background-image: url("https://www.atherenergy.com/images/home-page3.1/introduction/landing-sequence-no-ramp/desk/39.webp");
+    background-position: center center;
+    background-size: cover;
+    background-image: var(--img-top-right);
   }
   @media only screen and (max-width: 580px) {
-    .gridLayer:nth-child(2) .gridBlock {
+    .gridLayer .gridBlock.img-top-right {
       top: 0;
       left: 43.333vw;
       width: 26.389vw;
       height: 26.389vw;
     }
   }
-  .gridLayer:nth-child(3) .gridBlock {
+  .gridLayer .gridBlock.img-bottom-left {
     left: 3vw;
     top: 25vw;
     width: 15vw;
-    background-image: url('https://www.atherenergy.com/_next/image?url=https%3A%2F%2Fatlas-cms-assets.s3.ap-south-1.amazonaws.com%2Ftripplanner_34c78d8905.jpg&w=1920&q=100');
+    background-image: var(--img-bottom-left);
     background-color: green;
     height: 15vw;
   }
   @media only screen and (max-width: 580px) {
-    .gridLayer:nth-child(3) .gridBlock {
+    .gridLayer .gridBlock.img-bottom-left {
       top: 30.278vw;
       left: 0;
       width: 26.389vw;
       height: 26.389vw;
     }
   }
-  .gridLayer:nth-child(4) .gridBlock {
+  .gridLayer .gridBlock.img-center {
     top: 17.5vw;
     left: 17.5vw;
     width: 30vw;
     height: 30vw;
+    background: var(--img-center);
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover;
   }
   @media only screen and (max-width: 580px) {
-    .gridLayer:nth-child(4) .gridBlock {
+    .gridLayer .gridBlock.img-center {
       top: 30.278vw;
       left: 30.278vw;
       width: 39.444vw;
       height: 39.444vw;
     }
   }
-  .gridLayer:nth-child(5) {
-    z-index: 1;
-  }
-  .gridLayer:nth-child(5) .gridBlock {
+  .gridLayer .gridBlock.img-right {
     top: 16vw;
-    left: 47vw;
+    left: 44vw;
     width: 5vw;
     height: 5vw;
+    transform: skewY(-7deg) scale(1.5);
     background: transparent;
     background-repeat: no-repeat;
-    background-image: url("https://media.tenor.com/QsxN6R6JzgUAAAAi/coming-soon-coming.gif");
-    /* background-color: blue;      */
+    background-image: var(--img-right);     
     /* coming soon banner */
     background-size: 102%;
   }
   @media only screen and (max-width: 580px) {
-    .gridLayer:nth-child(5) .gridBlock {
+    .gridLayer .gridBlock.img-right {
       top: 23.889vw;
       left: 73.889vw;
       width: 15.278vw;
       height: 15.278vw;
     }
   }
-  .gridLayer:nth-child(5) a {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .gridLayer:nth-child(5) svg {
-    width: 1.75vw;
-  }
   @media only screen and (max-width: 580px) {
-    .gridLayer:nth-child(5) svg {
-      width: 4.722vw;
-    }
   }
-  .gridLayer:nth-child(6) .gridBlock {
+  .gridLayer .gridBlock.img-bottom-right {
     left: 43vw;
     top: 29.5vw;
     width: 20vw;
     height: 10vw;
-    background-image: url('https://www.bikes4sale.in/pictures/default/strikeco-sprint-e/strikeco-sprint-e-640.jpg');
+    background-image: var(--img-bottom-right);
     background-color: violet;
   }
   @media only screen and (max-width: 580px) {
@@ -3884,32 +3909,32 @@ table.specifications tr:last-child th {
       height: 26.389vw;
     }
   }
-  .gridLayer:nth-child(7) .gridBlock {
+  .gridLayer .gridBlock.img-bottom-center {
     left: 22vw;
     top: 30.5vw;
     /* transform: skewY(-3deg); */
     width: 18vw;
-    background-image: url("https://images2.giant-bicycles.com/b_white,c_crop,h_600,q_70,w_1920/amk4alkpzskv9xqeiov6/giant_ebike_banner_navi21.jpg");
+    background-image: var(--img-bottom-center);
     background-color: red;
     height: 5vw;
   }
   @media only screen and (max-width: 580px) {
-    .gridLayer:nth-child(7) .gridBlock {
+    .gridLayer .gridBlock.img-bottom-center {
       display: none;
     }
   }
-  .gridLayer:nth-child(8) .gridBlock {
+  .gridLayer .gridBlock.img-bottom-center-2 {
     bottom: 11vw;
     left: 32.5vw;
     width: 5vw;
     height: 5vw;
-    background-image: url("/assets/images/coming-soon.png");
+    background-image: var(--img-bottom-center-2);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: transparent;
   }
   @media only screen and (max-width: 580px) {
-    .gridLayer:nth-child(8) .gridBlock {
+    .gridLayer .gridBlock.img-bottom-center-2 {
       display: none;
     }
   }
