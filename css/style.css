@@ -44,6 +44,10 @@ Table of Contents
 
 }
 
+.fs--3rem{
+    font-size: 3rem !important;
+}
+
 .text--main {
     color: var(--main-color) !important;
 }
@@ -3624,6 +3628,11 @@ table.specifications tr:last-child th {
 }
 
 /* card hover and design */
+
+.intro-cards{
+    row-gap: 1rem;
+}
+
 .intro-cards .card {
     border: 0;
     border-radius: 0px;
@@ -3658,6 +3667,11 @@ table.specifications tr:last-child th {
 .intro-cards .card .card-header {
     padding-left: 2rem;
     border-bottom: 0px;
+}
+
+.intro-cards .inside-card-logo{
+    margin-right: .5rem;
+    margin-top: .2rem;
 }
 
 .intro-cards .card-title{
@@ -3739,3 +3753,32 @@ table.specifications tr:last-child th {
     font-weight: 400;
     font-size: .96rem;
 }
+h2.large-heading>span.only-text-main{
+    font-size: inherit;
+    display: inline-block;
+    color: var(--main-color);
+}
+
+.astino-section{
+    height: 95vh;
+}
+
+.astino-section .background-inner{
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+.astino-section .banner-content .text-lead{
+    margin-right: 11rem; 
+}
+
+@media screen and (max-width: 574px) {
+    .astino-section{
+        height: 70vh;
+    }
+    .astino-section .banner-content .text-lead{
+        margin-right: auto; 
+    }
+}
+
