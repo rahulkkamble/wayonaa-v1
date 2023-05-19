@@ -28,10 +28,12 @@ Table of Contents
     --main-secondary: #df7e43;
     --white-secondary: #f0f0f0;
     --green-secondary: #2d7a39;
+    --green-color-light: #43714ab7;
     --main-color-light: #ffc082;
     --text-color: #1e1c4e;
     --heading-color: #1e1c4e;
     --action-color: #1e1c4e;
+    --action-secondary: #2f2e4e9c;
     --action-color-light: #eaeaf3;
     --light-gray: #eeeeee;
     --white-color: #ffffff;
@@ -46,6 +48,9 @@ Table of Contents
 
 .fs--3rem{
     font-size: 3rem !important;
+}
+.fs--4rem{
+    font-size: 4rem !important;
 }
 
 .text--main {
@@ -1661,8 +1666,9 @@ h2.large-heading span {
     background: #f5f5f5;
 }
 
-.black-bg {
-    background: #000000;
+.flag-bg {
+    background: url('/assets/images/temp/tri_bg.png');
+    background-size: cover;
 }
 
 .accent-bg {
@@ -2521,10 +2527,20 @@ table.specifications tr:last-child th {
     max-height: 400px;
     z-index: 0;
     opacity: 0.15;
-    background: #dd0707;
+    background: var(--action-secondary);
 }
 
-.circle-animation:before,
+.circle-animation:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 20px solid var(--green-color-light);
+    border-radius: 50%;
+}
 .circle-animation:after {
     content: '';
     display: block;
@@ -2533,7 +2549,7 @@ table.specifications tr:last-child th {
     right: 0;
     bottom: 0;
     left: 0;
-    border: 20px solid #dd0707;
+    border: 20px solid var(--main-color-light);
     border-radius: 50%;
 }
 
@@ -3443,7 +3459,7 @@ table.specifications tr:last-child th {
 
 /* My custom */
 .red-img {
-    filter: hue-rotate(66deg) saturate(50);
+    filter: invert(18%) sepia(0%) saturate(118%) hue-rotate(192deg) brightness(79%) contrast(198%);
 }
 
 [data-color='orange-new'] img {
