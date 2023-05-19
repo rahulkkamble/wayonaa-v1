@@ -25,6 +25,9 @@ Table of Contents
  *--------------------------------------------------------------*/
 :root {
     --main-color: #fb7c00;
+    --main-secondary: #df7e43;
+    --white-secondary: #f0f0f0;
+    --green-secondary: #2d7a39;
     --main-color-light: #ffc082;
     --text-color: #1e1c4e;
     --heading-color: #1e1c4e;
@@ -41,27 +44,48 @@ Table of Contents
 
 }
 
-.text--main{
+.text--main {
     color: var(--main-color) !important;
 }
-.text--action{
+
+.text--action {
     color: var(--heading-color) !important;
 }
+
+.text--light {
+    color: var(--light-gray);
+}
+
 .z--1 {
     z-index: 1;
 }
+
 .bg-main-light {
     background-color: var(--main-color-light) !important;
 }
+
+.bg-main-secondary {
+    background-color: var(--main-secondary) !important;
+}
+
+.bg-white-secondary {
+    background-color: var(--white-secondary) !important;
+}
+
+.bg-green-secondary {
+    background-color: var(--green-secondary) !important;
+}
+
 .bg-action-light {
     background-color: var(--action-color-light) !important;
 }
-.sub-bold-heading{
+
+.sub-bold-heading {
     font-size: 2rem !important;
     font-weight: bold !important;
 }
 
-.semi-bold-heading{
+.semi-bold-heading {
     font-size: 2.75rem !important;
     letter-spacing: 3px;
     font-weight: 700 !important;
@@ -1256,7 +1280,7 @@ body.menu-open .logo img.sticky-logo {
 }
 
 h1.large-heading {
-    font-size: 7.75rem !important;
+    font-size: 7.75rem;
     color: var(--main-color);
     font-weight: bold;
     text-transform: uppercase;
@@ -1736,21 +1760,6 @@ h2.large-heading span {
     color: var(--main-color);
 }
 
-
-.racing-car.color-section .color-variation-slider .owl-dots {
-    position: absolute;
-    top: 0;
-    margin: 0px;
-    left: 0;
-    width: 50px;
-}
-
-.racing-car.color-section .owl-dots button.owl-dot {
-    margin-bottom: 10px;
-    display: inline-block;
-    transition: all 400ms;
-}
-
 .engine-specifications {
     margin: 0;
     padding: 0;
@@ -1780,36 +1789,6 @@ h2.large-heading span {
     display: block;
 }
 
-.hero-section.racing-car h1.large-heading {
-    font-size: 4.725rem;
-}
-
-.hero-section.racing-car h1.large-heading span {
-    display: inline-block;
-}
-
-.hero-section.racing-car .animation-text {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-    font-size: 12.5em;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 0em;
-    font-weight: bold;
-    left: 50%;
-}
-
-.racing-car.start-animation .animation-text span {
-    display: inline-block;
-    animation: textanimate 1s linear forwards;
-    opacity: 0;
-    color: rgba(255, 255, 255, 0.05);
-}
-
 @keyframes textanimate {
     0% {
         opacity: 0;
@@ -1822,51 +1801,6 @@ h2.large-heading span {
         transform: rotateY(0deg);
         filter: blur(0px);
     }
-}
-
-.racing-car .animation-text span:nth-child(1) {
-    animation-delay: 1s;
-}
-
-.racing-car .animation-text span:nth-child(2) {
-    animation-delay: 2s;
-}
-
-.racing-car .animation-text span:nth-child(3) {
-    animation-delay: 2.5s;
-}
-
-.racing-car .animation-text span:nth-child(4) {
-    animation-delay: 3s;
-}
-
-.racing-car .animation-text span:nth-child(5) {
-    animation-delay: 3.5s;
-}
-
-.racing-car .animation-text span:nth-child(6) {
-    animation-delay: 4s;
-}
-
-.racing-car .animation-text span:nth-child(7) {
-    animation-delay: 4.5s;
-}
-
-.racing-car .animation-text span:nth-child(8) {
-    animation-delay: 5s;
-}
-
-.racing-car-animation {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    top: auto;
-    height: auto;
-    display: table;
-    left: 0;
-    right: 0;
-    margin: auto;
 }
 
 /* .racing-car-animation img {} */
@@ -2265,86 +2199,6 @@ select.form-control {
     text-align: right;
 }
 
-
-.testimonial-section.racing-car .testimonial-wrapper {
-    max-width: 1100px;
-    width: 100%;
-    margin: auto;
-}
-
-.testimonial-section.racing-car .testimonial-slider {
-    margin: 0;
-}
-
-.racing-car .testimonial-item {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap
-}
-
-.racing-car .testimonial-item .person-img {
-    width: 100%;
-    flex: 0 0 350px;
-    max-width: 350px;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.racing-car .testimonial-item .person-img::before {
-    content: "\f10d";
-    background: #fff;
-    height: 90px;
-    width: 90px;
-    position: absolute;
-    border-radius: 120px;
-    z-index: 1;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 45px;
-    line-height: 48px;
-    padding: 20px;
-    color: #000000;
-}
-
-.racing-car .testimonial-item .person-img img {
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    border: 6px solid rgba(255, 255, 255, 1);
-    border-left-width: 18px;
-    border-top-width: 18px;
-}
-
-.racing-car .testimonial-item .quote-text {
-    width: 100%;
-    flex: 0 0 calc(100% - 350px);
-    max-width: calc(100% - 350px);
-    padding-left: 60px;
-}
-
-.racing-car .testimonial-item blockquote {
-    font-size: 24px;
-    font-style: italic;
-    line-height: 1.4;
-    font-family: "Segoe UI";
-    font-weight: normal;
-}
-
-.racing-car .testimonial-item .quote-details {
-    margin-top: 40px;
-    position: relative;
-}
-
-.racing-car .testimonial-item .quote-details h3 {
-    margin-bottom: 0;
-}
-
-.racing-car .owl-nav {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
 .owl-nav button {
     min-width: auto;
     height: 48px;
@@ -2496,10 +2350,6 @@ select.form-control {
 
 .tab-section {
     width: 100%;
-}
-
-.racing-car .tab-section {
-    width: auto;
 }
 
 .tab-content {
@@ -3607,6 +3457,9 @@ table.specifications tr:last-child th {
 .fs--14 {
     font-size: 14px !important;
 }
+.fs--28 {
+    font-size: 28px !important;
+}
 
 .light-header .be-dealer {
     color: var(--dark-gray-2);
@@ -3766,7 +3619,123 @@ table.specifications tr:last-child th {
 .btn-hover-text-action:hover,
 .btn-hover-text-action:focus,
 .btn-hover-text-action:hover>span,
-.btn-hover-text-action:focus>span
-{
+.btn-hover-text-action:focus>span {
     color: var(--action-color) !important;
+}
+
+/* card hover and design */
+.intro-cards .card {
+    border: 0;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 3px 0px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 0px 0 rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    will-change: transform;
+}
+
+.intro-cards .card:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background-color: var(--action-color);
+    transition: 0.5s ease-in-out;
+}
+/* 
+.intro-cards .card:hover {
+    transform: scale(1.02);
+    -webkit-box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+} */
+
+.intro-cards .card:hover:after {
+    width: 100%;
+}
+
+.intro-cards .card .card-header {
+    padding-left: 2rem;
+    border-bottom: 0px;
+}
+
+.intro-cards .card-title{
+    position: relative;
+}
+
+.intro-cards .card-title::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    background-color: var(--light-gray);
+    height: .2px;
+    opacity: .4;
+    width: 80%;
+}
+
+.card-block.bg-white-secondary .card-title::after{
+    background-color: var(--dark-gray-2);
+}
+
+.intro-cards .card-btn {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    font-size: .9rem;
+    color: var(--white-secondary);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.intro-cards .card-btn:hover{
+    background-color: rgba(0, 0, 0, .65);
+}
+.intro-cards .card-btn span>i{
+    transform: translateX(0px);
+    transition: transform 0.2s ease-in-out;
+}
+
+.intro-cards .card-btn:hover span>i{
+    transform: translateX(8px) translateY(0px) scale(1.2);
+}
+
+.intro-cards .card .list-group-item {
+    border: 0px;
+    margin-left: 1.25rem !important;
+    padding: 0.5rem 0.25rem;
+    font-weight: 300;
+}
+
+.intro-cards .card .list-group-item li{
+    /* font-size: 1rem; */
+    font-weight: 400;
+}
+
+.intro-cards .card .list-group-item::before{
+    content: url(/assets/images/star-bullet-black.svg);
+    position: absolute;
+    padding: .25rem;
+    top: .35rem;
+    left: -1.5rem;
+    filter: invert(1);
+    height: 22px;
+    width: 22px;
+}
+
+.dark-list-group .list-group-item::before{
+    filter: invert(0.5) !important;
+}
+
+.text-lead-2 {
+    font-size: 38px;
+    font-weight: 300 !important;
+}
+.text-lead-3 {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 500 !important;
+}
+.small--text{
+    font-weight: 400;
+    font-size: .96rem;
 }

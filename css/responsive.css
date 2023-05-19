@@ -1,7 +1,7 @@
  /* Responsive css start */
  @media only screen and (max-width: 1639px) {
 	.container {max-width: 1366px; width: 100%;}
-	h1.large-heading {font-size: 5.75rem;}
+	h1.large-heading {font-size: 7.75rem;}
 	h1.large-heading span{font-size: 4.725rem;}
 	.top-sub-heading {font-size: 2.725rem;}
 	.scroll-to{right: calc((100% - 1335px) / 2);}
@@ -48,7 +48,7 @@
 	.site-navigation .header-social-media li{margin: 0px 8px;}
 	.site-navigation .header-social-media{margin-left: 10px;}
 	.top-sub-heading {font-size: 2.325rem;}
-	h1.large-heading {font-size: 4.75rem;}
+	h1.large-heading {font-size: 5.75rem;}
 	h1.large-heading span {font-size: 3.925rem;}
 	h2.large-heading {font-size: 3.125rem;}
 	.video-section::before{ display:none;}
