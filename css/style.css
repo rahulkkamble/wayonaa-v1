@@ -3750,7 +3750,7 @@ table.specifications tr:last-child th {
 }
 
 .intro-cards .card .list-group-item::before {
-    content: url(/assets/images/star-bullet-black.svg);
+    content: url('assets/images/star-bullet-black.svg');
     position: absolute;
     padding: .25rem;
     top: .35rem;
