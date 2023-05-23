@@ -23,6 +23,11 @@ Table of Contents
  
   
  *--------------------------------------------------------------*/
+
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --main-color: #fb7c00;
     --main-secondary: #df7e43;
@@ -41,9 +46,14 @@ Table of Contents
     --dark-gray-2: #8c8c8c;
     --bike-colors-gradients: linear-gradient(90deg, #fb7c00 0%, #d2d2d2 50%, #9bd916 90%);
     --black-color: #000000;
+    --font--poppins: 'Poppins', sans-serif;
 
 
 
+}
+
+.font--poppins{
+    font-family: var(--font--poppins) !important;
 }
 
 .fs--3rem {
@@ -3662,6 +3672,12 @@ table.specifications tr:last-child th {
     transition: all 0.3s ease-in-out;
     position: relative;
     will-change: transform;
+    overflow: hidden;
+}
+
+.intro-cards .card .card-img-top{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .intro-cards .card:after {
@@ -3675,12 +3691,25 @@ table.specifications tr:last-child th {
     transition: 0.5s ease-in-out;
 }
 
-/* 
-.intro-cards .card:hover {
+
+/* .intro-cards .card:hover{
     transform: scale(1.02);
     -webkit-box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
     box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
 } */
+
+.intro-cards .card .card-img-top{
+    overflow: hidden;
+    transform: scale(1);    
+}
+.intro-cards .card .card-img-top img{
+    transition: all .2s cubic-bezier(0.25, 0.74, 0.22, 0.99);
+}
+.intro-cards .card:hover .card-img-top img{
+    transform: scale(1.1);
+    -webkit-box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+}
 
 .intro-cards .card:hover:after {
     width: 100%;
@@ -3809,19 +3838,19 @@ h2.large-heading>span.only-text-main {
         margin-right: auto;
     }
 
-    .semi-bold-heading{
+    .semi-bold-heading {
         font-size: 1.75rem !important;
     }
 
-    .section-background .background-wrapper .background-inner{
+    .section-background .background-wrapper .background-inner {
         background-position: right center;
     }
 
-    .banner-content{
+    .banner-content {
         padding-top: 20px;
     }
 
-    .banner-content a.btn-accent{
+    .banner-content a.btn-accent {
         margin-top: 6rem;
     }
 }
@@ -3912,7 +3941,7 @@ h2.large-heading>span.only-text-main {
     max-height: 84vh;
     max-width: 580px;
     border-radius: 14px;
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 .tab-content-right-cards .img-box {
@@ -3923,7 +3952,7 @@ h2.large-heading>span.only-text-main {
 .tab-content-right-cards .img-box .business-card {
     max-width: 580px;
     max-height: 42vh;
-    transform: scale(0.9);
+    transform: scale(0.95);
 
 }
 
@@ -3959,7 +3988,7 @@ h2.large-heading>span.only-text-main {
     width: 100%;
     left: 15px;
     bottom: 0px;
-    transform: scale(0.9);
+    transform: scale(0.95);
     border-radius: 0px 0px 14px 14px;
 }
 
@@ -3979,14 +4008,14 @@ h2.large-heading>span.only-text-main {
     right: 0;
     bottom: 0px;
     border-radius: 0px 14px 14px 0px;
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 .tab-content .img-box:hover .overlay-1 {
     left: 15.5px;
     width: 100%;
     bottom: 5px;
-    transform: scale(0.85);
+    transform: scale(0.95);
 }
 
 .tab-content .img-box:hover .overlay-2,
@@ -4017,7 +4046,7 @@ h2.large-heading>span.only-text-main {
 }
 
 @media screen and (max-width: 576px) {
-    .usp-tabs .nav-tabs{
+    .usp-tabs .nav-tabs {
         overflow-x: auto;
         display: flex;
         border: none;
