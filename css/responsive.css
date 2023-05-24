@@ -244,6 +244,7 @@
 	.hero-section.racing-car .animation-text{font-size:4.5em; top:60%;}
 	.bus-variation-box .variation-title{font-size:24px;}
 	.bus-variation-box{padding-left:15px; padding-right:15px;}
+	.usp .shrink-section {margin: auto; max-width: 95% !important; width: 95% !important;}
 }
 @media only screen and (max-width:574px) {
 	.fs--3rem{font-size: 2rem !important;}

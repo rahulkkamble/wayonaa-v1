@@ -48,6 +48,7 @@ Table of Contents
     --black-color: #000000;
     --font--poppins: 'Poppins', sans-serif;
     --box--shadow: 9px 12px 15px rgba(0, 0, 0, 0.28);
+    --star-bullet-url: url('/assets/images/star-bullet-black.svg')
 
 
 }
@@ -150,7 +151,6 @@ Table of Contents
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background: var(--main-color);
-    ;
     padding: 10px;
     border-radius: 50%;
 }
@@ -174,7 +174,6 @@ Table of Contents
     animation: preloader-wave 1.5s linear infinite;
     border-radius: 50%;
     background: var(--main-color);
-    ;
     left: -25px;
     top: -25px;
 }
@@ -3805,7 +3804,7 @@ table.specifications tr:last-child th {
 }
 
 .intro-cards .card .list-group-item::before {
-    content: url('assets/images/star-bullet-black.svg');
+    content: var(--star-bullet-url);
     position: absolute;
     padding: .25rem;
     top: .35rem;
@@ -3848,7 +3847,7 @@ h2.large-heading>span.only-text-main {
 }
 
 .astino-section {
-    height: 95vh;
+    height: 100vh;
 }
 
 .astino-section .background-inner {
@@ -3911,6 +3910,11 @@ h2.large-heading>span.only-text-main {
     cursor: pointer;
     white-space: nowrap;
     transition: none;
+}
+
+.usp-tabs .nav-tabs .nav-item{
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .usp-tabs button:hover,
