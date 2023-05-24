@@ -4008,7 +4008,7 @@ h2.large-heading>span.only-text-main {
 
 .tab-content .img-overlay {
     position: absolute;
-    max-width: 540px;
+    max-width: 610px;
     border: none;
     transform-origin: center;
     z-index: 0;
@@ -4018,9 +4018,9 @@ h2.large-heading>span.only-text-main {
 
 .tab-content .img-overlay.overlay-1 {
     width: 100%;
-    left: 15px;
+    left: 0;
     bottom: 0px;
-    transform: scale(0.95);
+    transform: scale(0.9);
     border-radius: 0px 0px 14px 14px;
 }
 
@@ -4044,10 +4044,10 @@ h2.large-heading>span.only-text-main {
 }
 
 .tab-content .img-box:hover .overlay-1 {
-    left: 15.5px;
+    left: 0;
     width: 100%;
     bottom: 15px;
-    transform: scale(0.95);
+    transform: scale(0.9);
 }
 
 .tab-content .img-box:hover .overlay-2,
