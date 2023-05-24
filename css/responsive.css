@@ -16,6 +16,8 @@
 	.hero-section.style-3 .top-sub-heading{font-size:2.5rem;}
 	h2.large-heading{font-size:3rem;}
 	h2.large-heading span{font-size: 2rem;}
+	h3.large-heading{font-size:2.8rem;}
+	h3.large-heading span{font-size: 1.75rem;}
 	.vertical-tab .nav-tabs .nav-item .nav-link{font-size: 24px;}
 	.capability-slider{padding: 0px 60px;}
 	.pricing-text{right: calc((100% - 1280px) / 2);}
@@ -51,6 +53,8 @@
 	h1.large-heading {font-size: 5.75rem;}
 	h1.large-heading span {font-size: 3.925rem;}
 	h2.large-heading {font-size: 3.125rem;}
+	h3.large-heading {font-size: 2.925rem;}
+	h3.large-heading span {font-size: 2.725rem;}
 	.video-section::before{ display:none;}
 	.scroll-to {right: 30px;}
 	.pricing-text{top:100px; right:15px; font-size: 20px; }
@@ -94,6 +98,8 @@
 	.features-row{padding-bottom: 0;}
 	h2.large-heading { font-size:3.0rem;}
 	h2.large-heading span{font-size:1.750rem;}
+	h3.large-heading { font-size:2.75rem;}
+	h3.large-heading span{font-size:1.80rem;}
 	.bicycle-img{bottom: -50px;}
 	.testimonial-slider .item .testimonial__photo{max-width: 100%; flex: 0 0 100%;}
 	.testimonial-slider .item .testimonial__content {flex: 0 0 100%; max-width: 100%;}
@@ -143,6 +149,7 @@
 	.column-4.st-gallery li{flex: 0 0 50%; max-width: 50%;}
 }
 @media only screen and (max-width: 767px) {
+	.fs--4rem{font-size: 2.5rem !important;}
 	p{margin-bottom:15px; }
 	.top-sub-heading{font-size: 1.5rem;}
 	h1.large-heading {font-size: 3.50rem;}
@@ -173,6 +180,7 @@
 	.banner-features{display:none }
 	.hero-section.style-3 .top-sub-heading{font-size: 2.1rem;}
 	h2.large-heading{font-size: 2.50rem;}
+	h3.large-heading{font-size: 3.10rem;}
 	.scroll-to{right:0; }
 	.innovative-design-img{position: static; display:none; }
 	.before-after-car-container {margin: 0px 0px;}
@@ -238,6 +246,7 @@
 	.bus-variation-box{padding-left:15px; padding-right:15px;}
 }
 @media only screen and (max-width:574px) {
+	.fs--3rem{font-size: 2rem !important;}
 	.feature-box::before{display:none; }
 	.feature-box{display:table; text-align:center; padding:15px 0px 15px 0px; margin:15px 0px 0px 0px; }
 	.feature-icon{display: table; margin:0 auto 30px; position:relative; }
@@ -251,11 +260,13 @@
 }
 @media only screen and (max-width: 479px) {
 	.column-3.st-gallery li{flex: 0 0 50%; max-width: 50%;}
+	.fs--3rem{font-size: 1.75rem !important;}
 	#features1 .ft-point{top:12%; }
 	#features2 .ft-point {left: 55%; top: 38%;}
 	#features3 .ft-point{top:28%; }
 	#features4 .ft-point{top:30%; left: 47%;  }
 	#features5 .ft-point {left: 60%;top: 30%;}
+	h3.large-heading{font-size: 1.95rem;}
 	.feature-img img{max-width:320px;}
 	.innovative-box .h1{font-size: 2.5rem;}
 	.hero-section.racing-car .animation-text{font-size:3.6em; top:60%;}

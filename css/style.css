@@ -47,9 +47,17 @@ Table of Contents
     --bike-colors-gradients: linear-gradient(90deg, #fb7c00 0%, #d2d2d2 50%, #9bd916 90%);
     --black-color: #000000;
     --font--poppins: 'Poppins', sans-serif;
+    --box--shadow: 9px 12px 15px rgba(0, 0, 0, 0.28);
 
 
+}
 
+.heading-shadow{
+    text-shadow: 6px 6px 7.83px rgba(177, 172, 172, 0.187);
+}
+
+.logo-invert{
+    filter: invert(1);
 }
 
 .font--poppins{
@@ -68,12 +76,18 @@ Table of Contents
     color: var(--main-color) !important;
 }
 
+.only-text-main {
+    font-size: inherit;
+    display: inline-block;
+    color: var(--main-color) !important;
+}
+
 .text--action {
     color: var(--heading-color) !important;
 }
 
 .text--light {
-    color: var(--light-gray);
+    color: var(--light-gray) !important;
 }
 
 .z--1 {
@@ -1324,6 +1338,17 @@ h2.large-heading {
 h2.large-heading span {
     display: block;
     font-size: 2.225rem;
+    color: var(--main-color);
+    font-weight: 400;
+}
+h3.large-heading {
+    font-size: 3.725rem;
+    line-height: 1;
+}
+
+h3.large-heading span {
+    display: block;
+    font-size: 2.75rem;
     color: var(--main-color);
     font-weight: 400;
 }
@@ -2895,6 +2920,7 @@ table.specifications tr:last-child th {
 .footer-logo {
     max-height: 50px;
     margin-bottom: 30px;
+    /* text-shadow: 0 0 0 10px #fffffff0; */
 }
 
 .widget-heading {
@@ -3570,7 +3596,7 @@ table.specifications tr:last-child th {
 }
 
 .scale {
-    moz-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
     -ms-transition: 0.4s ease;
     -o-transition: 0.4s ease;
     transition: 0.4s ease;
@@ -3815,6 +3841,12 @@ h2.large-heading>span.only-text-main {
     color: var(--main-color);
 }
 
+.large-heading>span.only-text-main {
+    font-size: inherit;
+    display: inline-block;
+    color: var(--main-color);
+}
+
 .astino-section {
     height: 95vh;
 }
@@ -4014,7 +4046,7 @@ h2.large-heading>span.only-text-main {
 .tab-content .img-box:hover .overlay-1 {
     left: 15.5px;
     width: 100%;
-    bottom: 5px;
+    bottom: 15px;
     transform: scale(0.95);
 }
 
@@ -4030,7 +4062,7 @@ h2.large-heading>span.only-text-main {
 
 .tab-content .img-box:hover .img-overlay {
     border-radius: 14px 14px 14px 14px;
-    box-shadow: 0px 0px 5px -2px black;
+    box-shadow: var(--box--shadow);
 
 }
 
