@@ -4027,6 +4027,7 @@ h2.large-heading>span.only-text-main {
 .tab-content .img-overlay.overlay-1 {
     width: 100%;
     left: 0;
+    padding: 2rem !important;
     bottom: 0px;
     transform: scale(0.9);
     border-radius: 0px 0px 14px 14px;
@@ -4043,9 +4044,10 @@ h2.large-heading>span.only-text-main {
 
 .tab-content .overlay-2,
 .tab-content .overlay-3 {
-    width: 28%;
+    width: 30%;
     top: 0;
-    right: 0;
+    right: 0px;
+    padding: .5rem;
     bottom: 0px;
     border-radius: 0px 14px 14px 0px;
     transform: scale(0.95);
@@ -4053,6 +4055,7 @@ h2.large-heading>span.only-text-main {
 
 .tab-content .img-box:hover .overlay-1 {
     left: 0;
+    padding: 0;
     width: 100%;
     bottom: 15px;
     transform: scale(0.9);
@@ -4106,4 +4109,8 @@ h2.large-heading>span.only-text-main {
 
 .breadcrumb{
     background: transparent;
+}
+
+#g-lite-model, #g-razor-model{
+    display: none;
 }

@@ -37,6 +37,8 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
     <link rel="stylesheet" href="./css/responsive.css" type="text/css" />
 
+    <!-- scroll-reveal -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
 </head>
 
@@ -110,10 +112,10 @@
             <section id="home" class="height-100 hero-section light-text">
                 <div class="section-background">
                     <div class="background-wrapper">
-                        <div class="background-inner"
+                        <div class="background-inner" id="hero-bg-1"
                             style="background-image: url('assets/images/temp/BG1.png'); background-repeat: no-repeat;background-position: center center; background-size: cover; ">
                         </div>
-                        <div class="background-inner"
+                        <div class="background-inner" id="hero-bg-2"
                             style="background-image: url('assets/images/temp/Scooties.png'); background-repeat: no-repeat;background-position: right bottom; background-size: 50%; ">
                         </div>
 
@@ -416,29 +418,47 @@
                                 <h2 class="large-heading text-uppercase"><span>Discover Our</span>Unique Colour variants
                                 </h2> <!-- Discover Our Unique Colour variants -->
                             </div>
-                            <form class="col-md-4 offset-md-4 col-12 m-auto" action="">
-                                <select name="sate" class="form-control">
-                                    <option value="">Select Model</option>
-                                    <option value="State 1">G-One</option>
-                                    <option value="State 2">G-Razor</option>
-                                    <option value="State 3">G-Lite</option>
+                            <form class="col-md-3 offset-md-5 col-12 m-auto" action="">
+                                <select name="sate" class="form-control" id="dropdown-models">
+                                    <!-- <option value="select">Select Model</option> -->
+                                    <option value="g-one-model">G-One</option>
+                                    <!-- <option value="g-razor">G-Razor</option> -->
+                                    <option value="g-lite-model">G-Lite</option>
                                 </select>
                             </form>
                         </div>
                         <div class="col-md-12">
-                            <div class="color-variation-slider owl-carousel m-top-30">
-                                <div class="item" data-color="orange-new">
-                                    <img src="https://sacredthemes.net/wheels/images/variation-bike-3.png" alt="">
+                            <div class="tab-pane-model" id="g-one-model">
+                                <div class="color-variation-slider owl-carousel m-top-30">
+                                    <div class="item" data-color="orange-new">
+                                        <img src="https://sacredthemes.net/wheels/images/variation-bike-3.png" alt="">
+                                    </div>
+                                    <div class="item" data-color="white-grey">
+                                        <img src="https://sacredthemes.net/wheels/images/variation-bike-1.png" alt="">
+                                    </div>
+                                    <div class="item" data-color="green">
+                                        <img src="https://sacredthemes.net/wheels/images/variation-bike-2.png" alt="">
+                                    </div>
+                                    <!-- <div class="item" style="display: none;" data-color="brown">
+                                        <img src="https://sacredthemes.net/wheels/images/variation-bike-4.png" alt="">
+                                    </div> -->
                                 </div>
-                                <div class="item" data-color="white-grey">
-                                    <img src="https://sacredthemes.net/wheels/images/variation-bike-1.png" alt="">
+                            </div>
+                            <div class="tab-pane-model" id="g-lite-model">
+                                <div class="color-variation-slider owl-carousel m-top-30">
+                                    <div class="item" data-color="orange-new">
+                                        <img src="https://sacredthemes.net/wheels/images/variation-bike-3.png" alt="">
+                                    </div>
+                                    <div class="item" data-color="white-grey">
+                                        <img src="https://sacredthemes.net/wheels/images/variation-bike-1.png" alt="">
+                                    </div>
+                                    <div class="item" data-color="green">
+                                        <img src="https://sacredthemes.net/wheels/images/variation-bike-2.png" alt="">
+                                    </div>
+                                    <!-- <div class="item" style="display: none;" data-color="brown">
+                                        <img src="https://sacredthemes.net/wheels/images/variation-bike-4.png" alt="">
+                                    </div> -->
                                 </div>
-                                <div class="item" data-color="green">
-                                    <img src="https://sacredthemes.net/wheels/images/variation-bike-2.png" alt="">
-                                </div>
-                                <!-- <div class="item" style="display: none;" data-color="brown">
-                                    <img src="https://sacredthemes.net/wheels/images/variation-bike-4.png" alt="">
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -481,8 +501,8 @@
                                                         alt="brand-img">
                                                 </div>
                                                 <div class="img-overlay bg-white overlay-2 px-3">
-                                                    <h5 class="pt-3">Get a day's range in 30 minutes</h5>
-                                                    <p>Fast DC charging up to 80% at 1.5km/min</p>
+                                                    <h5 class="pt-3">The radiant lights that shine</h5>
+                                                    <p>LED headlight with DRL</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -490,12 +510,12 @@
                                             <a href="javascript:void(0);" class="hover-link">
                                                 <div class="business-card" data-business-color="#00ffff">
                                                     <img class="img img-fluid"
-                                                        src="https://cdn.olaelectric.com/ev-discovery-platform/New-Homepage/design_web_image_c2r2.webp"
+                                                        src="https://cdn.olaelectric.com/ev-discovery-platform/New-Homepage/design_web_image_c2r1.webp"
                                                         alt="brand-img">
                                                 </div>
                                                 <div class="img-overlay bg-white px-3 overlay-3">
-                                                    <h5 class="pt-3">Get a day's range in 30 minutes</h5>
-                                                    <p>Fast DC charging up to 80% at 1.5km/min</p>
+                                                    <h5 class="pt-3">Smart meters for smart rides</h5>
+                                                    <p>Smart digital meter </p>
                                                 </div>
                                             </a>
                                         </div>
@@ -509,8 +529,8 @@
                                                         alt="brand-img">
                                                 </div>
                                                 <div class="img-overlay bg-white overlay-2 px-3">
-                                                    <h5 class="pt-3">Get a day's range in 30 minutes</h5>
-                                                    <p>Fast DC charging up to 80% at 1.5km/min</p>
+                                                    <h5 class="pt-3">Taking the responsibility for your safety</h5>
+                                                    <p>Central lock Anti-theft alarm with automatic braking</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -518,12 +538,12 @@
                                             <a href="javascript:void(0);" class="hover-link">
                                                 <div class="business-card" data-business-color="#00ffff">
                                                     <img class="img img-fluid"
-                                                        src="https://cdn.olaelectric.com/ev-discovery-platform/New-Homepage/design_web_image_c2r2.webp"
+                                                        src="https://cdn.olaelectric.com/ev-discovery-platform/New-Homepage/design_web_image_c2r1.webp"
                                                         alt="brand-img">
                                                 </div>
                                                 <div class="img-overlay bg-white px-3 overlay-3">
-                                                    <h5 class="pt-3">Get a day's range in 30 minutes</h5>
-                                                    <p>Fast DC charging up to 80% at 1.5km/min</p>
+                                                    <h4 class="pt-3">Tyres built to endure</h4>
+                                                    <p>Tyre-  90/100-10 Tubeless Alloy Rim 3.00-10</p>
                                                 </div>
                                             </a>
                                         </div>
