@@ -65,6 +65,10 @@ Table of Contents
     font-family: var(--font--poppins) !important;
 }
 
+.fs--40{
+    font-size: 40px !important;
+}
+
 .fs--3rem {
     font-size: 3rem !important;
 }
@@ -1704,7 +1708,8 @@ h3.large-heading span {
 }
 
 .flag-bg {
-    
+    background: url('/assets/images/temp/tri_bg.png');
+    background-size: cover;
 }
 
 .accent-bg {
@@ -4090,4 +4095,15 @@ h2.large-heading>span.only-text-main {
     }
 }
 
-/* Risk */
+/* Risk Ended */
+
+/* About page css */
+.banner-about{
+    background: url('/assets/images/about/image-1.jpg');
+    height: 46vh;
+    margin-top: 80px;
+}
+
+.breadcrumb{
+    background: transparent;
+}
