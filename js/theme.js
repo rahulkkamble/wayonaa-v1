@@ -6,8 +6,8 @@
         Pre loader init
       ----------------------------------------------------------------------*/
       $(window).load(function() {
-        $(".st-preloader-wave").delay(1000).fadeOut("slow");
-        $("#st-preloader").delay(1000).fadeOut("slow").remove();
+        $(".icon-ind-loader").delay(1000).fadeOut("slow");
+        $("#st-preloader").delay(1000).fadeOut("slow")/* .remove() */;
       });
       /*---------------------------------------------------------------------
         Wow init

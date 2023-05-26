@@ -53,6 +53,48 @@ Table of Contents
 
 }
 
+/* Preloader-new */
+
+.icon-ind-loader {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 45%;
+}
+
+.icon-ind-loader img {
+    width: 100px;
+    display: inline-block;
+    animation-name: colored;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.icon-ind-loader .i1 {
+ animation-delay: 0.1s;
+}
+
+.icon-ind-loader .i2 {
+    animation-delay: 0.2s;
+    margin-left: -35px;
+}
+
+.icon-ind-loader .i3 {
+    position: absolute;
+    animation-delay: 0.3s;
+    margin-left: -59px;
+    margin-top: -53px;
+} 
+
+@keyframes colored {
+    0%{opacity: 0; filter: brightness(0) invert(1);}
+    50%{opacity: .5; filter: brightness(0.5) invert(0);}
+    100%{opacity: 1; filter: brightness(1) invert(0);}
+}
+
+/* Preloader-new */
+
+
 .heading-shadow{
     text-shadow: 6px 6px 7.83px rgba(177, 172, 172, 0.187);
 }
@@ -3783,10 +3825,10 @@ table.specifications tr:last-child th {
     position: relative;
 }
 
-.intro-cards .card-title::after {
+.intro-cards .card-title::before {
     content: "";
     position: absolute;
-    bottom: 0;
+    top: 4px;
     left: 10%;
     background-color: var(--light-gray);
     height: .2px;
@@ -3794,7 +3836,7 @@ table.specifications tr:last-child th {
     width: 80%;
 }
 
-.card-block.bg-white-secondary .card-title::after {
+.card-block.bg-white-secondary .card-title::before {
     background-color: var(--dark-gray-2);
 }
 
