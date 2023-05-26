@@ -1,0 +1,57 @@
+<html>
+   <head>
+      <style>
+         
+        .icon-ind-loader {
+            position: relative;
+        }
+        
+        .icon-ind-loader img {
+            position: relative;
+            width: 100px;
+            display: inline-block;
+            animation-name: colored;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        .icon-ind-loader .i1 {
+         animation-delay: 0.1s;
+        }
+
+        .icon-ind-loader .i2 {
+            animation-delay: 0.2s;
+            margin-left: -35px;
+        }
+
+        .icon-ind-loader .i3 {
+            position: absolute;
+            animation-delay: 0.3s;
+            margin-left: -59px;
+            margin-top: -53px;
+        } 
+
+        @keyframes colored {
+            0%{opacity: 0; filter: brightness(0) invert(1);}
+            50%{opacity: .5; filter: brightness(0.5) invert(0);}
+            100%{opacity: 1; filter: brightness(1) invert(0);}
+        }
+
+         
+      </style>
+   </head>
+
+   <body>
+   
+     
+      <p><br></p>
+      <p><br></p>
+
+      <div class="icon-ind-loader">
+        <img class="i1" src="logo-1.svg">
+        <img class="i2" src="logo-2.svg">
+        <img class="i3" src="logo-3.svg">
+      </div>
+
+   </body>
+</head>

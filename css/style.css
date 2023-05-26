@@ -1151,8 +1151,8 @@ body.menu-open .logo img.sticky-logo {
     transition: all 400ms;
 }
 
-.site-navigation .main-menu>li>a:hover:after,
-.site-navigation .main-menu>li.active>a:after {
+.site-navigation .main-menu>li>a:hover:after    /* ,.site-navigation .main-menu>li.active>a:after */
+ {
     width: calc(100% - 10px);
 }
 
@@ -2743,12 +2743,37 @@ table.specifications tr:last-child th {
     background: #9bd916;
 }
 
+.variation-section .owl-dots button.owl-dot.blue {
+    background: #1f1f81;
+}
+
+.variation-section .owl-dots button.owl-dot.blue-light {
+    background: #b2ccf3;
+}
+
+.variation-section .owl-dots button.owl-dot.white-light {
+    background: #f4f4f4;
+}
+
 .variation-section .owl-dots button.owl-dot.white-grey {
     background: #d2d2d2;
 }
 
+.variation-section .owl-dots button.owl-dot.grey {
+    background: grey;
+}
+
+.variation-section .owl-dots button.owl-dot.black {
+    background: rgb(17, 17, 17);
+}
+
 .variation-section .owl-dots button.owl-dot.active {
     animation: ripple 1s linear infinite;
+}
+
+.variation-section .owl-item img {
+    max-width: 400px;
+    margin: auto;
 }
 
 .owl-carousel.overflow-show .owl-stage-outer {
@@ -3505,13 +3530,13 @@ table.specifications tr:last-child th {
     filter: invert(18%) sepia(0%) saturate(118%) hue-rotate(192deg) brightness(79%) contrast(198%);
 }
 
-[data-color='orange-new'] img {
+/* [data-color='orange-new'] img {
     filter: hue-rotate(170deg) saturate(5);
 }
 
 [data-color='white-grey'] img {
     filter: hue-rotate(10deg) saturate(5);
-}
+} */
 
 .my-shadow-sm {
     box-shadow: 0 0 5px 1px grey;
@@ -3958,7 +3983,6 @@ h2.large-heading>span.only-text-main {
 }
 
 #usp {
-    background: url('https://cdn.olaelectric.com/ev-discovery-platform/New-Homepage/EndIceage_section_header_dweb_16042023.webp');
     /* backdrop-filter: var(--bike-colors-gradients); */
 }
 

@@ -3,7 +3,7 @@ var dropdown = document.getElementById("dropdown-models");
 // var tabPane = document.getElementById("tab-pane");
 
 // Add an event listener to the dropdown change event
-dropdown.addEventListener("change", function() {
+dropdown.addEventListener("change", function () {
   // Get the selected value from the dropdown
   var value = dropdown.value;
   console.log(value);
@@ -21,10 +21,15 @@ dropdown.addEventListener("change", function() {
   }
 });
 
-ScrollReveal().reveal('#hero-bg-1',{delay: 5, duration: 1000, opacity: 0, distance: "50%", origin: "left"});
-ScrollReveal().reveal('#hero-bg-2',{delay: 5, duration: 1000, opacity: 0, distance: "50%", origin: "right"});
-ScrollReveal().reveal('#about, #home .banner-content',{delay: 100, duration: 1000, opacity: 0, distance: "50%", origin: "bottom"});
-ScrollReveal().reveal('#about .img-wrapper, #about .text-block, #about .btn-wrapper, #model-g .heading-wrapper',{
-    delay: 300, duration: 1000, opacity: 0, distance: "70%", origin: "bottom",
+ScrollReveal().reveal('#hero-bg-1', { delay: 5, duration: 1000, opacity: 0, distance: "10%",  origin: "left" });    /* easing: 'ease-in-out', */
+ScrollReveal().reveal('#hero-bg-2', { delay: 5, duration: 1000, opacity: 0, distance: "10%",  origin: "right" });   /* easing: 'ease-in-out', */
+ScrollReveal().reveal('#about, #home .banner-content', { delay: 100, duration: 1000, opacity: 0,  distance: "40%", origin: "bottom" });   /* easing: 'ease-in-out', */
+ScrollReveal().reveal('#about .img-wrapper, #about .text-block, #about .btn-wrapper, #model-g .heading-wrapper', {
+  delay: 300, duration: 1000, opacity: 0, distance: "60%", origin: "bottom",
 });
+ScrollReveal().reveal('#model-g .animation-p', { delay: 100, duration: 1000, opacity: 0, distance: "40%",  origin: "bottom" });   /* easing: 'ease-in-out', */
+ScrollReveal().reveal('.intro-cards .intro-card-1', { delay: 100, duration: 1000, opacity: 0, distance: "30%",  origin: "bottom" });    /* easing: 'ease-in-out', */
+ScrollReveal().reveal('.intro-cards .intro-card-2', { delay: 300, duration: 1500, opacity: 0, distance: "40%",  origin: "bottom" });    /* easing: 'ease-in-out', */
+ScrollReveal().reveal('.intro-cards .intro-card-3', { delay: 500, duration: 2000, opacity: 0, distance: "50%",  origin: "bottom" });    /* easing: 'ease-in-out', */
+ScrollReveal().reveal('#astino-banner .large-heading, #astino-banner p, #feature .heading-wrapper, #variation .heading-wrapper, #usp .large-heading, #dealer .heading-wrapper', {delay:200, duration: 1000, opacity: 0, distance: "40%",  origin: "bottom" });    /* easing: 'ease-in-out', */
 // ScrollReveal().reveal('#about .text-block',{delay: 300, duration: 1000, opacity: 0, distance: "50%", origin: "bottom", reset: true});

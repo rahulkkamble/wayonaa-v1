@@ -216,7 +216,7 @@
         if ($('.feature-section').length){
           var distance = $('.feature-section').offset().top - $(window).height() / 2;
           if ($(window).scrollTop() >= distance) {
-            $('.feature-section').addass('active');
+            $('.feature-section').addClass('active');
           }
         }
       });
