@@ -8,6 +8,7 @@
       $(window).load(function() {
         $(".icon-ind-loader").delay(1000).fadeOut("slow");
         $("#st-preloader").delay(1000).fadeOut("slow")/* .remove() */;
+        $("#g-lite-model, #g-razor-model").css("display", "none");
       });
       /*---------------------------------------------------------------------
         Wow init
