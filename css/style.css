@@ -4249,8 +4249,14 @@ h2.large-heading>span.only-text-main {
 .image-wrapper-awards img{
     height: 100%;
     margin-right: 1rem;
-    
 }
+
+.image-wrapper-awards .img-fluid:nth-child(3){
+    transform: scale(1.2);
+    margin-left: .25rem;
+}
+
+
 
 @media screen and (max-width: 768px){
     .image-wrapper-awards{
