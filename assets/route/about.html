@@ -12,9 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
     <!-- favicon & bookmark -->
-    <link rel="shortcut icon" href="/assets/images/logo-no-bg.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/logo-no-bg.png" type="image/x-icon">
     <!-- https://sacredthemes.net/wheels/images/favicon.ico -->
-    <link rel="icon" href="/assets/images/logo-no-bg.png" type="image/x-icon">
+    <link rel="icon" href="../images/logo-no-bg.png" type="image/x-icon">
     <!-- https://sacredthemes.net/wheels/images/favicon.ico -->
 
     <!-- FontAwesome 5.2.0 -->
@@ -28,7 +28,9 @@
         rel="stylesheet">
 
     <!-- Vendor CSS -->
-    <link rel="stylesheet" href="https://sacredthemes.net/wheels/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://sacredthemes.net/wheels/css/owl.carousel.min.css" type="text/css" />
@@ -36,15 +38,18 @@
         type="text/css" />
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="/css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/responsive.css" type="text/css" />
 
 </head>
 
 <body>
     <!-- Preloader start -->
-    <div id="st-preloader">
-        <div class="st-preloader-wave"><img src="https://sacredthemes.net/wheels/images/st-loader.png" alt="preloader">
+    <div id="st-preloader" class="text-center">
+        <div class="icon-ind-loader">
+            <img class="i1" src="../../assets/images/new/wayonaa-loader/logo-1.svg">
+            <img class="i2" src="../../assets/images/new/wayonaa-loader/logo-2.svg">
+            <img class="i3" src="../../assets/images/new/wayonaa-loader/logo-3.svg">
         </div>
     </div>
     <!-- preloader end -->
@@ -57,7 +62,7 @@
                 <div class="row">
                     <div class="col-sm-3 logo">
                         <a href="https://sacredthemes.net/wheels/intro/" title="Wheels Bicycle">
-                            <img src="/assets/images/new-Logo/logo-dark.png" alt="">
+                            <img src="../images/new-Logo/logo-dark.png" alt="">
                         </a>
                         <div class="menu-icon">
                             <span class="top"></span>
@@ -109,35 +114,39 @@
         <div class="main-container">
             <!-- about banner with breadcrumb -->
             <section class="banner-about d-flex flex-column justify-content-center">
-                <div class="row">
-                    <div class="col-md-6 m-auto d-flex justify-content-center align-items-center">
-                        <div class="content-about-top">
-                            <h2 class="mb-0 px-3 large-heading text-white">
-                                About Us
-                            </h2>
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb mb-0">
-                                    <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
-                                    <li class="breadcrumb-item active text-white" aria-current="page">Extend The Life Of
-                                        Your Engine</li>
-                                </ol>
-                            </nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 m-auto d-flex justify-content-center align-items-center">
+                            <div class="content-about-top">
+                                <h2 class="mb-0 px-3 large-heading text-white">
+                                    About Us
+                                </h2>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb mb-0">
+                                        <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
+                                        <li class="breadcrumb-item active text-white" aria-current="page">Extend The
+                                            Life Of
+                                            Your Engine</li>
+                                    </ol>
+                                </nav>
+                            </div>
                         </div>
+                        <div class="col-md-6"></div>
                     </div>
-                    <div class="col-md-6"></div>
                 </div>
             </section>
+            <!-- banner about end here -->
 
             <!-- About Section Start -->
             <section id="change-the-world" class="change-the-world-section">
                 <div class="container">
                     <div class="row align-items-center">
 
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 ">
                             <div class="heading-wrapper">
-                                <h2 class="large-heading text-uppercase">Wayonaa</h2>
-                                <h4 class="large-heading text--main fs--40 text-uppercase">Changing the world of
-                                    <br>e-bikes one bike at a time
+                                <h1 class="large-heading text--action text-uppercase">Wayonaa</h1>
+                                <h4 class="large-heading text--main fs--40 text-uppercase"> the world of
+                                    e-bikes one bike at a time
                                 </h4>
                             </div>
                             <div class="text-block text-lead">
@@ -154,17 +163,30 @@
                                     capable of delivering optimal performance.
                                 </p>
                             </div>
-                            
-                            <div class="row">
-                                <div class="col-6 pl-4">Eco- friendly</div>
-                                <div class="col-6 pl-4">Convenient commuting</div>
-                                <div class="col-6 pl-4">Economical</div>
-                                <div class="col-6 pl-4">100% efficient</div>
+
+                            <div class="row g-3">
+                                <div class="col-6 pl-5 text-block text-lead">
+                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock" style="height: 40px; width:40px;">
+                                    Eco- friendly</div>
+                                <div class="col-6 pl-5 text-block text-lead">
+                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock" style="height: 40px; width:40px;">
+                                    Convenient commuting</div>
+                                <div class="col-6 pl-5 text-block text-lead">
+                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock" style="height: 40px; width:40px;">
+                                    Economical</div>
+                                <div class="col-6 pl-5 text-block text-lead">
+                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock" style="height: 40px; width:40px;">
+                                    100% efficient</div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="img-wrapper">
-                                <img src="https://sacredthemes.net/wheels/images/image-2.jpg" alt="">
+                        <div class="col-lg-6 right-images">
+                            <div class="img-wrapper d-flex justify-content-center align-items-center">
+                                <div class="img-1">
+                                    <img src="../images/about/image-68.jpg" alt="">
+                                </div>
+                                <div class="img-2">
+                                    <img src="../images/about/image-69.jpg" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -172,12 +194,426 @@
             </section>
             <!-- About Section End -->
 
-            <section class="begin">
-                
-            </section>
+            
 
+            <!-- section begin -->
+            <section class="began" id="began">
+                <div class="background-image" style="background: url('https://fastwpdemo.com/newwp/gearup/wp-content/uploads/2022/09/bg-16.jpg');"></div>
+                <div class="container">
+                    <div class="row">
+                        <!-- left side content -->
+                        <div class="col-md-6 text-white my-md-auto py-md-0 py-4">
+                            <h1 class="text-uppercase text-white text-block">
+                                where it all began?</h1>
+                            <p class="text-block text-lead">Wayonaa, founded in August 2021, is a privately held company based in Surat, Gujarat.
+                                Initially focusing on imported electric vehicles, the company quickly gained market
+                                acceptance.</p>
+                            <p class="text-block text-lead">Building on this success, Wayonaa expanded its sales network across
+                                different regions of the state, selling over 1200 units to date.</p>
+                            <p class="text-block text-lead">Before entering the
+                                electric vehicle sector, the core team had significant experience in the Solar rooftop
+                                business, generating an impressive annual turnover of over INR 14 Cr.</p>
+                        </div>
+
+                        <!-- right side image and badge -->
+                        <div class="col-md-6">
+                            <img src="../images/about/image-70.jpg" alt="right-side-image">
+                            <div class="began-overlay">
+                                <div class="px-md-4 px-3 py-md-2 py-2"><img src="../images/new/icons/tyre.png" alt=""></div>
+                                <p class="text-center text-block text-lead text-white">Lorem ipsum dolor sit, amet consectetur.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+            <!-- section begin ends -->
+            <!-- About Section Start -->
+            <section id="about" class="design-section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5">
+                            <div class="img-wrapper">
+                                <img class="rounded" src="../images/new/H2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 bg-white py-5 px-md-5 px-1 rounded border-0">
+                            <div class="heading-wrapper">
+                                <h3 class="large-heading text-uppercase">Powered by
+                                        <span class="only-text-main fw-600">purpose,</span> charged with <span class="fw-600 only-text-green">vision</span></h3>
+                            </div>
+                            <div class="text-block text-lead">
+                                <p>At Gravity Renewable, our mission is to leverage our expertise in the auto industry
+                                    to manufacture high-quality electric vehicles. With the rapidly growing trend of
+                                    electric mobility, we are determined to leave a mark by producing top-notch EVs that
+                                    set new standards in the market.
+                                </p>
+                                <p>At Gravity Renewable, our vision is to lead the way towards a greener future. By
+                                    producing state-of-the-art electric vehicles & contributing to reducing the carbon
+                                    footprint and combating climate change. Our commitment is unwavering as we drive
+                                    towards a sustainable tomorrow.</p>
+                            </div>
+                            <div class="d-flex justify-content-around">
+                                <div class="icon-with-heading d-flex justify-content-around align-items-center">
+                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock">
+                                    <h6 class="p-3 mb-1">24/7 Availability</h6>
+                                </div>
+                                <div class="icon-with-heading d-flex justify-content-around align-items-center">
+                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock">
+                                    <h6 class="p-3 mb-1">24/7 Availability</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About Section End -->
+
+            <!-- section Squad -->
+            <section id="squad" class="squad-section bg-white-secondary">
+                <div class="container">
+                    <div class="shrink-section">
+                        <h3 class="large-heading text-uppercase text-center">
+                            Meet our leadership squad
+                        </h3>
+                        <!-- founding members -->
+                        <div class="founding-members my-5">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h4 class="large-heading text-center text-uppercase">
+                                        Founding Members
+                                    </h4>
+                                </div>
+                                <div class="col-12 col-md-3">
+                                    <div class="persons-info position-relative">
+                                        <div class="person-img-cover">
+                                            <img src="../images/about/persons/image-5.jpg" alt="">
+                                        </div>
+                                        <div class="persons-info-overlay p-2">
+                                            <div class="d-flex">
+                                                <div class="left-section mr-3 d-flex flex-column">
+                                                    <h6 class="text-white mb-0">Michale Joe</h6>
+                                                    <p class="text-uppercase small--p">CEO of Company</p>
+                                                </div>
+                                                <div class="right-section d-flex align-items-center">
+                                                    <img src="../images/new/icons/right-arrow-shaded.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-wrap">
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-3">
+                                    <div class="persons-info position-relative">
+                                        <div class="person-img-cover">
+                                            <img src="../images/about/persons/image-5.jpg" alt="">
+                                        </div>
+                                        <div class="persons-info-overlay p-2">
+                                            <div class="d-flex">
+                                                <div class="left-section mr-3 d-flex flex-column">
+                                                    <h6 class="text-white mb-0">Michale Joe</h6>
+                                                    <p class="text-uppercase small--p">CEO of Company</p>
+                                                </div>
+                                                <div class="right-section d-flex align-items-center">
+                                                    <img src="../images/new/icons/right-arrow-shaded.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-wrap">
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-3">
+                                    <div class="persons-info position-relative">
+                                        <div class="person-img-cover">
+                                            <img src="../images/about/persons/image-5.jpg" alt="">
+                                        </div>
+                                        <div class="persons-info-overlay p-2">
+                                            <div class="d-flex">
+                                                <div class="left-section mr-3 d-flex flex-column">
+                                                    <h6 class="text-white mb-0">Michale Joe</h6>
+                                                    <p class="text-uppercase small--p">CEO of Company</p>
+                                                </div>
+                                                <div class="right-section d-flex align-items-center">
+                                                    <img src="../images/new/icons/right-arrow-shaded.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-wrap">
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-3">
+                                    <div class="persons-info position-relative">
+                                        <div class="person-img-cover">
+                                            <img src="../images/about/persons/image-5.jpg" alt="">
+                                        </div>
+                                        <div class="persons-info-overlay p-2">
+                                            <div class="d-flex">
+                                                <div class="left-section mr-3 d-flex flex-column">
+                                                    <h6 class="text-white mb-0">Michale Joe</h6>
+                                                    <p class="text-uppercase small--p">CEO of Company</p>
+                                                </div>
+                                                <div class="right-section d-flex align-items-center">
+                                                    <img src="../images/new/icons/right-arrow-shaded.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-wrap">
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- advisory board -->
+                        <div class="founding-members my-5">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h4 class="large-heading text-center text-uppercase">
+                                        Founding Members
+                                    </h4>
+                                </div>
+                                <div class="col-12 col-md-3">
+                                    <div class="persons-info position-relative">
+                                        <div class="person-img-cover">
+                                            <img src="../images/about/persons/image-5.jpg" alt="">
+                                        </div>
+                                        <div class="persons-info-overlay p-2">
+                                            <div class="d-flex">
+                                                <div class="left-section mr-3 d-flex flex-column">
+                                                    <h6 class="text-white mb-0">Michale Joe</h6>
+                                                    <p class="text-uppercase small--p">CEO of Company</p>
+                                                </div>
+                                                <div class="right-section d-flex align-items-center">
+                                                    <img src="../images/new/icons/right-arrow-shaded.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-wrap">
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-3">
+                                    <div class="persons-info position-relative">
+                                        <div class="person-img-cover">
+                                            <img src="../images/about/persons/image-5.jpg" alt="">
+                                        </div>
+                                        <div class="persons-info-overlay p-2">
+                                            <div class="d-flex">
+                                                <div class="left-section mr-3 d-flex flex-column">
+                                                    <h6 class="text-white mb-0">Michale Joe</h6>
+                                                    <p class="text-uppercase small--p">CEO of Company</p>
+                                                </div>
+                                                <div class="right-section d-flex align-items-center">
+                                                    <img src="../images/new/icons/right-arrow-shaded.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-wrap">
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-3">
+                                    <div class="persons-info position-relative">
+                                        <div class="person-img-cover">
+                                            <img src="../images/about/persons/image-5.jpg" alt="">
+                                        </div>
+                                        <div class="persons-info-overlay p-2">
+                                            <div class="d-flex">
+                                                <div class="left-section mr-3 d-flex flex-column">
+                                                    <h6 class="text-white mb-0">Michale Joe</h6>
+                                                    <p class="text-uppercase small--p">CEO of Company</p>
+                                                </div>
+                                                <div class="right-section d-flex align-items-center">
+                                                    <img src="../images/new/icons/right-arrow-shaded.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-wrap">
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-3">
+                                    <div class="persons-info position-relative">
+                                        <div class="person-img-cover">
+                                            <img src="../images/about/persons/image-5.jpg" alt="">
+                                        </div>
+                                        <div class="persons-info-overlay p-2">
+                                            <div class="d-flex">
+                                                <div class="left-section mr-3 d-flex flex-column">
+                                                    <h6 class="text-white mb-0">Michale Joe</h6>
+                                                    <p class="text-uppercase small--p">CEO of Company</p>
+                                                </div>
+                                                <div class="right-section d-flex align-items-center">
+                                                    <img src="../images/new/icons/right-arrow-shaded.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="d-flex flex-wrap">
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/f0f0f0/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                                <a href="#">
+                                                    <img src="https://img.icons8.com/ios-filled/40/aaaaaa/linkedin.png"
+                                                        alt="linkedin" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section Squad End-->
+
+            <!-- Ready to Make?? -->
+            <section id="about" class="design-section bg-white">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 bg-white py-5 rounded border-0">
+                            <div class="heading-wrapper">
+                                <h2 class="large-heading text-uppercase">Ready to Make a Difference?</h2>
+                                <h3 class="large-heading text-uppercase font-italic text--main">join us now.</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="img-wrapper rect-image">
+                                <img src="../images/new/H2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Ready to Make?? end -->
         </div>
         <!-- Content Section End -->
+
+
         <!--footer Start-->
         <footer class="site-footer" id="footer-section">
             <div class="footer-widget-area">
@@ -189,11 +625,12 @@
                                     <h4 class="widget-title">About Us</h4>
                                 </div>
                                 <div class="widget-contet">
-                                    <img src="https://sacredthemes.net/wheels/images/motorcycle-logo.png"
-                                        class="footer-logo" alt="">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                                        gravida. Risus commodo viverra</p>
+                                    <img src="../images/new/WAYONAA-white-logo.png" class="footer-logo" alt="">
+                                    <p>Wayonaa, founded in August 2021, is a privately held company based in Surat,
+                                        Gujarat. Initially focusing on imported electric vehicles, the company quickly
+                                        gained market acceptance. Building on this success, Wayonaa expanded its sales
+                                        network across different regions of the state, selling over 1200 units to date.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -222,18 +659,18 @@
                                     <div class="widget-contact-info">
                                         <i class="fas fa-phone"></i>
                                         <h3>Phone</h3>
-                                        <span><a href="https://sacredthemes.net/wheels/+01(123) 456 7890">+01(123) 456
+                                        <span><a href="#">+91 (123) 456
                                                 7890</a></span>
                                     </div>
                                     <div class="widget-contact-info">
                                         <i class="fas fa-envelope-open"></i>
                                         <h3>Email</h3>
-                                        <span><a href="mailtp:info@wheels.com">info@wheels.com</a></span>
+                                        <span><a href="mailtp:info@wheels.com">info@wayonaa.com</a></span>
                                     </div>
                                     <div class="widget-contact-info">
                                         <i class="fas fa-map-marker-alt"></i>
                                         <h3>Address</h3>
-                                        <span>3892 Fincham Road, <br />Los Angeles, CA 90017</span>
+                                        <span>1234 M.G. Road, <br />Surat, Gujarat, India</span>
                                     </div>
                                 </div>
                             </div>
@@ -271,12 +708,6 @@
                     </div>
                 </div>
             </div>
-            <div class="copyright text-center">
-                <div class="container">
-                    <div class="copyright-text">© 2020 Wheels. Design & Developed by <a target="_blank"
-                            href="http://sacredthemes.net/">SacredThemes</a>.</div>
-                </div>
-            </div>
         </footer>
         <!--footer end-->
     </div>
@@ -293,10 +724,10 @@
     <script src="https://sacredthemes.net/wheels/js/fancybox/jquery.fancybox.min.js"></script>
 
     <!-- Theme Base, Components and Settings -->
-    <script src="/js/theme.js"></script>
+    <script src="../../js/theme.js"></script>
 
     <!-- My Custom -->
-    <script src="/js/custom.js"></script>
+    <script src="../../js/custom.js"></script>
 </body>
 
 </html>
