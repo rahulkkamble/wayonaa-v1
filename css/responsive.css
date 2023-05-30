@@ -250,6 +250,9 @@
 	.bus-variation-box .variation-title{font-size:24px;}
 	.bus-variation-box{padding-left:15px; padding-right:15px;}
 	.usp .shrink-section {margin: auto; max-width: 95% !important; width: 95% !important;}
+	.tab-content .overlay-2, .tab-content .overlay-3{bottom: .1rem;}
+	.tab-content .img-overlay.overlay-1{bottom: .23rem; transform: scale(0.876);}
+	#squad .shrink-section{    margin: auto; max-width: 90% !important; width: 90% !important;}
 }
 @media only screen and (max-width:574px) {
 	.fs--3rem{font-size: 2rem !important;}
