@@ -69,6 +69,7 @@
 	.hero-section.racing-car h1.large-heading{font-size: 3.925rem;}
 	.hero-section.racing-car .animation-text{font-size: 8.5em;}
 	.racing-car-animation{max-width:850px; }
+	h2.shadow-vertical-bottom::after{top: 2rem;}
 }
 @media only screen and (max-width: 991px) {
 	.logo{padding-top:15px; padding-bottom:15px; z-index: 100;}
@@ -76,7 +77,7 @@
 	.site-navigation{background:var(--main-color); position: fixed; z-index: 11; width: calc(100% - 70px); left: 0; top: 0; height: 100vh; padding-top:78px; transform: translateX(-100%); transition: all 600ms; padding-bottom: 50px; max-width:350px; }
 	.menu-open .site-navigation{transform: translateX(0); overflow: scroll;}
 	body.menu-open {overflow: hidden;}
-	.site-navigation::before { height: 79px; content: ""; background: #fff; width: 100%; position: absolute; top: 0;}
+	.site-navigation::before { height: 80px; content: ""; background: #fff; width: 100.5%; position: absolute; top: 0;}
 	.site-navigation .main-menu{width:100%; text-align:left; padding:15px 0px; }
 	.site-navigation .main-menu li{padding:0px; display:block; border-bottom:1px solid rgba(255,255,255,0.3);  }
 	.site-navigation .main-menu li a{line-height: 1.5; padding:10px 15px; color: rgba(255,255,255,0.9); }
@@ -229,6 +230,8 @@
 	.bus-layout.testimonial-wrapper .testimonial-slider .owl-nav{text-align: center; position: static; margin-top:15px;}
 	.bus-layout.testimonial-wrapper .quote-text{line-height: 1.4; font-size: 18px;}
 	.rect-image {width: 320px; margin: auto;}
+	h2.shadow-vertical-bottom::after{top: 1.4rem;}
+
 
 }
 @media only screen and (max-width:639px) {
