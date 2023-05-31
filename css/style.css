@@ -4348,105 +4348,170 @@ h2.large-heading>span.only-text-main {
 .bg-inner-left-black {
     background-image: url('../assets/images/new/new-home-banner/Rectangle-12.webp');
     background-repeat: no-repeat;
-    background-position: -70% 20%;
-    background-size: 75%;
+    /* background-position: -70% 20%;
+    background-size: 75%; */
     height: 90vh;
 }
 
 #shape-big-1 {
     background-image: url('../assets/images/new/new-home-banner/shape4-big.webp');
-    background-position: 6.5% -20%;
-    background-size: 9%;
+    /* background-position: 6.5% -20%;
+    background-size: 9%; */
     background-repeat: no-repeat;
 }
 
-#shape-small-1{
+#shape-small-1 {
     background-image: url('../assets/images/new/new-home-banner/shape4-little.webp');
-    background-position: 55.2% 6%;
-    background-size: 3%;
-    background-repeat: no-repeat; 
+    /* background-position: 55.2% 6%;
+    background-size: 3%; */
+    background-repeat: no-repeat;
 }
 
-#shape-big-2{
+#shape-big-2 {
     background-image: url('../assets/images/new/new-home-banner/shape4-big.webp');
-    background-position: 44% 125%;
-    background-size: 9%;
+    /* background-position: 44% 125%;
+    background-size: 9%; */
     transform: skewX(2deg);
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
-#shape-big-3{
+
+#shape-big-3 {
     background-image: url('../assets/images/new/new-home-banner/shape4-big.webp');
-    background-position: 104.4% 125%;
-    background-size: 9%;
+    /* background-position: 104.4% 125%;
+    background-size: 9%; */
     transform: skewX(2deg);
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+}
+
+#bike-bg-2 {
+    background-image: url('../assets/images/new/new-home-banner/Scooty.webp');
+    background-repeat: no-repeat;
+    background-position: right center;
+    bottom: -12rem;
+    background-size: 53%;
+}
+
+@media screen and (min-width: 1500px) {
+    .bg-inner-left-black {
+        background-position: -109% 16%;
+        background-size: 80%;
+        height: 90vh;
+    }
+
+    #shape-big-1 {
+        background-position: 4.5% -9%;
+        background-size: 9%;
+    }
+
+    #shape-big-2 {
+        background-position: 40.4% 123%;
+        background-size: 9%;
+    }
+
+    #shape-small-1 {
+        background-position: 57% 7%;
+        background-size: 3%;
+    }
+
+    #shape-big-3 {
+        background-position: 104.3% 122%;
+        background-size: 9%;
+    }
 }
 
 @media screen and (min-width: 1360px) {
     .bg-inner-left-black {
-        background-position: -95% 16%;
-        background-size: 80%;
+        background-position: -44% 16%;
+        background-size: 65%;
         height: 90vh;
     }
+
     #shape-big-1 {
-        background-position: 6.5% -20%;
+        background-position: 5.5% -20%;
         background-size: 9%;
     }
+
     #shape-big-2 {
-        background-position: 48.4% 123%;
+        background-position: 37.4% 123%;
         background-size: 9%;
     }
+
     #shape-small-1 {
-        background-position: 59.5% 7%;
+        background-position: 46.4% 25%;
         background-size: 3%;
     }
+
     #shape-big-3 {
         background-position: 105.3% 122%;
         background-size: 9%;
     }
 }
 
-@media screen and (max-width: 1359px){
-    .bg-inner-left-black{
+@media screen and (max-width: 1359px) {
+    .bg-inner-left-black {
         background-position: -96% 20%;
         background-size: 81%;
     }
-    
+
     #shape-big-1 {
         background-position: 7.5% -9%;
         background-size: 9%;
     }
+
     #shape-big-2 {
         background-position: 44.4% 120%;
         background-size: 9%;
     }
+
     #shape-small-1 {
         background-position: 60.8% 7%;
         background-size: 3%;
     }
+
     #shape-big-3 {
         background-position: 105.3% 107%;
         background-size: 9%;
     }
 }
 
-@media screen and (max-width: 1200px){
-    .bg-inner-left-black{    
+@media screen and (max-width: 1260px) {
+    .bg-inner-left-black {
+        background-position: -104% 20%;
+        background-size: 81%;
+    }
+
+    #shape-big-2 {
+        background-position: 41.4% 116%;
+        background-size: 9%;
+    }
+
+    #shape-small-1 {
+        background-position: 59.1% 7%;
+        background-size: 3%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .bg-inner-left-black {
         background-position: -121% 20%;
         background-size: 81%;
     }
+
     #shape-big-1 {
         background-position: 3.5% -6%;
         background-size: 9%;
     }
+
     #shape-big-2 {
         background-position: 37.4% 116%;
         background-size: 9%;
     }
+
     #shape-small-1 {
         background-position: 55.1% 10%;
         background-size: 3%;
     }
+
     #shape-big-3 {
         background-position: 104.3% 107%;
         background-size: 9%;
