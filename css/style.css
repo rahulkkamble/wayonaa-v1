@@ -4177,7 +4177,7 @@ h2.large-heading>span.only-text-main {
     width: 100%;
     left: 0;
     padding: 2rem auto 0 auto !important;
-    bottom: .7rem;
+    bottom: .68rem;
     transform: scale(0.902);
     transition: all .2s cubic-bezier(0.25, 0.74, 0.22, 0.99);
     background: linear-gradient(0deg, black, transparent);
