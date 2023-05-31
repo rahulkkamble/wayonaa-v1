@@ -4690,3 +4690,29 @@ section.began {
 .crop-image-section img.features-middle-img {
     width: 60%;
 }
+
+#variation-models .variation-section .color-variation-slider .owl-dots {
+    position: absolute;
+    /* top: 120px; */
+    margin: 0 0 0 50px;
+    /* right: 100%; */
+    /* width: 50px; */
+}
+
+#variation-models .variation-section .owl-dots button.owl-dot:before {
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    content: "";
+    background: var(--bike-colors-gradients);
+    position: absolute;
+    left: 0px;
+    transition: all 400ms;
+    opacity: 0;
+    z-index: -1;
+}
+
+#variation-models .variation-section .owl-dots button.owl-dot.active:before {
+    opacity: 1;
+    bottom: -40px;
+}

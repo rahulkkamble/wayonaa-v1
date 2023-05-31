@@ -43,6 +43,10 @@
 	.content-box .text h3{font-size:18px;}
 	.bus-layout.testimonial-wrapper .quote-text{padding: 40px 30px;}
 	.bus-intro {padding: 80px 60px 140px;}
+
+	#variation-models .variation-section .color-variation-slider .owl-dots {margin: 0 0 0 0px; top: 110%; text-align: center; padding: 10px 0px; width: 100%;}
+	
+
 }
 @media only screen and (max-width: 1199px) {
 	.site-navigation .main-menu li{padding: 0px 5px;}
