@@ -4670,11 +4670,13 @@ section.began {
 /* MODEL - G page scripts */
 
 #model-g-home .section-background {
-    transform: skewY(-3deg);
-    height: 106vh;
-    border-bottom: 10px solid var(--action-color);
+    /* transform: skewY(-3deg); */
+    /* height: 106vh; */
+    /* border-bottom: 10px solid var(--action-color); */
 }
-
+#banner-bg-2{
+    /* start from here 7.12pm */
+}
 /* section.dream-ride-section{
     height: 110vh; 
     overflow: hidden;
