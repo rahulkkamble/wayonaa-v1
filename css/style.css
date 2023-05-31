@@ -214,6 +214,10 @@ Table of Contents
     background-color: var(--action-color-light) !important;
 }
 
+.bg-action{
+    background-color: var(--action-color) !important;
+}
+
 .sub-bold-heading {
     font-size: 2rem !important;
     font-weight: bold !important;
@@ -4104,9 +4108,9 @@ h2.large-heading>span.only-text-main {
     width: 80% !important;
 }
 
-#usp {
-    /* backdrop-filter: var(--bike-colors-gradients); */
-}
+/* #usp {
+    backdrop-filter: var(--bike-colors-gradients);
+} */
 
 .tab-content h1.heading {
     text-shadow: 0 0 5px black;
@@ -4491,5 +4495,21 @@ section.began {
 
 #model-g-home .section-background{
     transform: skewY(-3deg);
+    height: 106vh;
     border-bottom: 10px solid var(--action-color);
+}
+
+/* section.dream-ride-section{
+    height: 110vh; 
+    overflow: hidden;
+} */
+
+.crop-image-section{
+    /* height: 50vh; */
+    max-height: 60vh;
+    overflow: hidden;
+}
+
+.crop-image-section img.features-middle-img{
+    width: 60%;
 }
