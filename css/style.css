@@ -214,7 +214,7 @@ Table of Contents
     background-color: var(--action-color-light) !important;
 }
 
-.bg-action{
+.bg-action {
     background-color: var(--action-color) !important;
 }
 
@@ -234,6 +234,7 @@ Table of Contents
     display: inline-block;
     color: var(--main-color);
 }
+
 .large-heading>span.only-text-green {
     font-size: inherit;
     display: inline-block;
@@ -1378,7 +1379,7 @@ body.menu-open .logo img.sticky-logo {
     padding: 80px 0px;
 }
 
-section#home{
+section#home {
     padding: 80px 0 0px 0;
 }
 
@@ -1406,8 +1407,14 @@ section#home{
     background-clip: padding-box;
 }
 
-#hero-bg-1.background-inner{
-    bottom: 15vh;
+#hero-bg-1.background-inner {
+    bottom: 10vh;
+    background-image: url('../assets/images/new/new-home-banner/banner-bg.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    visibility: visible;
+    margin-top: 90px;
 }
 
 .section-background .background-wrapper .background-inner {
@@ -4164,7 +4171,7 @@ h2.large-heading>span.only-text-main {
 }
 
 
-.tab-content .img-overlay {    
+.tab-content .img-overlay {
     position: absolute;
     max-width: 580px;
     border: none;
@@ -4173,7 +4180,7 @@ h2.large-heading>span.only-text-main {
     transition: all .2s cubic-bezier(0.25, 0.74, 0.22, 0.99);
 }
 
-.tab-content .img-overlay h5{
+.tab-content .img-overlay h5 {
     color: white;
 }
 
@@ -4244,7 +4251,8 @@ h2.large-heading>span.only-text-main {
         justify-content: center;
         align-items: center;
     }
-    .tab-content .img-box:hover .overlay-2, 
+
+    .tab-content .img-box:hover .overlay-2,
     .tab-content .img-box:hover .overlay-3 {
         width: 100%;
         top: 50%;
@@ -4263,7 +4271,7 @@ h2.large-heading>span.only-text-main {
         /* flex-flow: row; */
 
     }
-    
+
 }
 
 #g-lite-model,
@@ -4336,11 +4344,114 @@ h2.large-heading>span.only-text-main {
     }
 }
 
+/* banner update */
+.bg-inner-left-black {
+    background-image: url('../assets/images/new/new-home-banner/Rectangle-12.webp');
+    background-repeat: no-repeat;
+    background-position: -70% 20%;
+    background-size: 75%;
+    height: 90vh;
+}
 
+#shape-big-1 {
+    background-image: url('../assets/images/new/new-home-banner/shape4-big.webp');
+    background-position: 6.5% -20%;
+    background-size: 9%;
+    background-repeat: no-repeat;
+}
 
+#shape-small-1{
+    background-image: url('../assets/images/new/new-home-banner/shape4-little.webp');
+    background-position: 55.2% 6%;
+    background-size: 3%;
+    background-repeat: no-repeat; 
+}
 
+#shape-big-2{
+    background-image: url('../assets/images/new/new-home-banner/shape4-big.webp');
+    background-position: 44% 125%;
+    background-size: 9%;
+    transform: skewX(2deg);
+    background-repeat: no-repeat; 
+}
+#shape-big-3{
+    background-image: url('../assets/images/new/new-home-banner/shape4-big.webp');
+    background-position: 104.4% 125%;
+    background-size: 9%;
+    transform: skewX(2deg);
+    background-repeat: no-repeat; 
+}
 
+@media screen and (min-width: 1360px) {
+    .bg-inner-left-black {
+        background-position: -95% 16%;
+        background-size: 80%;
+        height: 90vh;
+    }
+    #shape-big-1 {
+        background-position: 6.5% -20%;
+        background-size: 9%;
+    }
+    #shape-big-2 {
+        background-position: 48.4% 123%;
+        background-size: 9%;
+    }
+    #shape-small-1 {
+        background-position: 59.5% 7%;
+        background-size: 3%;
+    }
+    #shape-big-3 {
+        background-position: 105.3% 122%;
+        background-size: 9%;
+    }
+}
 
+@media screen and (max-width: 1359px){
+    .bg-inner-left-black{
+        background-position: -96% 20%;
+        background-size: 81%;
+    }
+    
+    #shape-big-1 {
+        background-position: 7.5% -9%;
+        background-size: 9%;
+    }
+    #shape-big-2 {
+        background-position: 44.4% 120%;
+        background-size: 9%;
+    }
+    #shape-small-1 {
+        background-position: 60.8% 7%;
+        background-size: 3%;
+    }
+    #shape-big-3 {
+        background-position: 105.3% 107%;
+        background-size: 9%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .bg-inner-left-black{    
+        background-position: -121% 20%;
+        background-size: 81%;
+    }
+    #shape-big-1 {
+        background-position: 3.5% -6%;
+        background-size: 9%;
+    }
+    #shape-big-2 {
+        background-position: 37.4% 116%;
+        background-size: 9%;
+    }
+    #shape-small-1 {
+        background-position: 55.1% 10%;
+        background-size: 3%;
+    }
+    #shape-big-3 {
+        background-position: 104.3% 107%;
+        background-size: 9%;
+    }
+}
 
 
 
@@ -4366,11 +4477,11 @@ h2.large-heading>span.only-text-main {
     background: transparent;
 }
 
-h2.shadow-vertical-bottom{
+h2.shadow-vertical-bottom {
     position: relative;
 }
 
-h2.shadow-vertical-bottom::after{
+h2.shadow-vertical-bottom::after {
     content: "WAYONAA";
     position: absolute;
     /* bottom: 0; */
@@ -4493,7 +4604,7 @@ section.began {
 /* MODEL - G page scripts */
 /* MODEL - G page scripts */
 
-#model-g-home .section-background{
+#model-g-home .section-background {
     transform: skewY(-3deg);
     height: 106vh;
     border-bottom: 10px solid var(--action-color);
@@ -4504,12 +4615,11 @@ section.began {
     overflow: hidden;
 } */
 
-.crop-image-section{
-    /* height: 50vh; */
+.crop-image-section {
     max-height: 60vh;
     overflow: hidden;
 }
 
-.crop-image-section img.features-middle-img{
+.crop-image-section img.features-middle-img {
     width: 60%;
 }
