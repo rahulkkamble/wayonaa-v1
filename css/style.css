@@ -4795,7 +4795,31 @@ section.began {
     margin-top: 80px;
 }
 
+.store-img{
+    max-width: 320px;
+    max-height: 300px;
+}
+
+.store-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
 .content-with-logo img{
     height: 1rem;
     width: 1rem;
+}
+
+.card-map-section .card{
+    border-radius: 20px;
+    border: none;
+}
+
+.line-height-1{
+    line-height: 1.1rem;
+    font-size: .89rem;
+}
+.text-decoration-underline{
+    text-decoration: underline !important;
 }
