@@ -34,5 +34,8 @@ document.addEventListener('DOMContentLoaded', function () {
   ScrollReveal().reveal('.intro-cards .intro-card-3, .award-logo-3', { delay: 500, duration: 2000, opacity: 0, distance: "50%", origin: "bottom" });    /* easing: 'ease-in-out', */
   ScrollReveal().reveal('#astino-banner .large-heading, #astino-banner p, #feature .heading-wrapper, #variation .heading-wrapper, #usp .large-heading, #dealer .heading-wrapper', { delay: 200, duration: 1000, opacity: 0, distance: "40%", origin: "bottom" });    /* easing: 'ease-in-out', */
   // ScrollReveal().reveal('#about .text-block',{delay: 300, duration: 1000, opacity: 0, distance: "50%", origin: "bottom", reset: true});
+
+  var hrefModelG = document.getElementById('model-g-path');
+  hrefModelG.setAttribute('href','assets/route/model-G.html');
 }, false);
 
