@@ -41,5 +41,5 @@ document.addEventListener('DOMContentLoaded', function () {
   hrefModelG.setAttribute('href','assets/route/model-G.html');
   hrefGOne.setAttribute('href','assets/route/g-one.html');
   hrefGLite.setAttribute('href','assets/route/model-G.html');
-}, false);
+}, true);
 
