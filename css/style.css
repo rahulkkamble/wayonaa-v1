@@ -4256,6 +4256,7 @@ h2.large-heading>span.only-text-main {
     transform: scale(0.85);
     bottom: 0px;
     border-radius: 0px 14px 14px 0px;
+    background: linear-gradient(180deg, black, transparent);
 }
 
 .tab-content .img-box:hover .img-overlay {

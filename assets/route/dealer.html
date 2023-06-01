@@ -85,7 +85,7 @@
                                 <li><a href="#about">About Us</a></li>
                                 <li><a href="#dealer">Dealer</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#" id="dealer-path">Locate Dealer</a></li>
+                                        <li><a href="#dealer">Locate Dealer</a></li>
                                         <li><a href="#dealer">Become a Dealer</a></li>
                                     </ul>
                                 </li>
@@ -116,40 +116,30 @@
         <!-- Content Section Start -->
         <div class="main-container">
 
-            <!-- feature banner -->
-            <section id="model-g-home" class="height-100 model-g-home-section light-text">
-                <div class="section-background">
-                    <div class="background-wrapper">
-                        <div class="background-inner" id="banner-bg-1"
-                            style="background-image: url('../images/model-g/road.webp'); background-repeat: no-repeat;background-position: center bottom; background-size: contain; ">
-                        </div>
-                        <div class="background-inner" id="banner-bg-3"
-                            style="background-image: url('../images/model-g/scooty.webp'); background-repeat: no-repeat;background-position: 85% 85%; background-size: 50%; ">
-                        </div>
-                        <div class="background-inner" id="banner-bg-2"
-                            style="background-image: url('../images/model-g/eRectangle-4.webp'); background-repeat: no-repeat;background-position: 0 100%; background-size: 100%; ">
-                        </div>
-
-                    </div>
-                </div>
-                <div class="container double-top-padding double-bottom-padding">
-                    <div class="row mt-5">
-                        <div class="col-md-8 banner-content position-relative">
-                            <h3 class="large-heading font-italic text--action text-uppercase">future of commuting:</h3>
-                            <!-- <h2 class="large-heading text-uppercase text--action">powered</h2> -->
-                            <h3 class="large-heading font-italic text--action"><span
-                                    class="only-text-main text-uppercase fw-600">the model g</span></h3>
-                            <div class="text-block text-lead">
-                                <h6 class="text--action text-uppercase">starting at</h6>
-                                <h3 class="text--action large-heading text-uppercase font-italic">Rs. 1,26,000/-</h3>
+            <!-- about banner with breadcrumb -->
+            <section class="banner-about d-flex flex-column justify-content-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 m-auto d-flex justify-content-center align-items-center">
+                            <div class="content-about-top">
+                                <h2 class="mb-0 px-3 large-heading text-white">
+                                    About Us
+                                </h2>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb mb-0">
+                                        <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
+                                        <li class="breadcrumb-item active text-white" aria-current="page">Extend The
+                                            Life Of
+                                            Your Engine</li>
+                                    </ol>
+                                </nav>
                             </div>
-                            <a class="btn btn-primary btn-accent has-icon" href="#book-ride"><span>Book test
-                                    ride</span><i class="fas fa-arrow-right"></i></a> <!-- btn-hover-text-action -->
                         </div>
+                        <div class="col-md-6"></div>
                     </div>
                 </div>
             </section>
-            <!-- feature banner end -->
+            <!-- banner about end here -->
 
             <!-- dream ride section -->
             <section id="dream-ride" class="dream-ride-section mt-md-5 pb-0">
@@ -603,8 +593,6 @@
             var hrefModelG = document.getElementById('model-g-path');
             var hrefGOne = document.getElementById('model-g-one-path');
             var hrefGLite = document.getElementById('model-g-lite-path');
-            var hrefDealer = document.getElementById('dealer-path');
-            hrefDealer.setAttribute('href','dealer.html')
             hrefModelG.setAttribute('href', 'model-G.html');
             hrefGOne.setAttribute('href', 'g-one.html');
             hrefGLite.setAttribute('href', 'model-G.html');

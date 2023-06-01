@@ -36,6 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
   // ScrollReveal().reveal('#about .text-block',{delay: 300, duration: 1000, opacity: 0, distance: "50%", origin: "bottom", reset: true});
 
   var hrefModelG = document.getElementById('model-g-path');
+  var hrefGOne = document.getElementById('model-g-one-path');
+  var hrefGLite = document.getElementById('model-g-lite-path');
   hrefModelG.setAttribute('href','assets/route/model-G.html');
+  hrefGOne.setAttribute('href','assets/route/g-one.html');
+  hrefGLite.setAttribute('href','assets/route/model-G.html');
 }, false);
 
