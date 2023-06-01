@@ -41,6 +41,26 @@
     <link rel="stylesheet" href="../../css/style.css" type="text/css" />
     <link rel="stylesheet" href="../../css/responsive.css" type="text/css" />
 
+    <style>
+        .mapouter {
+            position: relative;
+            text-align: right;
+            width: 100%;
+            height: 600px;
+        }
+
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            width: 100%;
+            height: 600px;
+        }
+
+        .gmap_iframe {
+            height: 600px !important;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -117,23 +137,12 @@
         <div class="main-container">
 
             <!-- about banner with breadcrumb -->
-            <section class="banner-about d-flex flex-column justify-content-center">
+            <section class="banner-dealer d-flex flex-column justify-content-center">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 m-auto d-flex justify-content-center align-items-center">
-                            <div class="content-about-top">
-                                <h2 class="mb-0 px-3 large-heading text-white">
-                                    About Us
-                                </h2>
-                                <nav aria-label="breadcrumb">
-                                    <ol class="breadcrumb mb-0">
-                                        <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
-                                        <li class="breadcrumb-item active text-white" aria-current="page">Extend The
-                                            Life Of
-                                            Your Engine</li>
-                                    </ol>
-                                </nav>
-                            </div>
+                        <div class="col-md-6 m-auto">
+                            <h3 class="large-heading font-italic text--action text-uppercase">the best e-bike dealers
+                                across<span class="only-text-main text-uppercase fw-600">india</span></h3>
                         </div>
                         <div class="col-md-6"></div>
                     </div>
@@ -146,308 +155,114 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="large-heading text-uppercase text-center">
-                                Feel the rush of adrenaline like never before
+                            <h3 class="large-heading text-uppercase font-italic text-center">
+                                best dealers. around you!
                             </h3>
-                            <p class="text-lead text-block col-12 offset-md-2 col-md-8 text-center">Experience the
-                                epitome of urban mobility with our best-selling electric sensation, the G-One e-bike.
-                                With a top speed of 25 km/h and an impressive range of 70 km, this sleek ride also
-                                offers abundant storage space. Say goodbye to range anxiety and hello to effortless
-                                exploration. The G-One e-bike - redefining your riding experience.
-                            </p>
-                        </div>
-                        <div class="col-12 text-center">
-                            <!-- <div class="crop-image-section">
-                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"
-                                    data-interval="3000">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img class="features-middle-img zoomIn animated" src="../images/new/H3.webp"
-                                                alt="First slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="features-middle-img zoomIn animated"
-                                                src="../images/new/Gone-front.webp" alt="Second slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="features-middle-img zoomIn animated"
-                                                src="../images/new/GLite-front.webp" alt="Third slide">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <img src="../images/model-g/3-in-1.webp" alt="" srcset="">
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid bg-secondary">
-                    <div class="container shrink-section">
-                        <div class="row pt-md-2">
-                            <div class="col-6 col-md-3">
-                                <div class="icon-with-heading d-flex">
-                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock">
-                                    <h6 class="p-3 mb-1 text-white">LED headlight with DRL</h6>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <div class="icon-with-heading d-flex">
-                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock">
-                                    <h6 class="p-3 mb-1 text-white">Anti-theft alarm with automatic braking</h6>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <div class="icon-with-heading d-flex">
-                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock">
-                                    <h6 class="p-3 mb-1 text-white">Central lock</h6>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-3">
-                                <div class="icon-with-heading d-flex">
-                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock">
-                                    <h6 class="p-3 mb-1 text-white">Alloy Rim 3.00-10</h6>
+                            <div class="shrink-section">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, veritatis!</p>
+                                <div class="form d-flex">
+                                    <input type="text">
+                                    <input type="text">
+                                    <input type="text">
+
+                                    <button class="btn">search</button>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
             <!-- dream ride section end -->
 
-            <!-- Why should you buy Section Start -->
-            <section id="why-choose" class="why-choose-section bg-white-secondary">
+            <!-- section cards and map -->
+            <section class="card-map-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-5">
-                            <div class="img-wrapper">
-                                <img class="rounded bg-white-secondary" src="../images/model-g/blue-glite.webp" alt="">
-                            </div>
-                        </div>
-                        <div
-                            class="why-choose-content bg-white-secondary col-lg-7 py-5 py-md-0 px-md-5 px-1 rounded border-0">
-                            <div class="heading-wrapper">
-                                <h3 class="large-heading text-uppercase">Why choose G-ONE?
-                                </h3>
-                            </div>
-                            <div class="shrink-section">
-                                <div class="icon-with-heading d-flex align-items-center my-3">
-                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock">
-                                    <h6 class="p-3 mb-1">Top speed</h6>
-                                </div>
-                                <div class="icon-with-heading d-flex align-items-center my-3">
-                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock">
-                                    <h6 class="p-3 mb-1">Plenty of storage space </h6>
-                                </div>
-                                <div class="icon-with-heading d-flex align-items-center my-3">
-                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock">
-                                    <h6 class="p-3 mb-1">Sporty- looking </h6>
-                                </div>
-                                <div class="icon-with-heading d-flex align-items-center my-3">
-                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock">
-                                    <h6 class="p-3 mb-1">Motor power and performance</h6>
-                                </div>
-                                <div class="icon-with-heading d-flex align-items-center my-3">
-                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock">
-                                    <h6 class="p-3 mb-1">Comfortable and adjustable seating</h6>
-                                </div>
-                                <div class="icon-with-heading d-flex align-items-center my-3">
-                                    <img class="p-2" src="../images/new/icons/Motor-power.png" alt="clock">
-                                    <h6 class="p-3 mb-1">Battery life and range</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- About Section End -->
-
-            <!-- Variation Section Start -->
-            <section id="variation-models" class="variation-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 mb-3">
-                            <div class="heading-wrapper text-center">
-                                <h2 class="large-heading text-uppercase"><span>Our</span> Colour variants
-                                </h2> <!-- Discover Our Unique Colour variants -->
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <!-- <div class="tab-pane-model-G" id="g-one-model-g">
-                                <div class="color-variation-slider owl-carousel m-top-30">
-                                    <div class="item" data-color="orange-new">
-                                        <img src="../images/new/scooties/GONE_orange.webp" alt="">
-                                        <h6 class="text-center mt-5">color Name</h6>
-                                    </div>
-                                    <div class="item" data-color="blue">
-                                        <img src="../images/new/scooties/GONE_Blue.webp" alt="">
-                                        <h6 class="text-center mt-5">color Name</h6>
-                                    </div>
-                                    <div class="item" data-color="green">
-                                        <img src="../images/new/scooties/GONE_Green.webp" alt="">
-                                    </div>
-                                </div>
-                            </div> -->
-                            <div class="tab-pane-model-G" style="display: block;" id="g-lite-model-g">
-                                <div class="color-variation-slider owl-carousel m-top-30">
-                                    <div class="item" data-color="blue-light">
-                                        <img src="../images/new/scooties/GLite_Blue.webp" alt="">
-                                        <h6 class="text-center mt-5">Light Blue</h6>
-                                    </div>
-                                    <div class="item" data-color="white-grey">
-                                        <img src="../images/new/scooties/GLite_white.webp" alt="">
-                                        <h6 class="text-center mt-5">White</h6>
-                                    </div>
-                                    <div class="item" data-color="grey">
-                                        <img src="../images/new/scooties/GLITE_Silver.webp" alt="">
-                                        <h6 class="text-center mt-5">Silver</h6>
-                                    </div>
-                                    <div class="item" data-color="black">
-                                        <img src="../images/new/scooties/Glite_Black.webp" alt="">
-                                        <h6 class="text-center mt-5">Black</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-3 text-center">
-                            <a class="btn mt-5 btn-primary" href="#book-ride">Equip Now</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Variation Section end here -->
-
-            <!-- Specifications Section Start -->
-            <section id="technical" class="specifications-section gray-bg">
-                <div class="section-background">
-                    <div class="background-wrapper">
-                        <div class="background-inner"
-                            style="background-image: url('../images/model-g/scooty.webp'); background-repeat: no-repeat;background-position: center center; background-size:70%; opacity:0.04">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="heading-wrapper mb-0">
-                                <h2 class="large-heading text-uppercase mb-2 pb-0"><span>Technical</span>Specifications
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="tab-section vertical-tab m-top-30">
-                                <!-- Nav tabs -->
-                                <!-- Tab panes -->
-                                <div class="tab-content">
-                                    <div class="tab-pane active" id="engine" role="tabpanel"
-                                        aria-labelledby="engine-tab">
-                                        <!-- <h3 class="tab-title">Engine</h3> -->
-                                        <table class="specifications">
-                                            <tr>
-                                                <th scope="row">Type</th>
-                                                <td>Liquid Cooled, Single Cylinder, DOHC</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Displacement</th>
-                                                <td>99 CC</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Max. Power</th>
-                                                <td>9.99 PS & 9000 RPM</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Max. Torque</th>
-                                                <td>39 NM</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Max. Speed</th>
-                                                <td>199 KMPH</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Bore x Stroke</th>
-                                                <td>72x66 mm</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Starting</th>
-                                                <td>Kick and Self start</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Air Filtration</th>
-                                                <td>Dry Paper Pleated Type</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">Valve Per Cylinder</th>
-                                                <td>6</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Features Section End -->
-
-            <!-- Our customers -->
-            <section class="customer-feedback" id="customer-feedback">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-5 col-12">
-                            <h3 class="large-heading">
-                                What our happy customer says
-                            </h3>
-                            <p class="text--light-2 fs--20 fw-500">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate nisi velit optio
-                                eos, neque aliquid saepe. Asperiores ratione, nisi quod vero soluta pariatur soluta
-                                pariatur
-                            </p>
-                        </div>
-                        <div class="col-md-7 col-12 px-3 customer-feedback-cards">
-                            <div class="col-12">
-                                <div class="card border-0 bg-white-secondary my-3 w-75 hovered float-left">
-                                    <div class="card-header border-0 pb-0 mb-0 bg-white-secondary">
-                                        <div class="d-flex">
-                                            <div class="cus-img">
-                                                <img class="rounded-circle"
-                                                    src="../images/about/persons/image-84-90x70.jpg" alt="">
+                        <div class="col-md-6 col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-12">
+                                            <img src="../images/new/GLite-front.webp" alt="">
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+                                            <div class="content-with-logo d-flex align-items-center">
+                                                <img src="../images/new/icons/Top-speed.png" alt="">
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
+                                                    cumque explicabo dolorem velit id assumenda excepturi molestias
+                                                    facere qui unde.</p>
                                             </div>
-                                            <div class="cus-info ml-3">
-                                                <p class=" fw-600 text-lead py-0 my-0">Lorem, ipsum.</p>
-                                                <p class="text--light-2 py-0 my-0">
-                                                    CTO of JamsosTech
-                                                </p>
+                                            <div class="content-with-logo d-flex align-items-center">
+                                                <img src="../images/new/icons/Top-speed.png" alt="">
+                                                <p>lorem ipsum facere qui unde.</p>
                                             </div>
+                                            <div class="content-with-logo d-flex align-items-center">
+                                                <img src="../images/new/icons/Top-speed.png" alt="">
+                                                <p>lorem ipsum facere qui unde.</p>
+                                            </div>
+                                            <div class="content-with-logo d-flex align-items-center">
+                                                <img src="../images/new/icons/Top-speed.png" alt="">
+                                                <p>lorem ipsum facere qui unde.</p>
+                                            </div>
+                                            <div class="content-with-logo d-flex align-items-center">
+                                                <img src="../images/new/icons/Top-speed.png" alt="">
+                                                <p>lorem ipsum facere qui unde.</p>
+                                            </div>
+                                            <button class="btn">Book an appointment</button>
                                         </div>
                                     </div>
-                                    <div class="card-body"> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                        Atque ipsum dolor quos earum, exercitationem amet.</div>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="card border-0 bg-white-secondary my-3 w-75 float-right">
-                                    <div class="card-header border-0 pb-0 mb-0 bg-white-secondary">
-                                        <div class="d-flex">
-                                            <div class="cus-img">
-                                                <img class="rounded-circle"
-                                                    src="../images/about/persons/image-84-90x70.jpg" alt="">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 col-12">
+                                            <img src="../images/new/GLite-front.webp" alt="">
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+                                            <div class="content-with-logo d-flex align-items-center">
+                                                <img src="../images/new/icons/Top-speed.png" alt="">
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
+                                                    cumque explicabo dolorem velit id assumenda excepturi molestias
+                                                    facere qui unde.</p>
                                             </div>
-                                            <div class="cus-info ml-3">
-                                                <p class=" fw-600 text-lead py-0 my-0">Lorem, ipsum.</p>
-                                                <p class="text--light-2 py-0 my-0">
-                                                    CTO of JamsosTech
-                                                </p>
+                                            <div class="content-with-logo d-flex align-items-center">
+                                                <img src="../images/new/icons/Top-speed.png" alt="">
+                                                <p>lorem ipsum facere qui unde.</p>
                                             </div>
+                                            <div class="content-with-logo d-flex align-items-center">
+                                                <img src="../images/new/icons/Top-speed.png" alt="">
+                                                <p>lorem ipsum facere qui unde.</p>
+                                            </div>
+                                            <div class="content-with-logo d-flex align-items-center">
+                                                <img src="../images/new/icons/Top-speed.png" alt="">
+                                                <p>lorem ipsum facere qui unde.</p>
+                                            </div>
+                                            <div class="content-with-logo d-flex align-items-center">
+                                                <img src="../images/new/icons/Top-speed.png" alt="">
+                                                <p>lorem ipsum facere qui unde.</p>
+                                            </div>
+                                            <button class="btn">Book an appointment</button>
                                         </div>
                                     </div>
-                                    <div class="card-body text--light-2">Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Laboriosam repudiandae quae architecto iusto itaque sit!</div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="mapouter">
+                                <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0"
+                                        scrolling="no" marginheight="0" marginwidth="0"
+                                        src="https://maps.google.com/maps?width=500&amp;height=600&amp;hl=en&amp;q=turbhe&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                                        href="https://capcuttemplate.org/">Capcut Template</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Our customers section end -->
+            <!-- section cards and map end -->
 
 
             <!-- Ready to Make?? -->

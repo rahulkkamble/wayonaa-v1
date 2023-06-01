@@ -4779,3 +4779,23 @@ section.began {
     box-shadow: 20px 20px 40px 20px #7373a05d;
     transform: scale(1.05);
 }
+
+/* D E A L E R PAGE */
+/* D E A L E R PAGE */
+/* D E A L E R PAGE */
+/* D E A L E R PAGE */
+/* D E A L E R PAGE */
+.banner-dealer {
+    background: url('../assets/images/dealer/dealer-bg.webp');
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-top: 80px;
+}
+
+.content-with-logo img{
+    height: 1rem;
+    width: 1rem;
+}
