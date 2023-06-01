@@ -76,8 +76,9 @@
                             <ul class="main-menu">
                                 <li><a href="#feature">Products</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#feature">Model G</a></li>
-                                        <li><a href="#feature">Astino</a></li>
+                                        <li><a href="#" id="g-one-path">G-One</a></li>
+                                        <li><a href="#" id="g-lite-path">G-Lite</a></li>
+                                        <li><a href="#" id="astino-path">Astino</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#about">About Us</a></li>
@@ -728,6 +729,17 @@
 
     <!-- My Custom -->
     <script src="../../js/custom.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var hrefGOne = document.getElementById('model-g-one-path');
+            var hrefGLite = document.getElementById('model-g-lite-path');
+            var hrefAstino = document.getElementById('astino-path');
+            hrefGOne.setAttribute('href', 'g-one.html');
+            hrefGLite.setAttribute('href', 'model-G.html');
+            hrefAstino.setAttribute('href', 'astino.html');
+        }, false);
+
+    </script>
 </body>
 
 </html>
