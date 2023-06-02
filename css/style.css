@@ -4568,6 +4568,13 @@ h2.large-heading>span.only-text-main {
     object-fit: contain;
 }
 
+.img-top-overflow-visible{
+    position: absolute;
+    top: 0%;
+    left: -15%;
+    z-index: 1;
+}
+
 .breadcrumb {
     background: transparent;
 }
