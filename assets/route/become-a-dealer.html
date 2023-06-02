@@ -94,18 +94,17 @@
                         <nav class="site-navigation">
                             <ul class="main-menu">
                                 <li><a href="#feature">Models</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="#" id="model-g-path">Model G</a></li>
+                                    <ul class="sub-menu">   
                                         <li><a href="#" id="model-g-one-path">G-One</a></li>
                                         <li><a href="#" id="model-g-lite-path">G-Lite</a></li>
-                                        <li><a href="#astino-banner">Astino</a></li>
+                                        <li><a href="#astino-banner" id="astino-path">Astino</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#about" id="about-path">About Us</a></li>
                                 <li><a href="#dealer">Dealer</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#dealer">Locate Dealer</a></li>
-                                        <li><a href="#dealer">Become a Dealer</a></li>
+                                        <li><a href="#" id="dealer-path">Locate Dealer</a></li>
+                                        <li><a href="#" id="become-a-dealer-path">Become a Dealer</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#footer-section">Contact Us</a></li>
@@ -438,13 +437,16 @@
     <script src="../../js/custom.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            var hrefModelG = document.getElementById('model-g-path');
             var hrefGOne = document.getElementById('model-g-one-path');
+            var hrefAbout = document.getElementById('about-path');
             var hrefGLite = document.getElementById('model-g-lite-path');
-            hrefModelG.setAttribute('href', 'model-G.html');
+            var hrefDealer = document.getElementById('dealer-path');
+            var hrefBecomeADealer = document.getElementById('become-a-dealer-path');
+            hrefAbout.setAttribute('href', 'about.html');
             hrefGOne.setAttribute('href', 'g-one.html');
-            hrefGLite.setAttribute('href', 'model-G.html');
-            console.log('model-G loaded');
+            hrefGLite.setAttribute('href', 'g-lite.html');
+            hrefDealer.setAttribute('href', 'dealer.html');
+            hrefBecomeADealer.setAttribute('href', 'become-a-dealer.html');
         }, false);
 
     </script>

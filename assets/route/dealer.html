@@ -95,10 +95,9 @@
                             <ul class="main-menu">
                                 <li><a href="#feature">Models</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#" id="model-g-path">Model G</a></li>
                                         <li><a href="#" id="model-g-one-path">G-One</a></li>
                                         <li><a href="#" id="model-g-lite-path">G-Lite</a></li>
-                                        <li><a href="#astino-banner">Astino</a></li>
+                                        <li><a href="#astino-banner" id="astino-path">Astino</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#about">About Us</a></li>
@@ -438,13 +437,12 @@
     <script src="../../js/custom.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            var hrefModelG = document.getElementById('model-g-path');
+            var hrefAstino= document.getElementById('astino-path');
             var hrefGOne = document.getElementById('model-g-one-path');
             var hrefGLite = document.getElementById('model-g-lite-path');
-            hrefModelG.setAttribute('href', 'model-G.html');
+            hrefAstino.setAttribute('href', 'astino.html');
             hrefGOne.setAttribute('href', 'g-one.html');
             hrefGLite.setAttribute('href', 'model-G.html');
-            console.log('model-G loaded');
         }, false);
 
     </script>

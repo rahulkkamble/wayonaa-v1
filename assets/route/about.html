@@ -85,7 +85,7 @@
                                 <li><a href="#dealer">Dealer</a>
                                     <ul class="sub-menu">
                                         <li><a href="#" id="dealer-path">Locate Dealer</a></li>
-                                        <li><a href="#dealer" id="become-a-dealer-path">Become a Dealer</a></li>
+                                        <li><a href="#" id="become-a-dealer-path">Become a Dealer</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#footer-section">Contact Us</a></li>
@@ -126,7 +126,8 @@
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb mb-0">
                                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                        <li class="breadcrumb-item active text--action" aria-current="page">About Us</li>
+                                        <li class="breadcrumb-item active text--action" aria-current="page">About Us
+                                        </li>
                                     </ol>
                                 </nav>
                             </div>
@@ -216,16 +217,20 @@
                         <div class="col-md-6 text-white my-md-auto py-md-0 py-4">
                             <h1 class="text-uppercase text-white text-block">
                                 where it all began?</h1>
-                            <p class="text-block text-lead">Wayonaa, founded in August 2021, is a privately held company
-                                based in Surat, Gujarat.
-                                Initially focusing on imported electric vehicles, the company quickly gained market
-                                acceptance.</p>
-                            <p class="text-block text-lead">Building on this success, Wayonaa expanded its sales network
-                                across
-                                different regions of the state, selling over 1200 units to date.</p>
-                            <p class="text-block text-lead">Before entering the
-                                electric vehicle sector, the core team had significant experience in the Solar rooftop
-                                business, generating an impressive annual turnover of over INR 14 Cr.</p>
+                            <p class="text-block text-lead">On August 2021, a spark of passion gave birth to Wayonaa, a
+                                brand nestled in the vibrant city of Surat, Gujarat. With unwavering dedication and a
+                                vision for a greener future, we embarked on the mission to revolutionize the EV
+                                landscape.
+                            </p>
+                            <p class="text-block text-lead">Driven by our commitment to customer satisfaction, we
+                                expanded our sales network across different regions. In an astonishingly short period,
+                                we shattered records, selling over 1200 units and leaving an indelible mark on the
+                                industry.
+                            </p>
+                            <p class="text-block text-lead">But Wayonaa's story didn't start with electric vehicles. The
+                                core team, with their wealth of experience in the Solar rooftop industry, brought forth
+                                a deep understanding of renewable energy and its immense potential.
+                            </p>
                         </div>
 
                         <!-- right side image and badge -->
@@ -261,15 +266,16 @@
                                 </h3>
                             </div>
                             <div class="text-block text-lead">
-                                <p>At Gravity Renewable, our mission is to leverage our expertise in the auto industry
-                                    to manufacture high-quality electric vehicles. With the rapidly growing trend of
-                                    electric mobility, we are determined to leave a mark by producing top-notch EVs that
-                                    set new standards in the market.
+                                <p>At Gravity Renewable, our mission is to leverage our expertise in the automobile
+                                    industry to manufacture high-quality electric vehicles. With the rapidly growing
+                                    trend of electric mobility, we are determined to leave a mark by producing top-notch
+                                    EVs that sets new standards in the market.
                                 </p>
                                 <p>At Gravity Renewable, our vision is to lead the way towards a greener future. By
                                     producing state-of-the-art electric vehicles & contributing to reducing the carbon
                                     footprint and combating climate change. Our commitment is unwavering as we drive
-                                    towards a sustainable tomorrow.</p>
+                                    towards a sustainable tomorrow.
+                                </p>
                             </div>
                             <!-- <div class="d-flex justify-content-around">
                                 <div class="icon-with-heading d-flex justify-content-around align-items-center">
@@ -615,7 +621,8 @@
                         <div class="col-lg-7 bg-white pt-3 pb-3 rounded border-0">
                             <div class="heading-wrapper">
                                 <h2 class="large-heading text-uppercase">Ready to Make a Difference?</h2>
-                                <h3 class="large-heading text-uppercase font-italic text--main">join us now.</h3>
+                                <h4 class="large-heading text-uppercase fs--40 font-italic text--main">join us now.</h4>
+                                <a class="btn mt-2 btn-primary" href="./about.html">Career opportunities</a>
                             </div>
                         </div>
                         <div class="col-lg-5">
@@ -750,8 +757,14 @@
             var hrefGOne = document.getElementById('model-g-one-path');
             var hrefGLite = document.getElementById('model-g-lite-path');
             var hrefAstino = document.getElementById('astino-path');
+            var hrefDealer = document.getElementById('dealer-path');
+            var hrefBecomeADealer = document.getElementById('become-a-dealer-path');
+            // var hrefAbout = document.getElementById('about-path');
+            // hrefAbout.setAttribute('href', 'about.html');
+            hrefBecomeADealer.setAttribute('href', 'become-a-dealer.html');
+            hrefDealer.setAttribute('href', 'dealer.html');
             hrefGOne.setAttribute('href', 'g-one.html');
-            hrefGLite.setAttribute('href', 'model-G.html');
+            hrefGLite.setAttribute('href', 'g-lite.html');
             hrefAstino.setAttribute('href', 'astino.html');
         }, false);
 
