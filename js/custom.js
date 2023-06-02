@@ -40,10 +40,14 @@ document.addEventListener('DOMContentLoaded', function () {
   var hrefGOne = document.getElementById('model-g-one-path');
   var hrefGLite = document.getElementById('model-g-lite-path');
   var hrefDealer = document.getElementById('dealer-path');
+  var hrefAbout = document.getElementById('about-path');
+  var hrefAstino = document.getElementById('astino-path');
   var hrefBecomeADealer = document.getElementById('become-a-dealer-path');
   hrefBecomeADealer.setAttribute('href','assets/route/become-a-dealer.html');
   hrefDealer.setAttribute('href','assets/route/dealer.html');
   hrefGOne.setAttribute('href','assets/route/g-one.html');
   hrefGLite.setAttribute('href','assets/route/g-lite.html');
+  hrefAbout.setAttribute('href','assets/route/about.html');
+  hrefAstino.setAttribute('href','assets/route/astino.html');
 }, true);
 
