@@ -21,6 +21,8 @@ dropdown.addEventListener("change", function () {
   }
 });
 
+
+// ** REVEAL ANIMATIONS FOR 
 document.addEventListener('DOMContentLoaded', function () {
   ScrollReveal().reveal('#hero-bg-1', { delay: 1000, duration: 1000, opacity: 0, distance: "10%", origin: "left" });    /* easing: 'ease-in-out', */
   ScrollReveal().reveal('#hero-bg-2, #bike-bg-2', { delay: 1200, duration: 1000, opacity: 0, distance: "5%", origin: "right" });   /* easing: 'ease-in-out', */
