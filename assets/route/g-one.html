@@ -77,10 +77,10 @@
                                 <li><a href="#feature">Models</a>
                                     <ul class="sub-menu">
                                         <li><a href="#" id="model-g-lite-path">G-Lite</a></li>
-                                        <li><a href="#astino-banner">Astino</a></li>
+                                        <li><a href="#" id="astino-path">Astino</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#" id="about-path">About Us</a></li>
                                 <li><a href="#dealer">Dealer</a>
                                     <ul class="sub-menu">
                                         <li><a href="#dealer">Locate Dealer</a></li>
@@ -599,6 +599,10 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var hrefGLite = document.getElementById('model-g-lite-path');
+            var hrefAbout = document.getElementById('about-path');
+            var hrefAstino = document.getElementById('astino-path');
+            hrefAstino.setAttribute('href','astino.html');
+            hrefAbout.setAttribute('href','about.html');
             hrefGLite.setAttribute('href', 'g-lite.html');
             console.log('model-G loaded');
         }, false);
