@@ -4556,9 +4556,16 @@ h2.large-heading>span.only-text-main {
 /* A B O U T */
 /* About page css */
 .banner-about {
-    background: url('../assets/images/about/image-1.jpg');
-    height: 46vh;
+    background: url('../assets/images/about-new/Top-banner.webp');
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 80px;
+}
+
+.img-change-world{
+    object-fit: contain;
 }
 
 .breadcrumb {
@@ -4787,11 +4794,11 @@ section.began {
 /* D E A L E R PAGE */
 .banner-dealer {
     background: url('../assets/images/dealer/dealer-bg.webp');
-    height: auto;
-    background-size: cover;
-    background-position: center;
+    height: 400px;
+    background-size: 100%;
+    background-position: top top;
     background-repeat: no-repeat;
-    object-fit: cover;
+    object-fit: contain;
     margin-top: 80px;
 }
 

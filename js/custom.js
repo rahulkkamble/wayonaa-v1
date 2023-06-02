@@ -23,7 +23,7 @@ dropdown.addEventListener("change", function () {
 
 document.addEventListener('DOMContentLoaded', function () {
   ScrollReveal().reveal('#hero-bg-1', { delay: 1000, duration: 1000, opacity: 0, distance: "10%", origin: "left" });    /* easing: 'ease-in-out', */
-  ScrollReveal().reveal('#hero-bg-2', { delay: 1200, duration: 1000, opacity: 0, distance: "10%", origin: "right" });   /* easing: 'ease-in-out', */
+  ScrollReveal().reveal('#hero-bg-2, #bike-bg-2', { delay: 1200, duration: 1000, opacity: 0, distance: "5%", origin: "right" });   /* easing: 'ease-in-out', */
   ScrollReveal().reveal('#about, #home .banner-content', { delay: 1000, duration: 1000, opacity: 0, distance: "40%", origin: "bottom" });   /* easing: 'ease-in-out', */
   ScrollReveal().reveal('#about .img-wrapper, #about .text-block, #about .btn-wrapper, #model-g .heading-wrapper', {
     delay: 300, duration: 1000, opacity: 0, distance: "60%", origin: "bottom",
@@ -37,6 +37,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var hrefGOne = document.getElementById('model-g-one-path');
   var hrefGLite = document.getElementById('model-g-lite-path');
+  var hrefDealer = document.getElementById('dealer-path');
+  var hrefBecomeADealer = document.getElementById('become-a-dealer-path');
+  hrefBecomeADealer.setAttribute('href','assets/route/become-a-dealer.html');
+  hrefDealer.setAttribute('href','assets/route/dealer.html');
   hrefGOne.setAttribute('href','assets/route/g-one.html');
   hrefGLite.setAttribute('href','assets/route/g-lite.html');
 }, true);
