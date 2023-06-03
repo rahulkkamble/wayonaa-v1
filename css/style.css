@@ -4560,7 +4560,7 @@ h2.large-heading>span.only-text-main {
 .banner-about {
     background: url('../assets/images/about-new/Top-banner.webp');
     height: 400px;
-    background-position: center;
+    background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 80px;
