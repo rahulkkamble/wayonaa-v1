@@ -4890,3 +4890,13 @@ section.began {
 .become-a-dealer-right-img{
     width: 85%;
 }
+
+.become-a-dealer-cta .bg-right{
+    background: url('../assets/images/temp/Scooties.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 0%;
+    bottom: 0.1%;
+}
