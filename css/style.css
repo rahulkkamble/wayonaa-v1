@@ -4847,6 +4847,15 @@ section.began {
     object-fit: contain;
     margin-top: 80px;
 }
+.banner-become-a-dealer {
+    background: url('../assets/images/become-a-dealer/topbanner.webp');
+    height: 400px;
+    background-size: 100%;
+    background-position: top top;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    margin-top: 80px;
+}
 
 .store-img {
     max-width: 320px;
@@ -4876,4 +4885,8 @@ section.began {
 
 .text-decoration-underline {
     text-decoration: underline !important;
+}
+
+.become-a-dealer-right-img{
+    width: 85%;
 }
