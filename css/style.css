@@ -4900,3 +4900,11 @@ section.began {
     right: 0%;
     bottom: 0.1%;
 }
+
+.booking-section .img-over-the-div{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: -10%;
+    right: 0;
+}
