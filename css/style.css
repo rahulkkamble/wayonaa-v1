@@ -4040,7 +4040,7 @@ h2.large-heading>span.only-text-main {
 
 @media screen and (max-width: 574px) {
     .astino-section {
-        height: 80vh;
+        height: 110vw;
     }
 
     .astino-section .banner-content .text-lead {
@@ -4066,7 +4066,7 @@ h2.large-heading>span.only-text-main {
 
 @media screen and (max-width: 420px) {
     .astino-section {
-        height: 70vh;
+        height: 145vw;
     }
 }
 
@@ -4261,7 +4261,7 @@ h2.large-heading>span.only-text-main {
     right: 0px;
     transform: scale(0.85);
     bottom: 0px;
-    border-radius: 0px 14px 14px 0px;
+    border-radius: 14px 14px 14px 14px;
     background: linear-gradient(180deg, black, transparent);
 }
 
