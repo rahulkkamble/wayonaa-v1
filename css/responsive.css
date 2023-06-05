@@ -236,6 +236,8 @@
 	.bus-layout.testimonial-wrapper .quote-text{line-height: 1.4; font-size: 18px;}
 	.rect-image {width: 320px; margin: auto;}
 	h2.shadow-vertical-bottom::after{top: 1.4rem;}
+	.booking-section .contain-img{height: 50vh;}
+	.booking-section .img-over-the-div{left: 0;}
 
 
 }

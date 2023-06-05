@@ -4901,10 +4901,20 @@ section.began {
     bottom: 0.1%;
 }
 
+/* Book a test ride */
+/* Book a test ride */
+/* Book a test ride */
+/* Book a test ride */
+/* Book a test ride */
+
 .booking-section .img-over-the-div{
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     top: 0;
     left: -10%;
     right: 0;
+}
+
+.how-it-works-section{
+    padding-bottom: 60px;
 }

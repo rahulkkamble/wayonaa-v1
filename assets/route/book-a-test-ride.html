@@ -95,16 +95,16 @@
                             <ul class="main-menu">
                                 <li><a href="#feature">Models</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#" id="model-g-one-path">G-One</a></li>
-                                        <li><a href="#" id="model-g-lite-path">G-Lite</a></li>
-                                        <li><a href="#astino-banner" id="astino-path">Astino</a></li>
+                                        <li><a href="./g-one.html"class="redirect">G-One</a></li>
+                                        <li><a href="./g-lite.html" class="redirect">G-Lite</a></li>
+                                        <li><a href="./astino.html" class="redirect">Astino</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#" id="about-path">About Us</a></li>
-                                <li><a href="#dealer">Dealer</a>
+                                <li><a href="./about.html" class="redirect">About Us</a></li>
+                                <li><a href="#" >Dealer</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#">Locate Dealer</a></li>
-                                        <li><a href="#">Become a Dealer</a></li>
+                                        <li><a href="./dealer.html" class="redirect">Locate Dealer</a></li>
+                                        <li><a href="./become-a-dealer.html" class="redirect">Become a Dealer</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#footer-section">Contact Us</a></li>
@@ -141,15 +141,15 @@
             <section class="booking-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-7 col-12">
+                        <div class="col-md-7 contain-img col-12">
                             <img src="../images/book-a-test-ride/Group-4.webp" alt="" class="img-over-the-div">
                         </div>
                         <div class="col-md-5 offset-md-7 col-12">
                             <h4 class="text-uppercase large-heading fs--3rem">
                                 Book a test ride
                             </h4>
-                            <form action="">
-                                <div class="form-group px-md-4">
+                            <form action="./about.html">
+                                <div class="form-group">
                                     <label for="city">City</label>
                                     <select name="city" class="form-control">
                                         <option value="">Select City</option>
@@ -160,7 +160,7 @@
                                         <option value="city 5">City 5</option>
                                     </select>
                                 </div>
-                                <div class="form-group px-md-4">
+                                <div class="form-group">
                                     <label for="city">Dealer</label>
                                     <select name="city" class="form-control">
                                         <option value="">Select Dealer</option>
@@ -171,21 +171,21 @@
                                         <option value="city 5">Dealer 5</option>
                                     </select>
                                 </div>
-                                <div class="form-group px-md-4">
+                                <div class="form-group">
                                     <label for="First-Name">First Name</label>
                                     <input name="First-Name" class="form-control" type="text"
                                         placeholder="Enter First Name">
                                 </div>
-                                <div class="form-group px-md-4">
+                                <div class="form-group">
                                     <label for="Last-Name">Last Name</label>
                                     <input name="Last-Name" class="form-control" type="text"
                                         placeholder="Enter Last Name">
                                 </div>
-                                <div class="form-group px-md-4">
+                                <div class="form-group">
                                     <label for="Email">Email</label>
                                     <input name="Email" class="form-control" type="text" placeholder="Enter Email">
                                 </div>
-                                <div class="form-group px-md-4">
+                                <div class="form-group">
                                     <label for="Phone">Phone number</label>
                                     <div class="d-flex">
                                         <select name="country-code" class="w-25 mr-2 form-control">
@@ -200,23 +200,27 @@
                                             placeholder="Enter Phone Number">
                                     </div>
                                 </div>
-                                <div class="form-group px-md-4">
+                                <div class="form-group">
                                     <div class="d-flex ml-0 align-items-center pl-0">
-                                        <input type="checkbox" name="notifications"> <label class="ml-2 mb-0" for="notifications">Receive notifications</label>
-                                    
+                                        <input type="checkbox" name="notifications"> <label class="ml-2 mb-0"
+                                            for="notifications">Receive notifications</label>
+
                                     </div>
                                     <p class="text-muted">
                                         Get connected on WhatsApp
                                     </p>
-                                    
+
                                 </div>
-                                <div class="form-group px-md-4">
+                                <div class="form-group">
                                     <div class="d-flex ml-0 align-items-center pl-0">
-                                    <input type="checkbox" name="notifications"> <label class="ml-2 mb-0" for="notifications">I agree to <a href="#">Terms and Conditions</a></label>
+                                        <input type="checkbox" name="notifications"> <label class="ml-2 mb-0"
+                                            for="notifications">I agree to <a href="#">Terms and Conditions</a></label>
                                     </div>
                                 </div>
-                                <div class="form-group px-md-4 d-flex justify-content-center">
-                                    <input type="submit " class="btn mt-5 text-center btn-primary btn-accent text-white btn-hover-text-action" value="Book a test ride">
+                                <div class="form-group d-flex justify-content-center">
+                                    <input type="submit"
+                                        class="btn mt-5 text-center btn-primary btn-accent text-white btn-hover-text-action"
+                                        value="Book a test ride">
                                 </div>
                             </form>
                         </div>
@@ -231,20 +235,41 @@
         <section class="how-it-works-section">
             <div class="container">
                 <div class="shrink-section">
-                    <div class="row text-center">
+                    <div class="row">
                         <div class="col-12">
-                            <h4 class="large-heading fs--3rem">
+                            <h4 class="large-heading text-center fs--3rem">
                                 How does it works?
                             </h4>
                         </div>
                         <div class="col-md-4">
-                            Enter details
+                            <div class="icon-with-heading d-flex">
+                                <h1 class="large-heading mr-3 pr-2"><span>1</span></h1>
+                                <div class="content-right-side">
+                                    <h6 class="mb-1 mt-2">Enter your details</h6>
+                                    <p>To kick start the process, kindly share some information. Don't forget to
+                                        complete the required fields (marked with *).</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-4">
-                            Enter details
+                            <div class="icon-with-heading d-flex">
+                                <h1 class="large-heading mr-3 pr-2"><span>2</span></h1>
+                                <div class="content-right-side">
+                                    <h6 class="mb-1 mt-2">Confirm, date, time & location</h6>
+                                    <p>Our team will contact you within 24 to 48 hours to confirm the date, time, and
+                                        location.</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-4">
-                            Enter details
+                            <div class="icon-with-heading d-flex">
+                                <h1 class="large-heading mr-3 pr-2"><span>3</span></h1>
+                                <div class="content-right-side">
+                                    <h6 class="mb-1 mt-2">Test ride</h6>
+                                    <p>Save the date and join us at the specified location confirmed by you to
+                                        experience the future of mobility in action.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -265,10 +290,10 @@
                                 </div>
                                 <div class="widget-contet">
                                     <img src="../images/new/WAYONAA-white-logo.png" class="footer-logo" alt="">
-                                    <p>Wayonaa, founded in August 2021, is a privately held company based in Surat,
-                                        Gujarat. Initially focusing on imported electric vehicles, the company quickly
-                                        gained market acceptance. Building on this success, Wayonaa expanded its sales
-                                        network across different regions of the state, selling over 1200 units to date.
+                                    <p>Wayona, where we transcend the ordinary e-bike label. We are a collective of
+                                        driven individuals on a mission to redefine how we commute. With our unwavering
+                                        focus on innovation and excellence, we've crafted exceptional e-bikes that
+                                        embody our unwavering commitment to revolutionise the mobility landscape.
                                     </p>
                                 </div>
                             </div>
@@ -358,7 +383,8 @@
         crossorigin="anonymous"></script>
     <script src="https://sacredthemes.net/wheels/js/cascading-select.js"></script>
     <script src="https://sacredthemes.net/wheels/js/owl.carousel.min.js"></script>
-    <script src="https://sacredthemes.net/wheels/js/onpagescroll.js"></script>
+    <!-- <script src="https://sacredthemes.net/wheels/js/onpagescroll.js"></script> -->
+    <script src="../../js/onpagescroll.js"></script>
     <script src="https://sacredthemes.net/wheels/js/wow.min.js"></script>
     <script src="https://sacredthemes.net/wheels/js/fancybox/jquery.fancybox.min.js"></script>
 
@@ -366,19 +392,25 @@
     <script src="../../js/theme.js"></script>
 
     <!-- My Custom -->
-    <script src="../../js/custom.js"></script>
-    <script>
+    <!-- <script src="../../js/custom.js"></script> -->
+
+    <!-- <script>
         document.addEventListener('DOMContentLoaded', function () {
             var hrefAstino = document.getElementById('astino-path');
             var hrefGOne = document.getElementById('model-g-one-path');
             var hrefGLite = document.getElementById('model-g-lite-path');
             var hrefAbout = document.getElementById('about-path');
+            var hrefDealer = document.getElementById('dealer-path');
+            var hrefBecomeADealer = document.getElementById('become-a-dealer-path');
+
+            hrefBecomeADealer.setAttribute('href', 'become-a-dealer.html');
+            hrefDealer.setAttribute('href', 'dealer.html');
             hrefAbout.setAttribute('href', 'about.html');
             hrefAstino.setAttribute('href', 'astino.html');
             hrefGOne.setAttribute('href', 'g-one.html');
             hrefGLite.setAttribute('href', 'g-lite.html');
         }, false);
-    </script>
+    </script> -->
 </body>
 
 </html>
