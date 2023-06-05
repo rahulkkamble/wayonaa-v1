@@ -4935,3 +4935,7 @@ section.began {
 #bookingModal .booking-section .img-over-the-div {
     left: 0;
 }
+
+.contactus-info-list{
+    list-style: none;
+}
