@@ -1,40 +1,27 @@
-// Get the dropdown element and the tab pane container
-var dropdown = document.getElementById("dropdown-models");
-var tabPane = document.getElementById("tab-pane");
-
-// Add an event listener to the dropdown change event
-dropdown.addEventListener("change", function () {
-  // Get the selected value from the dropdown
-  var value = dropdown.value;
-  console.log(value);
-
-  // Hide all the tab panes
-  var tabPanes = document.getElementsByClassName("tab-pane-model");
-  for (var i = 0; i < tabPanes.length; i++) {
-    tabPanes[i].style.display = "none";
-  }
-
-  // Show the tab pane that matches the selected value
-  var selectedTabPane = document.getElementById(value);
-  if (selectedTabPane) {
-    selectedTabPane.style.display = "block";
-  }
-});
-
-
 // ** REVEAL ANIMATIONS FOR 
 document.addEventListener('DOMContentLoaded', function () {
   ScrollReveal().reveal('#hero-bg-1', { delay: 1000, duration: 1000, opacity: 0, distance: "10%", origin: "left" });    /* easing: 'ease-in-out', */
-  ScrollReveal().reveal('#hero-bg-2, #bike-bg-2', { delay: 1200, duration: 1000, opacity: 0, distance: "5%", origin: "right" });   /* easing: 'ease-in-out', */
-  ScrollReveal().reveal('#about, #home .banner-content', { delay: 1000, duration: 1000, opacity: 0, distance: "40%", origin: "bottom" });   /* easing: 'ease-in-out', */
-  ScrollReveal().reveal('#about .img-wrapper, #about .text-block, #about .btn-wrapper, #model-g .heading-wrapper', {
+  ScrollReveal().reveal('#banner-bg-1, #banner-bg-2, #model-g-home .banner-content', { delay: 900, duration: 1600, opacity: 0, distance: "10%", origin: "bottom" });    /* easing: 'ease-in-out', */
+  ScrollReveal().reveal('#hero-bg-2, #bike-bg-2, #banner-bg-3, .img-wrapper-about-page', { delay: 1200, duration: 1000, opacity: 0, distance: "5%", origin: "right" });   /* easing: 'ease-in-out', */
+  ScrollReveal().reveal('#about, #home .banner-content', { delay: 800, duration: 1000, opacity: 0, distance: "40%", origin: "bottom" });   /* easing: 'ease-in-out', */
+  ScrollReveal().reveal('.img-wrapper, .text-block, .btn-wrapper, .heading-wrapper, .icon-with-heading, #g-one-model-g, #g-lite-model-g', {
     delay: 300, duration: 1000, opacity: 0, distance: "60%", origin: "bottom",
   });
-  ScrollReveal().reveal('#model-g .animation-p', { delay: 100, duration: 1000, opacity: 0, distance: "40%", origin: "bottom" });   /* easing: 'ease-in-out', */
+  
   ScrollReveal().reveal('.intro-cards .intro-card-1, .award-logo-1', { delay: 100, duration: 1000, opacity: 0, distance: "30%", origin: "bottom" });    /* easing: 'ease-in-out', */
   ScrollReveal().reveal('.intro-cards .intro-card-2, .award-logo-2', { delay: 300, duration: 1500, opacity: 0, distance: "40%", origin: "bottom" });    /* easing: 'ease-in-out', */
   ScrollReveal().reveal('.intro-cards .intro-card-3, .award-logo-3', { delay: 500, duration: 2000, opacity: 0, distance: "50%", origin: "bottom" });    /* easing: 'ease-in-out', */
-  ScrollReveal().reveal('#astino-banner .large-heading, #astino-banner p, #feature .heading-wrapper, #variation .heading-wrapper, #usp .large-heading, #dealer .heading-wrapper', { delay: 200, duration: 1000, opacity: 0, distance: "40%", origin: "bottom" });    /* easing: 'ease-in-out', */
   // ScrollReveal().reveal('#about .text-block',{delay: 300, duration: 1000, opacity: 0, distance: "50%", origin: "bottom", reset: true});
+  ScrollReveal().reveal('#astino-banner .large-heading, #astino-banner p, #feature .heading-wrapper, #variation .heading-wrapper, #usp .large-heading, #dealer .heading-wrapper, .large-heading, #model-g .animation-p', 
+  { delay: 200, duration: 1000, opacity: 0, distance: "40%", origin: "bottom" });    /* easing: 'ease-in-out', */
+
+  ScrollReveal().reveal('.persons-info, .breadcrumb, .card-map-section .card, .mapouter, .btn', {
+    delay: 200, duration: 1000, opacity: 0, distance: "40%", origin: "bottom", useDelay: 'always' 
+  });
+
+  // scale to 0
+  ScrollReveal().reveal('.banner-dealer', {
+    delay: 500, duration: 500, opacity: 0.3, scale: 0.85
+  })
 }, true);
 

@@ -41,6 +41,9 @@
     <link rel="stylesheet" href="../../css/style.css" type="text/css" />
     <link rel="stylesheet" href="../../css/responsive.css" type="text/css" />
 
+    <!-- scroll-reveal -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
 </head>
 
 <body>
@@ -76,19 +79,19 @@
                             <ul class="main-menu">
                                 <li><a href="#feature">Models</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#" id="model-g-one-path">G-One</a></li>
-                                        <li><a href="#" id="model-g-lite-path">G-Lite</a></li>
-                                        <li><a href="#" id="astino-path">Astino</a></li>
+                                        <li><a href="./g-one.html" class="redirect">G-One</a></li>
+                                        <li><a href="./g-lite.html" class="redirect">G-Lite</a></li>
+                                        <li><a href="./astino.html" class="redirect">Astino</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#" id="about-path">About Us</a></li>
+                                <li><a href="./about.html" class="redirect">About Us</a></li>
                                 <li><a href="#dealer">Dealer</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#" id="dealer-path">Locate Dealer</a></li>
-                                        <li><a href="#" id="become-a-dealer-path">Become a Dealer</a></li>
+                                        <li><a href="./dealer.html" class="redirect">Locate Dealer</a></li>
+                                        <li><a href="./become-a-dealer.html" class="redirect">Become a Dealer</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#footer-section">Contact Us</a></li>
+                                <li><a href="./contact-us.html" class="redirect">Contact Us</a></li>
                                 <li><a href="#capability">Media</a>
                                     <ul class="sub-menu">
                                         <li><a href="#capability">News</a></li>
@@ -250,7 +253,7 @@
             </section>
             <!-- section begin ends -->
             <!-- About Section Start -->
-            <section id="about" class="design-section">
+            <section id="vision-section" class="design-section">
                 <div class="container">
                     <div class="row align-items-cen">
                         <div class="col-lg-5" style="height: 360px;">
@@ -615,18 +618,18 @@
             <!-- section Squad End-->
 
             <!-- Ready to Make?? -->
-            <section id="about" class="design-section bg-white pb-0 mb-0">
+            <section id="about-about" class="design-section bg-white pb-0 mb-0">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-7 bg-white pt-3 pb-3 rounded border-0">
                             <div class="heading-wrapper">
                                 <h2 class="large-heading text-uppercase">Ready to Make a Difference?</h2>
                                 <h4 class="large-heading text-uppercase fs--40 font-italic text--main">join us now.</h4>
-                                <a class="btn mt-2 btn-primary" href="./about.html">Career opportunities</a>
+                                <a class="btn mt-2 btn-primary" href="./contact-us.html">Career opportunities</a>
                             </div>
                         </div>
                         <div class="col-lg-5">
-                            <div class="img-wrapper rect-image">
+                            <div class="img-wrapper-about-page rect-image">
                                 <img src="../images/about-new/Ready to make a difference.webp" alt="">
                             </div>
                         </div>
@@ -743,7 +746,7 @@
         crossorigin="anonymous"></script>
     <script src="https://sacredthemes.net/wheels/js/cascading-select.js"></script>
     <script src="https://sacredthemes.net/wheels/js/owl.carousel.min.js"></script>
-    <script src="https://sacredthemes.net/wheels/js/onpagescroll.js"></script>
+    <script src="../../js/onpagescroll.js"></script>
     <script src="https://sacredthemes.net/wheels/js/wow.min.js"></script>
     <script src="https://sacredthemes.net/wheels/js/fancybox/jquery.fancybox.min.js"></script>
 
@@ -752,23 +755,6 @@
 
     <!-- My Custom -->
     <script src="../../js/custom.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var hrefGOne = document.getElementById('model-g-one-path');
-            var hrefGLite = document.getElementById('model-g-lite-path');
-            var hrefAstino = document.getElementById('astino-path');
-            var hrefDealer = document.getElementById('dealer-path');
-            var hrefBecomeADealer = document.getElementById('become-a-dealer-path');
-            // var hrefAbout = document.getElementById('about-path');
-            // hrefAbout.setAttribute('href', 'about.html');
-            hrefBecomeADealer.setAttribute('href', 'become-a-dealer.html');
-            hrefDealer.setAttribute('href', 'dealer.html');
-            hrefGOne.setAttribute('href', 'g-one.html');
-            hrefGLite.setAttribute('href', 'g-lite.html');
-            hrefAstino.setAttribute('href', 'astino.html');
-        }, false);
-
-    </script>
 </body>
 
 </html>

@@ -40,6 +40,9 @@
     <!-- Theme CSS -->
     <link rel="stylesheet" href="../../css/style.css" type="text/css" />
     <link rel="stylesheet" href="../../css/responsive.css" type="text/css" />
+    <!-- scroll-reveal -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
 
 </head>
 
@@ -76,18 +79,18 @@
                             <ul class="main-menu">
                                 <li><a href="#feature">Models</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#" id="model-g-lite-path">G-Lite</a></li>
-                                        <li><a href="#" id="astino-path">Astino</a></li>
+                                        <li><a href="./g-lite.html" class="redirect">G-Lite</a></li>
+                                        <li><a href="./astino.html" class="redirect">Astino</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#" id="about-path">About Us</a></li>
+                                <li><a href="./about.html" class="redirect">About Us</a></li>
                                 <li><a href="#dealer">Dealer</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#" id="dealer-path">Locate Dealer</a></li>
-                                        <li><a href="#" id="become-a-dealer-path">Become a Dealer</a></li>
+                                        <li><a href="./dealer.html" class="redirect">Locate Dealer</a></li>
+                                        <li><a href="./become-a-dealer.html" class="redirect">Become a Dealer</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#footer-section">Contact Us</a></li>
+                                <li><a href="./contact-us.html" class="redirect">Contact Us</a></li>
                                 <li><a href="#capability">Media</a>
                                     <ul class="sub-menu">
                                         <li><a href="#capability">News</a></li>
@@ -587,7 +590,7 @@
         crossorigin="anonymous"></script>
     <script src="https://sacredthemes.net/wheels/js/cascading-select.js"></script>
     <script src="https://sacredthemes.net/wheels/js/owl.carousel.min.js"></script>
-    <script src="https://sacredthemes.net/wheels/js/onpagescroll.js"></script>
+    <script src="../../js/onpagescroll.js"></script>
     <script src="https://sacredthemes.net/wheels/js/wow.min.js"></script>
     <script src="https://sacredthemes.net/wheels/js/fancybox/jquery.fancybox.min.js"></script>
 
@@ -596,21 +599,6 @@
 
     <!-- My Custom -->
     <script src="../../js/custom.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var hrefGLite = document.getElementById('model-g-lite-path');
-            var hrefAbout = document.getElementById('about-path');
-            var hrefAstino = document.getElementById('astino-path');
-            var hrefDealer = document.getElementById('dealer-path');
-            var hrefBecomeADealer = document.getElementById('become-a-dealer-path');
-            hrefDealer.setAttribute('href','dealer.html');
-            hrefBecomeADealer.setAttribute('href','become-a-dealer.html');
-            hrefAbout.setAttribute('href','about.html');
-            hrefGLite.setAttribute('href', 'g-lite.html');
-            console.log('model-G loaded');
-        }, false);
-
-    </script>
 </body>
 
 </html>

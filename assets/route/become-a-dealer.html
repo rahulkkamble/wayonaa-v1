@@ -40,26 +40,9 @@
     <!-- Theme CSS -->
     <link rel="stylesheet" href="../../css/style.css" type="text/css" />
     <link rel="stylesheet" href="../../css/responsive.css" type="text/css" />
-
-    <style>
-        .mapouter {
-            position: relative;
-            text-align: right;
-            width: 100%;
-            height: 750px;
-        }
-
-        .gmap_canvas {
-            overflow: hidden;
-            background: none !important;
-            width: 100%;
-            height: 750px;
-        }
-
-        .gmap_iframe {
-            height: 750px !important;
-        }
-    </style>
+    
+    <!-- scroll-reveal -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 
 <body>
@@ -95,19 +78,19 @@
                             <ul class="main-menu">
                                 <li><a href="#feature">Models</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#" id="model-g-one-path">G-One</a></li>
-                                        <li><a href="#" id="model-g-lite-path">G-Lite</a></li>
-                                        <li><a href="#astino-banner" id="astino-path">Astino</a></li>
+                                        <li><a href="./g-one.html" class="redirect">G-One</a></li>
+                                        <li><a href="./g-lite.html" class="redirect">G-Lite</a></li>
+                                        <li><a href="./astino.html" class="redirect">Astino</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#about" id="about-path">About Us</a></li>
+                                <li><a href="./about.html" class="redirect">About Us</a></li>
                                 <li><a href="#dealer">Dealer</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#" id="dealer-path">Locate Dealer</a></li>
-                                        <li><a href="#" id="become-a-dealer-path">Become a Dealer</a></li>
+                                        <li><a href="./dealer.html" class="redirect">Locate Dealer</a></li>
+                                        <li><a href="./become-a-dealer.html" class="redirect">Become a Dealer</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#footer-section">Contact Us</a></li>
+                                <li><a href="./contact-us.html" class="redirect">Contact Us</a></li>
                                 <li><a href="#capability">Media</a>
                                     <ul class="sub-menu">
                                         <li><a href="#capability">News</a></li>
@@ -264,7 +247,7 @@
             <!-- Our customers section end -->
 
             <!-- Ready to Make?? -->
-            <section id="about" class="design-section become-a-dealer-cta pb-0 mb-0 bg-white">
+            <section id="CTA-become-a-dealer-page" class="design-section become-a-dealer-cta pb-0 mb-0 bg-white">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-7 bg-white py-5 rounded border-0">
@@ -392,7 +375,7 @@
         crossorigin="anonymous"></script>
     <script src="https://sacredthemes.net/wheels/js/cascading-select.js"></script>
     <script src="https://sacredthemes.net/wheels/js/owl.carousel.min.js"></script>
-    <script src="https://sacredthemes.net/wheels/js/onpagescroll.js"></script>
+    <script src="../../js/onpagescroll.js"></script>
     <script src="https://sacredthemes.net/wheels/js/wow.min.js"></script>
     <script src="https://sacredthemes.net/wheels/js/fancybox/jquery.fancybox.min.js"></script>
 
@@ -401,21 +384,6 @@
 
     <!-- My Custom -->
     <script src="../../js/custom.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var hrefAbout = document.getElementById('about-path');
-            var hrefGOne = document.getElementById('model-g-one-path');
-            var hrefGLite = document.getElementById('model-g-lite-path');
-            var hrefDealer = document.getElementById('dealer-path');
-            var hrefBecomeADealer = document.getElementById('become-a-dealer-path');
-            hrefAbout.setAttribute('href', 'about.html');
-            hrefGOne.setAttribute('href', 'g-one.html');
-            hrefGLite.setAttribute('href', 'g-lite.html');
-            hrefDealer.setAttribute('href', 'dealer.html');
-            hrefBecomeADealer.setAttribute('href', 'become-a-dealer.html');
-        }, false);
-
-    </script>
 </body>
 
 </html>
