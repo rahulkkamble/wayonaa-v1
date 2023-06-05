@@ -237,7 +237,7 @@
                                             <div class="content-with-logo my-2 d-flex align-items-center">
                                                 <a href="#" class="mt-2 line-height-1">View more</a>
                                             </div>
-                                            <button class="btn fs--14 mt-md-3">Book an appointment</button>
+                                            <button class="btn fs--14 mt-md-3" data-toggle="modal" data-target="#bookingModal">Book an appointment</button>
                                         </div>
                                     </div>
                                 </div>
@@ -276,7 +276,7 @@
                                             <div class="content-with-logo my-2 d-flex align-items-center">
                                                 <a href="#" class="mt-2 line-height-1">View more</a>
                                             </div>
-                                            <button class="btn fs--14 mt-md-3">Book an appointment</button>
+                                            <button class="btn fs--14 mt-md-3" data-toggle="modal" data-target="#bookingModal">Book an appointment</button>
                                         </div>
                                     </div>
                                 </div>
@@ -417,6 +417,120 @@
             </div>
         </footer>
         <!--footer end-->
+
+        <!-- Booking Modal -->
+
+        <!-- The Modal -->
+<div class="modal fade" id="bookingModal">
+    <div class="modal-dialog modal-xlg">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header border-0">
+          <!-- <h4 class="modal-title">Modal Heading</h4> -->
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body border-0">
+            <section class="booking-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 contain-img col-12">
+                            <img src="../images/book-a-test-ride/Group-4.webp" alt="" class="img-over-the-div">
+                        </div>
+                        <div class="col-md-5 offset-md-7 col-12">
+                            <h4 class="text-uppercase large-heading fs--3rem">
+                                Book a test ride
+                            </h4>
+                            <form action="./about.html">
+                                <div class="form-group">
+                                    <label for="city">City</label>
+                                    <select name="city" class="form-control">
+                                        <option value="">Select City</option>
+                                        <option value="city 1">City 1</option>
+                                        <option value="city 2">City 2</option>
+                                        <option value="city 3">City 3</option>
+                                        <option value="city 4">City 4</option>
+                                        <option value="city 5">City 5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="city">Dealer</label>
+                                    <select name="city" class="form-control">
+                                        <option value="">Select Dealer</option>
+                                        <option value="city 1">Dealer 1</option>
+                                        <option value="city 2">Dealer 2</option>
+                                        <option value="city 3">Dealer 3</option>
+                                        <option value="city 4">Dealer 4</option>
+                                        <option value="city 5">Dealer 5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="First-Name">First Name</label>
+                                    <input name="First-Name" class="form-control" type="text"
+                                        placeholder="Enter First Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Last-Name">Last Name</label>
+                                    <input name="Last-Name" class="form-control" type="text"
+                                        placeholder="Enter Last Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email">Email</label>
+                                    <input name="Email" class="form-control" type="text" placeholder="Enter Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Phone">Phone number</label>
+                                    <div class="d-flex">
+                                        <select name="country-code" class="w-25 mr-2 form-control">
+                                            <option value="+91">+91</option>
+                                            <option value="+1">+1</option>
+                                            <option value="+2">+2</option>
+                                            <option value="+3">+3</option>
+                                            <option value="+4">+4</option>
+                                            <option value="+5">+5</option>
+                                        </select>
+                                        <input name="Phone" class="form-control" type="text"
+                                            placeholder="Enter Phone Number">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="d-flex ml-0 align-items-center pl-0">
+                                        <input type="checkbox" name="notifications"> <label class="ml-2 mb-0"
+                                            for="notifications">Receive notifications</label>
+
+                                    </div>
+                                    <p class="text-muted">
+                                        Get connected on WhatsApp
+                                    </p>
+
+                                </div>
+                                <div class="form-group">
+                                    <div class="d-flex ml-0 align-items-center pl-0">
+                                        <input type="checkbox" name="notifications"> <label class="ml-2 mb-0"
+                                            for="notifications">I agree to <a href="#">Terms and Conditions</a></label>
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex justify-content-center">
+                                    <input type="submit"
+                                        class="btn mt-5 text-center btn-primary btn-accent text-white btn-hover-text-action"
+                                        value="Book a test ride">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+  
+      </div>
+    </div>
+  </div>
+
+        <!-- Booking Modal end -->
+
     </div>
     <!--Main Wrapper End-->
     <!-- Vendor -->

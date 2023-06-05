@@ -4687,12 +4687,13 @@ section.began {
     height: 440px;
     width: 500px;
 }
+
 .rect-image-2 {
     height: 400px;
     width: 550px;
 }
 
-.rect-image-2 img{
+.rect-image-2 img {
     height: 80%;
     width: 100%;
     object-fit: cover;
@@ -4847,6 +4848,7 @@ section.began {
     object-fit: contain;
     margin-top: 80px;
 }
+
 .banner-become-a-dealer {
     background: url('../assets/images/become-a-dealer/topbanner.webp');
     height: 400px;
@@ -4858,13 +4860,14 @@ section.began {
 }
 
 .store-img {
-    max-width: 320px;
+    /* max-width: 320px; */
     max-height: 300px;
 }
 
 .store-img img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
     border-radius: 20px;
 }
 
@@ -4887,11 +4890,11 @@ section.began {
     text-decoration: underline !important;
 }
 
-.become-a-dealer-right-img{
+.become-a-dealer-right-img {
     width: 85%;
 }
 
-.become-a-dealer-cta .bg-right{
+.become-a-dealer-cta .bg-right {
     background: url('../assets/images/temp/Scooties.png');
     object-fit: cover;
     background-repeat: no-repeat;
@@ -4907,7 +4910,7 @@ section.began {
 /* Book a test ride */
 /* Book a test ride */
 
-.booking-section .img-over-the-div{
+.booking-section .img-over-the-div {
     position: absolute;
     z-index: 1;
     top: 0;
@@ -4915,6 +4918,14 @@ section.began {
     right: 0;
 }
 
-.how-it-works-section{
+.how-it-works-section {
     padding-bottom: 60px;
+}
+
+#bookingModal .modal-dialog.modal-xlg {
+    max-width: 1300px;
+}
+
+#bookingModal .booking-section .img-over-the-div {
+    left: 0;
 }
