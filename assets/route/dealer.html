@@ -95,19 +95,19 @@
                             <ul class="main-menu">
                                 <li><a href="#feature">Models</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#" id="model-g-one-path">G-One</a></li>
-                                        <li><a href="#" id="model-g-lite-path">G-Lite</a></li>
-                                        <li><a href="#astino-banner" id="astino-path">Astino</a></li>
+                                        <li><a href="#" id="model-g-one-path" class="redirect">G-One</a></li>
+                                        <li><a href="#" id="model-g-lite-path" class="redirect">G-Lite</a></li>
+                                        <li><a href="#astino-banner" id="astino-path" class="redirect">Astino</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#" id="about-path">About Us</a></li>
+                                <li><a href="#" id="about-path" class="redirect">About Us</a></li>
                                 <li><a href="#dealer">Dealer</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#">Locate Dealer</a></li>
-                                        <li><a href="#">Become a Dealer</a></li>
+                                        <li><a href="#" class="redirect">Locate Dealer</a></li>
+                                        <li><a href="#" class="redirect">Become a Dealer</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#footer-section">Contact Us</a></li>
+                                <li><a href="#footer-section" class="redirect">Contact Us</a></li>
                                 <li><a href="#capability">Media</a>
                                     <ul class="sub-menu">
                                         <li><a href="#capability">News</a></li>
@@ -540,7 +540,7 @@
         crossorigin="anonymous"></script>
     <script src="https://sacredthemes.net/wheels/js/cascading-select.js"></script>
     <script src="https://sacredthemes.net/wheels/js/owl.carousel.min.js"></script>
-    <script src="https://sacredthemes.net/wheels/js/onpagescroll.js"></script>
+    <script src="../../js/onpagescroll.js"></script>
     <script src="https://sacredthemes.net/wheels/js/wow.min.js"></script>
     <script src="https://sacredthemes.net/wheels/js/fancybox/jquery.fancybox.min.js"></script>
 
@@ -549,18 +549,7 @@
 
     <!-- My Custom -->
     <script src="../../js/custom.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var hrefAstino= document.getElementById('astino-path');
-            var hrefGOne = document.getElementById('model-g-one-path');
-            var hrefGLite = document.getElementById('model-g-lite-path');
-            var hrefAbout = document.getElementById('about-path');
-            hrefAbout.setAttribute('href', 'about.html');
-            hrefAstino.setAttribute('href', 'astino.html');
-            hrefGOne.setAttribute('href', 'g-one.html');
-            hrefGLite.setAttribute('href', 'g-lite.html');
-        }, false);
-    </script>
+    
 </body>
 
 </html>
