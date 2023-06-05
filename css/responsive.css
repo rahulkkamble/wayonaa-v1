@@ -236,8 +236,21 @@
 	.bus-layout.testimonial-wrapper .quote-text{line-height: 1.4; font-size: 18px;}
 	.rect-image {width: 320px; margin: auto;}
 	h2.shadow-vertical-bottom::after{top: 1.4rem;}
-	.booking-section .contain-img{height: 50vh;}
+	.booking-section .contain-img{height: 100vw;}
 	.booking-section .img-over-the-div{left: 0;}
+
+	.text-md-action{color: var(--heading-color) !important;}
+	.text-md-white{color: #fff !important;}
+	.text-md-main{color: var(--main-color) !important;}
+
+	#about.design-section{padding-top: 20px !important;}
+	#banner-bg-3, #banner-bg-lite-3{background-position: 100% 100%; background-size: 100%;}
+	.rect-image-2 img{left: 0;}
+	.rect-image-lite img{height: 60%; margin-top: 90px;}
+	.image-wrapper-awards.on-astino-page{right:0; margin-top: 1.5rem;}
+	.rect-image{height: auto;}
+	.banner-dealer, .banner-become-a-dealer{background-size: cover;}
+	.become-a-dealer-cta .bg-white.rounded{height: 540px;}
 
 
 }

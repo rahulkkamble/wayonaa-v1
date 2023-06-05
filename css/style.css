@@ -4040,7 +4040,7 @@ h2.large-heading>span.only-text-main {
 
 @media screen and (max-width: 574px) {
     .astino-section {
-        height: 70vh;
+        height: 80vh;
     }
 
     .astino-section .banner-content .text-lead {
@@ -4061,6 +4061,12 @@ h2.large-heading>span.only-text-main {
 
     .banner-content a.btn-accent {
         margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .astino-section {
+        height: 70vh;
     }
 }
 
@@ -4352,6 +4358,7 @@ h2.large-heading>span.only-text-main {
     margin: .25rem;
     width: 100%;
 }
+
 .image-wrapper-awards img {
     height: 100%;
     margin-right: 1rem;
@@ -4723,11 +4730,11 @@ section.began {
     width: 10rem;
 }
 
-/* MODEL - G page scripts */
-/* MODEL - G page scripts */
-/* MODEL - G page scripts */
-/* MODEL - G page scripts */
-/* MODEL - G page scripts */
+/* MODEL - G page Styles */
+/* MODEL - G page Styles */
+/* MODEL - G page Styles */
+/* MODEL - G page Styles */
+/* MODEL - G page Styles */
 
 #model-g-home .section-background {
     /* transform: skewY(-3deg); */
@@ -4735,8 +4742,25 @@ section.began {
     /* border-bottom: 10px solid var(--action-color); */
 }
 
+#banner-bg-1 {
+    background-image: url('../assets/images/model-g/road.webp');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
 #banner-bg-2 {
-    /* start from here 7.12pm */
+    background-image: url('../assets/images/model-g/eRectangle-4.webp');
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100%;
+}
+
+#banner-bg-3 {
+    background-image: url('../assets/images/model-g/g-one/g-one-orange-rtl.webp');
+    background-repeat: no-repeat;
+    background-position: 85% 85%;
+    background-size: 50%;
 }
 
 /* section.dream-ride-section{
@@ -4840,6 +4864,33 @@ section.began {
     transform: scale(1.05);
 }
 
+/* G - Lite */
+/* G - Lite */
+/* G - Lite */
+/* G - Lite */
+/* G - Lite */
+
+#banner-bg-lite-1 {
+    background-image: url('../assets/images/model-g/road.webp');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+#banner-bg-lite-3 {
+    background-image: url('../assets/images/model-g/scooty.webp');
+    background-repeat: no-repeat;
+    background-position: 85% 85%;
+    background-size: 50%;
+}
+
+#banner-bg-lite-2 {
+    background-image: url('../assets/images/model-g/eRectangle-4.webp');
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100%;
+}
+
 /* D E A L E R PAGE */
 /* D E A L E R PAGE */
 /* D E A L E R PAGE */
@@ -4936,6 +4987,6 @@ section.began {
     left: 0;
 }
 
-.contactus-info-list{
+.contactus-info-list {
     list-style: none;
 }
