@@ -275,6 +275,9 @@
 	.tab-content .overlay-2, .tab-content .overlay-3{bottom: .1rem;}
 	.tab-content .img-overlay.overlay-1{bottom: .23rem; transform: scale(0.876);}
 	#squad .shrink-section{    margin: auto; max-width: 90% !important; width: 90% !important;}
+	.text-sm-action{color: var(--heading-color) !important;}
+	.text-sm-white{color: #fff !important;}
+	.text-sm-main{color: var(--main-color) !important;}
 }
 @media only screen and (max-width:574px) {
 	.fs--3rem{font-size: 2rem !important;}

@@ -4042,7 +4042,7 @@ h2.large-heading>span.only-text-main {
 }
 
 .astino-section {
-    height: 100vh;
+    height: 680px;
 }
 
 .astino-section .background-inner {
@@ -4400,6 +4400,10 @@ h2.large-heading>span.only-text-main {
 }
 
 /* banner update */
+#hero-bg-3{
+    overflow: hidden;
+}
+
 .bg-inner-left-black {
     background-image: url('../assets/images/new/new-home-banner/Rectangle-12.webp');
     background-repeat: no-repeat;
