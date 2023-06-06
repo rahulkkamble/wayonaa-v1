@@ -1391,6 +1391,10 @@ section#home {
     padding: 80px 0 0px 0;
 }
 
+#home.hero-section{
+    height: 758px;
+}
+
 .section-background {
     position: absolute;
     top: 0;
@@ -1416,13 +1420,13 @@ section#home {
 }
 
 #hero-bg-1.background-inner {
-    bottom: 10vh;
+    bottom: 80px;
     background-image: url('../assets/images/new/new-home-banner/banner-bg.webp');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     visibility: visible;
-    margin-top: 90px;
+    margin-top: 80px;
 }
 
 .section-background .background-wrapper .background-inner {
@@ -4060,7 +4064,7 @@ h2.large-heading>span.only-text-main {
     }
 
     .banner-content a.btn-accent {
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
 }
 
@@ -4386,37 +4390,27 @@ h2.large-heading>span.only-text-main {
 .bg-inner-left-black {
     background-image: url('../assets/images/new/new-home-banner/Rectangle-12.webp');
     background-repeat: no-repeat;
-    /* background-position: -70% 20%;
-    background-size: 75%; */
-    height: 90vh;
+    height: 680px;
 }
 
 #shape-big-1 {
     background-image: url('../assets/images/new/new-home-banner/shape4-big.webp');
-    /* background-position: 6.5% -20%;
-    background-size: 9%; */
     background-repeat: no-repeat;
 }
 
 #shape-small-1 {
     background-image: url('../assets/images/new/new-home-banner/shape4-little.webp');
-    /* background-position: 55.2% 6%;
-    background-size: 3%; */
     background-repeat: no-repeat;
 }
 
 #shape-big-2 {
     background-image: url('../assets/images/new/new-home-banner/shape4-big.webp');
-    /* background-position: 44% 125%;
-    background-size: 9%; */
     transform: skewX(2deg);
     background-repeat: no-repeat;
 }
 
 #shape-big-3 {
     background-image: url('../assets/images/new/new-home-banner/shape4-big.webp');
-    /* background-position: 104.4% 125%;
-    background-size: 9%; */
     transform: skewX(2deg);
     background-repeat: no-repeat;
 }
@@ -4429,7 +4423,7 @@ h2.large-heading>span.only-text-main {
     background-size: 53%;
 }
 
-@media screen and (min-width: 1500px) {
+/* @media screen and (min-width: 1500px) {
     .bg-inner-left-black {
         background-position: -109% 16%;
         background-size: 80%;
@@ -4455,13 +4449,13 @@ h2.large-heading>span.only-text-main {
         background-position: 104.3% 122%;
         background-size: 9%;
     }
-}
+} */
 
 @media screen and (min-width: 1360px) {
     .bg-inner-left-black {
         background-position: -44% 16%;
         background-size: 65%;
-        height: 90vh;
+        height: 680px;
     }
 
     #shape-big-1 {
