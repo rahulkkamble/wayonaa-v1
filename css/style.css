@@ -4056,9 +4056,6 @@ h2.large-heading>span.only-text-main {
 }
 
 @media screen and (max-width: 574px) {
-    .astino-section {
-        height: 110vw;
-    }
 
     .astino-section .banner-content .text-lead {
         margin-right: auto;
@@ -5001,3 +4998,4 @@ section.began {
 .contactus-info-list {
     list-style: none;
 }
+

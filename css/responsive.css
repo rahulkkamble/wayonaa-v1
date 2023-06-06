@@ -75,6 +75,8 @@
 	.hero-section.racing-car .animation-text{font-size: 8.5em;}
 	.racing-car-animation{max-width:850px; }
 	h2.shadow-vertical-bottom::after{top: 2rem;}
+	.image-wrapper-awards{right: 0;}
+	.astino-section {height: 780px;}
 }
 @media only screen and (max-width: 991px) {
 	.logo{padding-top:15px; padding-bottom:15px; z-index: 100;}
@@ -291,6 +293,7 @@
 	.engine-specifications{flex-wrap: wrap;}
 	.engine-specifications li{flex: 0 0 100%; max-width:100%;}
 	.speed-features .item{flex:0 0 100%; }
+	.subsidy-banner img.img-fluid{object-fit: cover; min-height: 360px; object-position: left;}
 }
 @media only screen and (max-width: 479px) {
 	.column-3.st-gallery li{flex: 0 0 50%; max-width: 50%;}
@@ -305,6 +308,7 @@
 	.innovative-box .h1{font-size: 2.5rem;}
 	.hero-section.racing-car .animation-text{font-size:3.6em; top:60%;}
 	.bus-variation-box .variation-details .item {flex: 0 0 50%; max-width: 100%;}
+	.astino-section {height: 680px;}
 }
 @media only screen and (max-height:766px) {
 	.variation-section .owl-item img{max-width: 600px; margin: auto;}
