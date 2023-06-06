@@ -54,8 +54,13 @@ Table of Contents
 
 #bg-blink {
     opacity: 1;
+    background-image: url('../assets/images/new/astino-with-light.webp');
     animation: bg-blink 1s;
+    -webkit-animation: bg-blink 1s;
+    -moz-animation: bg-blink 1s;
     animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
 }
 
 @keyframes bg-blink {
@@ -88,8 +93,14 @@ Table of Contents
     width: 100px;
     display: inline-block;
     animation-name: colored;
+    -webkit-animation-name: colored;
+    -moz-animation-name: colored;
     animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
     animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
 }
 
 .icon-ind-loader .i1 {
@@ -1788,6 +1799,8 @@ h3.large-heading span {
 .engine-ico.start-humming {
     animation: humming 0.5s;
     animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
 }
 
 @keyframes humming {
@@ -1848,7 +1861,7 @@ h3.large-heading span {
 }
 
 .flag-bg {
-    background: url('/assets/images/temp/tri_bg.png');
+    background: url('../assets/images/temp/tri_bg.png');
     background-size: cover;
 }
 
