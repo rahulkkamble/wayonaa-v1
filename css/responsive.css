@@ -294,6 +294,7 @@
 	.engine-specifications li{flex: 0 0 100%; max-width:100%;}
 	.speed-features .item{flex:0 0 100%; }
 	.subsidy-banner img.img-fluid{object-fit: cover; min-height: 360px; object-position: left;}
+	.fs--40{font-size: 22px !important;}
 }
 @media only screen and (max-width: 479px) {
 	.column-3.st-gallery li{flex: 0 0 50%; max-width: 50%;}

@@ -4042,7 +4042,7 @@ h2.large-heading>span.only-text-main {
 }
 
 .astino-section {
-    height: 680px;
+    height: 780px;
 }
 
 .astino-section .background-inner {
@@ -4430,11 +4430,14 @@ h2.large-heading>span.only-text-main {
 }
 
 #bike-bg-2 {
-    background-image: url('../assets/images/new/new-home-banner/Scooty.webp');
+    background-image: url(../assets/images/new/new-home-banner/Scooty.webp);
     background-repeat: no-repeat;
-    background-position: right center;
-    bottom: -12rem;
-    background-size: 53%;
+    background-position: right bottom;
+    max-height: 680px;
+    right: 0%;
+    top: 15%;
+    background-size: 50%;
+    position: absolute;
 }
 
 /* @media screen and (min-width: 1500px) {
