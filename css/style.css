@@ -2522,6 +2522,14 @@ select.form-control {
     opacity: 0.04;
 }
 
+.specifications-section-g-lite .background-inner {
+    background-image: url('../assets/images/model-g/scooty.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70%;
+    opacity: 0.04;
+}
+
 /*--------------------------------------------------------------*
     Horizontal Tab
   *--------------------------------------------------------------*/
@@ -4831,6 +4839,10 @@ section.began {
 
 #variation-models {
     padding-bottom: 100px;
+}
+
+#g-lite-model-g {
+    display: block;
 }
 
 #variation-models .container .tab-pane-model-G .color-variation-slider .owl-dots {
