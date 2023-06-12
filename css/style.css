@@ -61,6 +61,7 @@ Table of Contents
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
+    background-position: 38% 0;
 }
 
 @keyframes bg-blink {
@@ -4066,6 +4067,10 @@ h2.large-heading>span.only-text-main {
 .astino-section {
     position: relative;
     height: 780px;
+}
+
+#astino-banner-page{
+    position: relative;
 }
 
 .astino-section .background-inner {
