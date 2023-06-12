@@ -4625,11 +4625,20 @@ h2.large-heading>span.only-text-main {
     object-fit: contain;
 }
 
+#vision-left-img{
+    height: 360px;
+}
+
 .img-top-overflow-visible {
     position: absolute;
     top: 0%;
     left: -15%;
     z-index: 1;
+}
+
+.icon-50px{
+    height: 50px;
+    width: 50px;
 }
 
 .breadcrumb {
@@ -4736,6 +4745,7 @@ section.began {
     height: 100%;
     width: 100%;
     position: absolute;
+    background: url('https://fastwpdemo.com/newwp/gearup/wp-content/uploads/2022/09/bg-16.jpg');
 }
 
 .rect-image {
