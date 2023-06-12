@@ -1402,7 +1402,7 @@ section#home {
     padding: 80px 0 0px 0;
 }
 
-#home.hero-section{
+#home.hero-section {
     height: 758px;
 }
 
@@ -2219,8 +2219,8 @@ h3.large-heading span {
     padding-bottom: 100px;
 }
 
-.feature-section{
-    background: url('../assets/images/temp/tri_bg.png'); 
+.feature-section {
+    background: url('../assets/images/temp/tri_bg.png');
     background-size: cover;
 }
 
@@ -2511,6 +2511,15 @@ select.form-control {
     100% {
         box-shadow: 0px 0px 0px 3px #ffffff, 0px 0px 0px 6px rgba(0, 150, 17, 0);
     }
+}
+
+/* specifications-section */
+.specifications-section-g-one .background-inner {
+    background-image: url('../assets/images/model-g/g-one/g-one-orange-rtl.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70%;
+    opacity: 0.04;
 }
 
 /*--------------------------------------------------------------*
@@ -4166,7 +4175,7 @@ h2.large-heading>span.only-text-main {
 /* #usp {
     backdrop-filter: var(--bike-colors-gradients);
 } */
-#usp{
+#usp {
     background: url('../assets/images/new/Greenbg.webp');
 }
 
@@ -4406,7 +4415,7 @@ h2.large-heading>span.only-text-main {
 }
 
 /* banner update */
-#hero-bg-3{
+#hero-bg-3 {
     overflow: hidden;
 }
 
@@ -5010,4 +5019,3 @@ section.began {
 .contactus-info-list {
     list-style: none;
 }
-
