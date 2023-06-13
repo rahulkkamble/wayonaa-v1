@@ -246,9 +246,9 @@
 	.text-md-main{color: var(--main-color) !important;}
 
 	#about.design-section{padding-top: 20px !important;}
-	#banner-bg-3, #banner-bg-lite-3{background-position: 100% 100%; background-size: 100%;}
+	#banner-bg-3, #banner-bg-lite-3, #banner-bg-razor{background-position: 100% 100%; background-size: 100%;}
 	.rect-image-2 img{left: 0;}
-	.rect-image-lite img{height: 60%; margin-top: 90px;}
+	.rect-image-lite img{height: 60%;}
 	.image-wrapper-awards.on-astino-page{right:0; margin-top: 1.5rem;}
 	.rect-image{height: auto;}
 	.banner-dealer, .banner-become-a-dealer{background-size: cover;}

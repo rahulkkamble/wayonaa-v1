@@ -2531,6 +2531,14 @@ select.form-control {
     opacity: 0.04;
 }
 
+.specifications-section-g-razor .background-inner {
+    background-image: url('../assets/images/model-g/g-razor/g-razor-ltr.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40%;
+    opacity: 0.04;
+}
+
 /*--------------------------------------------------------------*
     Horizontal Tab
   *--------------------------------------------------------------*/
@@ -2938,6 +2946,10 @@ table.specifications tr:last-child th {
     background: #1f1f81;
 }
 
+.variation-section .owl-dots button.owl-dot.red {
+    background: #ff2222;
+}
+
 .variation-section .owl-dots button.owl-dot.blue-light {
     background: #b2ccf3;
 }
@@ -2955,7 +2967,7 @@ table.specifications tr:last-child th {
 }
 
 .variation-section .owl-dots button.owl-dot.black {
-    background: rgb(17, 17, 17);
+    background: #181818;
 }
 
 .variation-section .owl-dots button.owl-dot.active {
@@ -4860,6 +4872,10 @@ section.began {
     display: block;
 }
 
+#g-razor-model-g {
+    display: block;
+}
+
 #variation-models .container .tab-pane-model-G .color-variation-slider .owl-dots {
     position: absolute;
     width: 100%;
@@ -4935,6 +4951,12 @@ section.began {
 
 #banner-bg-lite-3 {
     background-image: url('../assets/images/model-g/scooty.webp');
+    background-repeat: no-repeat;
+    background-position: 85% 85%;
+    background-size: 50%;
+}
+#banner-bg-razor {
+    background-image: url('../assets/images/model-g/g-razor/g-razor-rtl.webp');
     background-repeat: no-repeat;
     background-position: 85% 85%;
     background-size: 50%;
