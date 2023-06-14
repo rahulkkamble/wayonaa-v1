@@ -18,16 +18,15 @@
       /*---------------------------------------------------------------------
        Mobile Menu
       ----------------------------------------------------------------------*/
-      if($(window).width() < 991){
-        jQuery('.menu-icon').on("click", function() {
-          jQuery(this).toggleClass('active');
-          jQuery('body').toggleClass('menu-open');
-          jQuery('nav ul li a').on("click", function(){
-            jQuery('.menu-icon').removeClass('active');
-            jQuery('body').removeClass('menu-open');
-          });
+      navmenuOpen();    /* function at last */
+
+      // when window is resizing...
+      $(document).ready(function() {
+        $(window).resize(function() {
+          console.log('Window resized!');
+          navmenuOpen();
         });
-      }
+      });
       /*---------------------------------------------------------------------
         Slider
       ----------------------------------------------------------------------*/
@@ -265,3 +264,16 @@
         }
   
   })(jQuery);
+
+  function navmenuOpen(){
+    if($(window).width() < 991){
+        jQuery('.menu-icon').on("click", function() {
+          jQuery(this).toggleClass('active');
+          jQuery('body').toggleClass('menu-open');
+          jQuery('nav ul li a').on("click", function(){
+            jQuery('.menu-icon').removeClass('active');
+            jQuery('body').removeClass('menu-open');
+          });
+        });
+      }
+  }

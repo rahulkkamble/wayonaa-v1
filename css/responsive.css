@@ -77,6 +77,7 @@
 	h2.shadow-vertical-bottom::after{top: 2rem;}
 	.image-wrapper-awards{right: 0;}
 	.astino-section {height: 780px;}
+	.tab-content .overlay-2,.tab-content .overlay-3 {top: 80px;}
 }
 @media only screen and (max-width: 991px) {
 	.logo{padding-top:15px; padding-bottom:15px; z-index: 100;}
@@ -155,6 +156,8 @@
 	.racing-car .testimonial-item .person-img::before{height:60px;width:60px; font-size:32px; line-height:30px; padding:14px; top:10px; left:10px;}
 	.racing-car.color-section .color-variation-slider .owl-dots{width: 100%; position: static; margin:30px 0px 0px;}
 	.column-4.st-gallery li{flex: 0 0 50%; max-width: 50%;}
+	.tab-content .overlay-2,.tab-content .overlay-3 {top: 20px;}
+
 }
 @media only screen and (max-width: 767px) {
 	.fs--4rem{font-size: 2.5rem !important;}
@@ -255,6 +258,8 @@
 	.become-a-dealer-cta .bg-white.rounded{height: 540px;}
 	#home.hero-section{height: 780px;}
 	#bike-bg-2{background-position: center bottom; bottom: 3rem; background-size: 70%;}
+	.tab-content .overlay-2,.tab-content .overlay-3 {top: 160px;}
+
 
 
 }
@@ -310,6 +315,8 @@
 	.hero-section.racing-car .animation-text{font-size:3.6em; top:60%;}
 	.bus-variation-box .variation-details .item {flex: 0 0 50%; max-width: 100%;}
 	.astino-section {height: 680px;}
+	.tab-content .overlay-2,.tab-content .overlay-3 {top: 80px;}
+
 }
 @media only screen and (max-height:766px) {
 	.variation-section .owl-item img{max-width: 600px; margin: auto;}
