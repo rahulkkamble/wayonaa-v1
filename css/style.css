@@ -2302,13 +2302,13 @@ textarea.form-control {
 }
 
 select.form-control {
-    background-image: url(images/select-arrow.png) !important;
+    /* background-image: url(images/select-arrow.png) !important; */
     background-repeat: no-repeat !important;
     background-position: center right 22px !important;
 }
 
 .transparent-field select.form-control {
-    background-image: url(images/select-arrow-light.png) !important;
+    /* background-image: url(images/select-arrow-light.png) !important; */
 }
 
 ::-webkit-input-placeholder {
