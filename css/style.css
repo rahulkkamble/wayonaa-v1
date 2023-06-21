@@ -5089,3 +5089,25 @@ section.began {
 .contactus-info-list {
     list-style: none;
 }
+
+/* Whatsapp floating logo */
+
+.whatsapp-float {
+    position: fixed;
+    right: 20px; /* Adjust the right distance according to your preference */
+    bottom: 20px; /* Adjust the bottom distance according to your preference */
+    z-index: 9999;
+  }
+  
+  .whatsapp-float img {
+    /* padding: .65rem; */
+    width: 60px; /* Adjust the width of the WhatsApp logo */
+    height: 60px; /* Adjust the height of the WhatsApp logo */
+    border-radius: 50%;
+  }
+
+  .whatsapp-float:focus,
+  .whatsapp-float:hover{
+    transform: scale(1.1);
+  }
+  
