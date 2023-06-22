@@ -5103,7 +5103,7 @@ section.began {
     /* padding: .65rem; */
     width: 60px; /* Adjust the width of the WhatsApp logo */
     height: 60px; /* Adjust the height of the WhatsApp logo */
-    border-radius: 50%;
+    /* border-radius: 50%; */
   }
 
   .whatsapp-float:focus,
