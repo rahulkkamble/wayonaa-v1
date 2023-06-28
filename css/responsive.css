@@ -28,6 +28,7 @@
 	.innovative-box .h1{font-size:3rem;}
 	.speed-features .item .value{font-size: 48px;}
 	.racing-car-animation{max-width:1200px;}
+	.persons-info{padding: 0 2rem 0 0;}
 }
 @media only screen and (max-width: 1365px) {
 	.container { max-width: 1170px; width: 100%;}
@@ -157,8 +158,28 @@
 	.racing-car.color-section .color-variation-slider .owl-dots{width: 100%; position: static; margin:30px 0px 0px;}
 	.column-4.st-gallery li{flex: 0 0 50%; max-width: 50%;}
 	.tab-content .overlay-2,.tab-content .overlay-3 {top: 20px;}
-
+	#vision-left-img{height: 100vw;}
+	.banner-dealer, .banner-become-a-dealer{background-size: cover;}
+	.contactus-inner-column{margin-top: 2rem;}
 }
+
+@media screen and (min-width: 990.9px) and (max-width: 1198.5px) {
+	.persons-info-overlay div.d-flex{-ms-flex-wrap: nowrap!important; flex-wrap: nowrap!important;}
+}
+
+
+@media screen and (min-width: 767.5px) and (max-width: 990.5px) {
+	#banner-bg-3, #banner-bg-lite-3, #banner-bg-razor{background-position: 100% 105%; background-size: 100%;}
+	.rect-image-2 img{    height: 110%; object-fit: contain; left: 0%; top: 5%;}
+	.rect-image{width: 100%; height: auto;}
+	#astino-banner-page{height: 900px;}
+	.persons-info{min-height: 200px; padding: 0;}
+	.person-img-cover{min-width: 130px;}
+	.persons-info-overlay{bottom: -44%;}
+	.shrink-section{width: 90%; max-width: 90%;}
+	
+}
+
 @media only screen and (max-width: 767px) {
 	.fs--4rem{font-size: 2.5rem !important;}
 	p{margin-bottom:15px; }
@@ -254,12 +275,13 @@
 	.rect-image-lite img{height: 60%;}
 	.image-wrapper-awards.on-astino-page{right:0; margin-top: 1.5rem;}
 	.rect-image{height: auto;}
-	.banner-dealer, .banner-become-a-dealer{background-size: cover;}
+	
 	.become-a-dealer-cta .bg-white.rounded{height: 540px;}
 	#home.hero-section{height: 780px;}
 	#bike-bg-2{background-position: center bottom; bottom: 3rem; background-size: 70%;}
 	.tab-content .overlay-2,.tab-content .overlay-3 {top: 160px;}
-
+	#vision-left-img{height: 100vw;}
+	.person-img-cover{background-color: transparent;}
 
 
 }
