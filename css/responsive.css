@@ -9,6 +9,11 @@
 	.pricing-text{right: calc((100% - 1366px) / 2);}
 	.innovative-box{padding: 120px 40px;}
 }
+
+@media only screen and (min-width: 1539px) {		/* fixed overlay issue in USP section */
+	.tab-content .img-overlay.overlay-1{left: auto; bottom: 1.5rem; transform: scale(0.95);}
+}
+
 @media only screen and (max-width: 1400px) {
 	.main-container > section{padding:80px 0px;}
 	.container {max-width: 1280px; width: 100%;}

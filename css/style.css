@@ -1395,6 +1395,7 @@ body.menu-open .logo img.sticky-logo {
 .main-container>section {
     position: relative;
     clear: both;
+    overflow: hidden;
     border: 0;
     padding: 80px 0px;
 }
@@ -5110,4 +5111,60 @@ section.began {
   .whatsapp-float:hover{
     transform: scale(1.1);
   }
+
+  .rupees-regular{
+    font-family: sans-serif;
+  }
+
+  .features-in-bg-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
   
+  @media screen and (min-width: 768.5px) and (max-width: 1024px) {
+    .features-in-bg-action .icon-with-heading{
+        flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .variation-section .row a.btn.mt-5{
+        margin-top: 5rem !important;
+    }
+  }
+
+  @media screen and (min-width: 576.5px) and (max-width: 768px) {
+    .features-in-bg-action .icon-with-heading{
+        flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .features-in-bg-action .icon-with-heading{
+        flex-direction: column;
+    }
+    .features-in-bg-action .icon-with-heading img{
+        height: 35px;
+        width: 35px;
+    }
+    .features-in-bg-action .icon-with-heading h6{
+        font-size: 12px;
+        padding: 5px !important;
+    }
+    .why-choose-content .icon-with-heading h6{
+        text-align: center;
+    }
+    .variation-section .row a.btn.mt-5{
+        margin-top: 3rem !important;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .features-in-bg-action .icon-with-heading h6{
+        font-size: 8px;
+        padding: 5px !important;
+    }
+  }
