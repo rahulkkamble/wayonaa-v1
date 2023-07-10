@@ -5179,3 +5179,11 @@ section.began {
         padding: 5px !important;
     }
   }
+
+  /* smaller book btn for locate dealer page */
+  .small-btn-book{
+    font-size: 12px !important;
+    height: 44px;
+    line-height: 40px;
+    padding: 0px 30px;
+  }
