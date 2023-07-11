@@ -4479,14 +4479,14 @@ h2.large-heading>span.only-text-main {
     background-repeat: no-repeat;
 }
 
-#bike-bg-2 {
+#bike-bg-2 {    /* new change after content updated 1 */
     background-image: url(../assets/images/new/new-home-banner/Scooty.webp);
     background-repeat: no-repeat;
     background-position: right bottom;
-    max-height: 680px;
+    max-height: 700px;
     right: 0%;
     top: 15%;
-    background-size: 50%;
+    background-size: 750px;
     position: absolute;
 }
 
@@ -5126,6 +5126,8 @@ section.began {
   .rupees-regular{
     font-family: sans-serif;
   }
+
+  /* features from each model page in blue action color */
 
   .features-in-bg-action{
     display: flex;
