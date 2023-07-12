@@ -37,6 +37,61 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
     <link rel="stylesheet" href="./css/responsive.css" type="text/css" />
 
+    <style>
+        .banner-content .carousel {
+            left: -88px;
+        }
+
+        .banner-content .carousel-inner {
+            height: 110px;
+        }
+
+        .banner-content .carousel-caption {
+            /* color: #fff; */
+            text-align: left;
+            top: 35%;
+        }
+
+        @media screen and (max-width: 1365px) {
+            .banner-content .carousel {
+                left: -80px;
+            }
+        }
+
+        @media screen and (max-width: 1199px) {
+            .banner-content .carousel {
+                left: -72px;
+            }
+        }
+
+        @media screen and (max-width: 991px) {
+            .banner-content .carousel {
+                left: -3.5rem;
+            }
+
+            .banner-content .carousel-inner {
+                height: 150px;
+            }
+        }
+
+        @media screen and (max-width: 767.5px) {
+            .banner-content .carousel-caption {
+                text-align: center;
+                left: auto;
+            }
+
+            .banner-content .carousel {
+                left: 1rem;
+            }
+        }
+        @media screen and (max-width: 576px) {
+
+            .banner-content .carousel {
+                left: 2rem;
+            }
+        }
+    </style>
+
     <!-- scroll-reveal -->
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
@@ -143,21 +198,54 @@
                 <div class="container double-top-padding double-bottom-padding">
                     <div class="row">
                         <div class="col-md-6 banner-content position-relative">
-                            <h3 class="large-heading text-white text-uppercase text-md-action">Your ride,</h3>
-                            <h2 class="large-heading text-uppercase text-white text-md-action">powered</h2>
-                            <h1 class="large-heading text--action"><span class="text--main">with style</span></h1>
-                            <div class="text-block text-lead">
-                                <p class="text-white text-md-action">Introducing India's most reliable
-                                    and <br /> award-winning EV Scooters!</p>
+                            <!-- btn-hover-text-action -->
+                            <h3 class="large-heading text-white text-uppercase text-md-action">Your
+                                ride,</h3>
+                            <h2 class="large-heading text-uppercase text-white text-md-action">powered
+                            </h2>
+                            <h1 class="large-heading text--action"><span class="text--main">with
+                                    style</span></h1>
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active px-0 mx-0">
+                                        <div class="carousel-caption px-0 mx-0">
+                                            <div class="text-block text-lead">
+                                                <p class="text-white text-md-action text-center-in-md fs--22">
+                                                    Introducing
+                                                    India's most reliable
+                                                    and award-winning EV Scooters!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item px-0 mx-0">
+                                        <div class="carousel-caption px-0 mx-0">
+                                            <p class="text-white text-md-action text-center-in-md fs--22">ICAT approved
+                                                E-scooters with student subsidy of <span
+                                                    class="rupees-regular">&#8377;</span>12,000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev d-none" href="#carouselExampleControls" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next d-none" href="#carouselExampleControls" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
                             <a class="btn btn-primary btn-accent mt-md-3 has-icon redirect"
-                                href="./assets/route/book-a-test-ride.html"><span class="text-white">Book test
+                                href="./assets/route/book-a-test-ride.html"><span class="text-white">Book a test
                                     ride</span><i class="fas fa-arrow-right"></i></a>
-                            <!-- btn-hover-text-action -->
+
                         </div>
                         <div class="sub-bold-heading pricing-text text--action text-sm-white">Starting at <span
                                 class="text--action text-sm-white">
-                                &#8377;100,200*</span></div>
+                                &#8377;100,200*</span>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -294,11 +382,13 @@
                                     </ul>
                                     <div class="card-title pb-1 pt-3 px-4">
                                         <h4 class="small--text text-white mb-1">From </h4>
-                                        <h4 class="small--text fs--20 text-white mb-0"><span class="rupees-regular">&#8377;</span><span class="line-through">74,999</span></h4>
-                                         
+                                        <h4 class="small--text fs--20 text-white mb-0"><span
+                                                class="rupees-regular">&#8377;</span><span
+                                                class="line-through">74,999</span></h4>
+
                                         <h4 class="text-block text-lead-3 text-white">
                                             <span class="rupees-regular">&#8377;</span>62,999
-                                            <span class="small--text d-none"> or </span> 
+                                            <span class="small--text d-none"> or </span>
                                             <span class="fs--28 d-none"></span>
                                             <span class="small--text">With Subsidy*</span>
                                         </h4>
@@ -333,10 +423,12 @@
                                     </ul>
                                     <div class="card-title pb-1 pt-3 px-4">
                                         <h4 class="small--text text-dark mb-1">From </h4>
-                                        <h4 class="small--text fs--20 text-dark mb-0"><span class="rupees-regular">&#8377;</span><span class="line-through">77,999</span></h4>
+                                        <h4 class="small--text fs--20 text-dark mb-0"><span
+                                                class="rupees-regular">&#8377;</span><span
+                                                class="line-through">77,999</span></h4>
                                         <h4 class="text-block text-lead-3 text-dark">
                                             <span class="rupees-regular">&#8377;</span>65,999
-                                            <span class="small--text d-none"> or </span> 
+                                            <span class="small--text d-none"> or </span>
                                             <span class="fs--28 d-none"></span>
                                             <span class="small--text">With Subsidy*</span>
                                         </h4>
@@ -373,11 +465,13 @@
                                     </ul>
                                     <div class="card-title pb-1 pt-3 px-4">
                                         <h4 class="small--text text-white mb-1">From </h4>
-                                        <h4 class="small--text fs--20 text-white mb-0"><span class="rupees-regular">&#8377;</span><span class="line-through">79,999</span></h4>
-                                         
+                                        <h4 class="small--text fs--20 text-white mb-0"><span
+                                                class="rupees-regular">&#8377;</span><span
+                                                class="line-through">79,999</span></h4>
+
                                         <h4 class="text-block text-lead-3 text-white">
                                             <span class="rupees-regular">&#8377;</span>67,999
-                                            <span class="small--text d-none"> or </span> 
+                                            <span class="small--text d-none"> or </span>
                                             <span class="fs--28 d-none"></span>
                                             <span class="small--text">With Subsidy*</span>
                                         </h4>

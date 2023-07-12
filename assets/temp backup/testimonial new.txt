@@ -1,0 +1,63 @@
+<!-- Our customers -->
+            <section class="customer-feedback" id="customer-feedback">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-5 col-12">
+                            <h4 class="fs--3rem large-heading">
+                                Here's what our satisfied customers have to say.
+                            </h4>
+                            <!-- <p class="text--light-2 fs--20 fw-500">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate nisi velit optio
+                                eos, neque aliquid saepe. Asperiores ratione, nisi quod vero soluta pariatur soluta
+                                pariatur
+                            </p> -->
+                        </div>
+                        <div class="col-md-7 col-12 px-3 customer-feedback-cards">
+                            <div class="col-12">
+                                <div class="card border-0 bg-white-secondary hovered my-3 w-75 float-left">
+                                    <div class="card-header border-0 pb-0 mb-0 bg-white-secondary">
+                                        <div class="d-flex">
+                                            <div class="cus-img">
+                                                <img class="rounded-circle"
+                                                    src="../images/about/persons/patil-profile-pic.jpg" alt="">
+                                            </div>
+                                            <div class="cus-info ml-3">
+                                                <p class=" fw-600 text-lead py-0 my-0">Subhash Patil</p>
+                                                <p class="text--light-2 py-0 my-0">
+                                                    CTO of JamsosTATA
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body"> Wayonaa E-Scooters have truly changed the way I travel. The
+                                        combination of speed, comfort, and sustainability is unbeatable. I feel great
+                                        knowing I'm reducing my carbon footprint while enjoying a smooth ride. I'm
+                                        extremely satisfied with my choice.</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card border-0 bg-white-secondary my-3 w-75 float-right">
+                                    <div class="card-header border-0 pb-0 mb-0 bg-white-secondary">
+                                        <div class="d-flex">
+                                            <div class="cus-img">
+                                                <img class="rounded-circle"
+                                                    src="../images/about/persons/amrita-profile-pic.jpg" alt="">
+                                            </div>
+                                            <div class="cus-info ml-3">
+                                                <p class=" fw-600 text-lead py-0 my-0">Amrita Desai</p>
+                                                <p class="text--light-2 py-0 my-0">
+                                                    CTO of JamsosTech
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text--light-2">Wayonaa E-Scooters have transformed my lifestyle.
+                                        I now look forward to my daily rides, knowing that I'm enjoying the journey and
+                                        also contributing to a cleaner environment. It's a win-win situation.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Our customers section end -->
