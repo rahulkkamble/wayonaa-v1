@@ -5129,6 +5129,9 @@ section.began {
 
   /* features from each model page in blue action color */
 
+  .line-through{
+    text-decoration: line-through;
+  }
   .features-in-bg-action{
     display: flex;
     align-items: center;
