@@ -5198,3 +5198,8 @@ section.began {
     line-height: 40px;
     padding: 0px 30px;
   }
+
+  .icon-regular{
+    height: 25px;
+    width: 25px;
+  }
