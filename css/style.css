@@ -177,6 +177,7 @@ Table of Contents
 .fs--20 {
     font-size: 20px !important;
 }
+
 .fs--22 {
     font-size: 22px !important;
 }
@@ -4085,7 +4086,7 @@ h2.large-heading>span.only-text-main {
     height: 780px;
 }
 
-#astino-banner-page{
+#astino-banner-page {
     position: relative;
 }
 
@@ -4336,9 +4337,20 @@ h2.large-heading>span.only-text-main {
 /* Media Querries */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-	.usp .shrink-section{max-width: 95% !important; width: 95% !important;}
-    .tab-content .overlay-2, .tab-content .overlay-3 {top: 70px !important;}
-    .tab-content .img-box:hover .overlay-2,.tab-content .img-box:hover .overlay-3 {width: 100%;}
+    .usp .shrink-section {
+        max-width: 95% !important;
+        width: 95% !important;
+    }
+
+    .tab-content .overlay-2,
+    .tab-content .overlay-3 {
+        top: 70px !important;
+    }
+
+    .tab-content .img-box:hover .overlay-2,
+    .tab-content .img-box:hover .overlay-3 {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -4482,7 +4494,8 @@ h2.large-heading>span.only-text-main {
     background-repeat: no-repeat;
 }
 
-#bike-bg-2 {    /* new change after content updated 1 */
+#bike-bg-2 {
+    /* new change after content updated 1 */
     background-image: url(../assets/images/new/new-home-banner/Scooty.webp);
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -4647,7 +4660,7 @@ h2.large-heading>span.only-text-main {
     object-fit: contain;
 }
 
-#vision-left-img{
+#vision-left-img {
     height: 360px;
 }
 
@@ -4658,7 +4671,7 @@ h2.large-heading>span.only-text-main {
     z-index: 1;
 }
 
-.icon-50px{
+.icon-50px {
     height: 50px;
     width: 50px;
 }
@@ -4936,7 +4949,7 @@ section.began {
 
 .customer-feedback-cards .card,
 .customer-feedback-cards .card .card-header,
-.customer-feedback-cards .card .card-body{
+.customer-feedback-cards .card .card-body {
     color: var(--text-faded) !important;
     background-color: var(--action-color-light) !important;
     transition: all .3s ease-in-out;
@@ -4976,6 +4989,7 @@ section.began {
     background-position: 85% 85%;
     background-size: 50%;
 }
+
 #banner-bg-razor {
     background-image: url('../assets/images/model-g/g-razor/g-razor-rtl.webp');
     background-repeat: no-repeat;
@@ -5060,7 +5074,7 @@ section.began {
     bottom: 0.1%;
 }
 
-.become-a-dealer-cta .bg-right .img-wrapper img{
+.become-a-dealer-cta .bg-right .img-wrapper img {
     opacity: 0;
 }
 
@@ -5098,108 +5112,120 @@ section.began {
 
 .whatsapp-float {
     position: fixed;
-    right: 20px; /* Adjust the right distance according to your preference */
-    bottom: 20px; /* Adjust the bottom distance according to your preference */
+    right: 20px;
+    /* Adjust the right distance according to your preference */
+    bottom: 20px;
+    /* Adjust the bottom distance according to your preference */
     z-index: 9999;
-  }
-  
-  .whatsapp-float img {
+}
+
+.whatsapp-float img {
     /* padding: .65rem; */
-    width: 60px; /* Adjust the width of the WhatsApp logo */
-    height: 60px; /* Adjust the height of the WhatsApp logo */
+    width: 60px;
+    /* Adjust the width of the WhatsApp logo */
+    height: 60px;
+    /* Adjust the height of the WhatsApp logo */
     /* border-radius: 50%; */
-  }
+}
 
-  .whatsapp-float:focus,
-  .whatsapp-float:hover{
+.whatsapp-float:focus,
+.whatsapp-float:hover {
     transform: scale(1.1);
-  }
-  /* whatsapp logo end here */
+}
 
-  .features-box h4{
-    white-space-collapse:collapse;
-    text-wrap:nowrap;
-    font-size:1.2rem;
-  }
-  .red-img{
-    height:85px;
-    width:85px;
-  }
+/* whatsapp logo end here */
 
-  .rupees-regular{
+.features-box h4 {
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
+    font-size: 1.2rem;
+}
+
+.red-img {
+    height: 85px;
+    width: 85px;
+}
+
+.rupees-regular {
     font-family: sans-serif;
-  }
+}
 
-  /* features from each model page in blue action color */
+/* features from each model page in blue action color */
 
-  .line-through{
+.line-through {
     text-decoration: line-through;
-  }
-  .features-in-bg-action{
+}
+
+.features-in-bg-action {
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 100% !important;
     width: 100% !important;
-  }
-  
-  @media screen and (min-width: 768.5px) and (max-width: 1024px) {
-    .features-in-bg-action .icon-with-heading{
+}
+
+@media screen and (min-width: 768.5px) and (max-width: 1024px) {
+    .features-in-bg-action .icon-with-heading {
         flex-direction: column;
     }
-  }
+}
 
-  @media screen and (max-width: 991px) {
-    .variation-section .row a.btn.mt-5{
+@media screen and (max-width: 991px) {
+    .variation-section .row a.btn.mt-5 {
         margin-top: 5rem !important;
     }
-  }
+}
 
-  @media screen and (min-width: 576.5px) and (max-width: 768px) {
-    .features-in-bg-action .icon-with-heading{
+@media screen and (min-width: 576.5px) and (max-width: 768px) {
+    .features-in-bg-action .icon-with-heading {
         flex-direction: column;
     }
-    .text-center-in-md{
+
+    .text-center-in-md {
         text-align: center !important;
-      }
-  }
+    }
+}
 
-  @media screen and (max-width: 576px) {
-    .features-in-bg-action .icon-with-heading{
+@media screen and (max-width: 576px) {
+    .features-in-bg-action .icon-with-heading {
         flex-direction: column;
     }
-    .features-in-bg-action .icon-with-heading img{
+
+    .features-in-bg-action .icon-with-heading img {
         height: 35px;
         width: 35px;
     }
-    .features-in-bg-action .icon-with-heading h6{
+
+    .features-in-bg-action .icon-with-heading h6 {
         font-size: 12px;
         padding: 5px !important;
     }
-    .why-choose-content .icon-with-heading h6{
+
+    .why-choose-content .icon-with-heading h6 {
         text-align: center;
     }
-    .variation-section .row a.btn.mt-5{
+
+    .variation-section .row a.btn.mt-5 {
         margin-top: 3rem !important;
     }
-  }
+}
 
-  @media screen and (max-width: 375px) {
-    .features-in-bg-action .icon-with-heading h6{
+@media screen and (max-width: 375px) {
+    .features-in-bg-action .icon-with-heading h6 {
         font-size: 8px;
         padding: 5px !important;
     }
-  }
+}
 
-  /* smaller book btn for locate dealer page */
-  .small-btn-book{
+/* smaller book btn for locate dealer page */
+.small-btn-book {
     font-size: 12px !important;
     height: 44px;
     line-height: 40px;
     padding: 0px 30px;
-  }
+}
 
-  .icon-regular{
+.icon-regular {
     height: 25px;
     width: 25px;
-  }
+}

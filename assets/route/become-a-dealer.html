@@ -42,18 +42,18 @@
     <link rel="stylesheet" href="../../css/responsive.css" type="text/css" />
 
     <style>
-        .site-navigation .sub-menu {
-            background: #fff;
-            border: 0;
-            border-radius: 0;
-            box-shadow: 0 16px 24px rgba(0, 0, 0, .12);
-            left: 0 !important;
+        .site-navigation .main-menu .sub-menu {
+            position: absolute;
+            /* left: 5%; */
+            padding: 25px !important;
+            width: 100vw !important;
+            left: 50% !important;
             padding-inline: 16vw !important;
-            top: 80% !important;
-            width: 100% !important;
+            /* margin: auto 10px; */
+            transform: translateX(-50.4%) !important;
         }
 
-        .navbar-nav li:hover>div.dropdown-menu {
+        .site-navigation li:hover .sub-menu {
             display: block;
         }
     </style>
