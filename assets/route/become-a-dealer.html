@@ -43,16 +43,18 @@
 
     <style>
         .site-navigation .main-menu .sub-menu.sub-menu-2 {
-            transform: translateX(-70.4%) !important;
+            /* padding-left: 6vw !important; */
+            transform: translateX(-73%) !important;
+            padding-inline: 20vw !important;
         }
 
         .site-navigation .main-menu .sub-menu {
             position: absolute;
-            /* left: 5%; */
             width: 105vw !important;
             left: 50% !important;
-            padding-inline: 16vw !important;
-            /* margin: auto 10px; */
+            top: 80% !important;
+            padding-inline: 20vw !important;
+            float: left;
             transform: translateX(-60.4%) !important;
         }
 
@@ -60,23 +62,65 @@
             display: block;
         }
 
-        .hover-border-bottom>p:after {
-            background: var(--main-color);
-            height: 2px;
-            width: 0;
-            position: absolute;
-            bottom: 28px;
-            content: "";
-            left: 5px;
-            -webkit-transition: all 400ms;
-            transition: all 400ms;
+        .hover-border-bottom:hover {
+            color: var(--main-color) !important;
         }
 
-        .hover-border-bottom:hover>p:after
 
-        /* ,.site-navigation .main-menu>li.active>a:after */
-            {
-            width: calc(25% - 10px);
+        @media screen and (min-width: 1639.5px) {
+            .site-navigation .main-menu .sub-menu {
+                left: 50% !important;
+                padding-inline: 20vw !important;
+                width: 110vw;
+                transform: translateX(-62.4%) !important;
+            }
+
+            .site-navigation .main-menu .sub-menu.sub-menu-2 {
+                /* padding-left: 6vw !important; */
+                padding-inline: 20vw !important;
+                transform: translateX(-73%) !important;
+            }
+        }
+
+        @media screen and (max-width: 1365px) {
+            .site-navigation .main-menu .sub-menu {
+                left: 45% !important;
+                transform: translateX(-65.4%) !important;
+                padding-inline: 20vw !important;
+            }
+
+            .site-navigation .main-menu .sub-menu.sub-menu-2 {
+                left: 0% !important;
+                transform: translateX(-77%) !important;
+
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+            .site-navigation .main-menu .sub-menu {
+                left: 0% !important;
+                transform: translateX(-65%) !important;
+                padding-inline: 16vw !important;
+
+            }
+
+            .site-navigation .main-menu .sub-menu.sub-menu-2 {
+                left: 0% !important;
+                transform: translateX(-80%) !important;
+            }
+        }
+
+        @media screen and (max-width: 1099px) {
+            .site-navigation .main-menu .sub-menu {
+                left: 0% !important;
+                transform: translateX(-62%) !important;
+
+            }
+
+            .site-navigation .main-menu .sub-menu.sub-menu-2 {
+                left: 0% !important;
+                transform: translateX(-80%) !important;
+            }
         }
 
         @media screen and (max-width: 991px) {
@@ -85,7 +129,8 @@
                 width: calc(100% - 35px);
             }
 
-            .site-navigation .main-menu .sub-menu {
+            .site-navigation .main-menu .sub-menu,
+            .site-navigation .main-menu .sub-menu.sub-menu-2 {
                 position: relative;
                 max-width: 420px;
                 width: 50vw !important;
@@ -99,6 +144,40 @@
                 transform: translateX(0%) !important;
             }
         }
+
+        @media screen and (max-width: 768px) {
+
+            .site-navigation .main-menu .sub-menu,
+            .site-navigation .main-menu .sub-menu.sub-menu-2 {
+                width: 100% !important;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+
+            .site-navigation .main-menu .sub-menu,
+            .site-navigation .main-menu .sub-menu.sub-menu-2 {
+                width: 100% !important;
+            }
+        }
+
+        /* 
+        .hover-border-bottom>p::after {
+            background: var(--main-color);
+            height: 2px;
+            width: 0;
+            position: absolute;
+            bottom: 28px;
+            content: "";
+            left: 5px;
+            -webkit-transition: all 400ms;
+            transition: all 400ms;
+        } */
+
+        /* .hover-border-bottom:hover>p::after
+            {
+            width: calc(25% - 20px);
+        } */
     </style>
 
     <!-- scroll-reveal -->
@@ -136,45 +215,43 @@
 
                         <nav class="site-navigation">
                             <ul class="main-menu">
-                                <li><a href="#feature">E-Scooters</a>
+                                <li><a href="javascript:void(0);" class="redirect">E-Scooters</a>
                                     <div class="sub-menu">
                                         <div class="mega-content px-0 px-lg-4">
-                                            <div class="container-fluid p-0">
+                                            <div class="container p-0">
                                                 <div class="row">
-                                                    <div class="col-12 d-none d-lg-block col-sm-4 col-md-4 py-4">
-                                                        <h4 class="color-grey-6"> E-Scooters </h4>
+                                                    <div class="col-12 d-none d-lg-block col-sm-4 col-md-4 py-1 py-lg-4">
+                                                        <h2 class="text--light-2 text-uppercase"> E-Scooters </h2>
                                                     </div>
-                                                    <div class="col-12 col-sm-6 col-md-4 py-4">
+                                                    <div class="col-12 col-sm-6 col-md-4 py-1 py-lg-4">
                                                         <div class="mb-4">
-                                                            <a href="/primus" class="hover-border-bottom">
-                                                                <p class="label-menu color-blue mb-1"> G-Razor </p>
-                                                                <p class="b4 color-grey-6"> Faster. Smarter. Safer.
-                                                                    Better. </p>
+                                                            <a href="./g-razor.html"
+                                                                class="hover-border-bottom redirect">
+                                                                <p class="label-menu mb-0"> G-Razor </p>
+                                                                <p class="b4 text--light-2">  Modern. Innovative. Advanced. Unparalleled</p>
                                                             </a>
                                                         </div>
                                                         <div class="mt-2">
-                                                            <a href="/zeal-ex" class="hover-border-bottom">
-                                                                <p class="label-menu color-blue mb-1"> G-Lite </p>
-                                                                <p class="b4 color-grey-6"> Comfortable, Robust,
-                                                                    Affordable.
+                                                            <a href="./g-lite.html"
+                                                                class="hover-border-bottom redirect">
+                                                                <p class="label-menu mb-0"> G-Lite </p>
+                                                                <p class="b4 text--light-2"> Classic. Timeless. Secure. Upgraded.
                                                                 </p>
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-12 col-sm-6 col-md-4 py-4">
+                                                    <div class="col-12 col-sm-6 col-md-4 py-1 py-lg-4">
                                                         <div class="mb-4">
-                                                            <a href="/magnus-ex" class="hover-border-bottom">
-                                                                <p class="label-menu color-blue mb-1"> G-One </p>
-                                                                <p class="b4 color-grey-6"> Convenience. Performance.
-                                                                    Comfort.
+                                                            <a href="./g-one.html" class="hover-border-bottom redirect">
+                                                                <p class="label-menu mb-0"> G-One </p>
+                                                                <p class="b4 text--light-2"> Sportier. Speedier. Safer. Better.
                                                                 </p>
                                                             </a>
                                                         </div>
                                                         <div class="mt-2">
-                                                            <a href="/zeal-ex">
-                                                                <p class="label-menu color-blue mb-1"> Astino </p>
-                                                                <p class="b4 color-grey-6"> Comfortable, Robust,
-                                                                    Affordable.
+                                                            <a href="astino.html" class="hover-border-bottom redirect">
+                                                                <p class="label-menu mb-0"> Astino </p>
+                                                                <p class="b4 text--light-2"> Award winning.Extra ordinary. Unbeatable. Best-in-class
                                                                 </p>
                                                             </a>
                                                         </div>
@@ -187,27 +264,29 @@
                                 <li><a href="./about.html" class="redirect">About Us</a></li>
                                 <li><a href="#dealer">Dealer</a>
                                     <ul class="sub-menu sub-menu-2">
-                                        <div class="mega-content px-4">
-                                            <div class="container-fluid">
+                                        <div class="mega-content px-lg-4 px-0">
+                                            <div class="container p-0">
                                                 <div class="row">
-                                                    <div class="col-12 col-sm-4 d-none d-lg-block col-md-4 py-4">
-                                                        <h4 class="color-grey-6"> Dealer </h4>
+                                                    <div class="col-12 col-sm-4 d-none d-lg-block col-md-4 py-1 py-lg-4">
+                                                        <h2 class="text--light-2 text-uppercase"> Dealer </h2>
                                                     </div>
-                                                    <div class="col-12 col-sm-4 col-md-4 py-4">
+                                                    <div class="col-12 col-sm-6 col-md-4 py-1 py-lg-4">
                                                         <div class="mb-4">
-                                                            <a href="/primus">
-                                                                <p class="label-menu color-blue mb-1"> Locate Dealer </p>
-                                                                <p class="b4 color-grey-6"> Faster. Smarter. Safer.
-                                                                    Better. </p>
+                                                            <a href="./dealer.html"
+                                                                class="hover-border-bottom redirect">
+                                                                <p class="label-menu mb-0"> Dealer Locator
+                                                                </p>
+                                                                <p class="b4 text--light-2">Find a Wayonaa showroom near you</p>
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-12 col-sm-4 col-md-4 py-4">
+                                                    <div class="col-12 col-sm-6 col-md-4 py-1 py-lg-4">
                                                         <div class="mb-4">
-                                                            <a href="/magnus-ex">
-                                                                <p class="label-menu color-blue mb-1"> Become a Dealer </p>
-                                                                <p class="b4 color-grey-6"> Convenience. Performance.
-                                                                    Comfort.
+                                                            <a href="./become-a-dealer.html"
+                                                                class="hover-border-bottom redirect">
+                                                                <p class="label-menu mb-0"> Become a Dealer
+                                                                </p>
+                                                                <p class="b4 text--light-2">Join the Electric Revolution 
                                                                 </p>
                                                             </a>
                                                         </div>
@@ -325,42 +404,42 @@
                             </p>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 mb-2 d-flex align-items-center">
-                            <img src="../images/new/icons/file-icon.svg" class="icon-regular mr-2" alt="file-icon"
+                            <img src="../images/new/icons/file-icon.svg" class="text-block mb-0 icon-regular mr-2" alt="file-icon"
                                 srcset="">
                             <p class="text-block text-lead">Firm Registration Form</p>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 mb-2 d-flex align-items-center">
-                            <img src="../images/new/icons/file-icon.svg" class="icon-regular mr-2" alt="file-icon"
+                            <img src="../images/new/icons/file-icon.svg" class="text-block mb-0 icon-regular mr-2" alt="file-icon"
                                 srcset="">
                             <p class="text-block text-lead">Networth Statement</p>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 mb-2 d-flex align-items-center">
-                            <img src="../images/new/icons/file-icon.svg" class="icon-regular mr-2" alt="file-icon"
+                            <img src="../images/new/icons/file-icon.svg" class="text-block mb-0 icon-regular mr-2" alt="file-icon"
                                 srcset="">
                             <p class="text-block text-lead">Funds For Billing</p>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 mb-2 d-flex align-items-center">
-                            <img src="../images/new/icons/file-icon.svg" class="icon-regular mr-2" alt="file-icon"
+                            <img src="../images/new/icons/file-icon.svg" class="text-block mb-0 icon-regular mr-2" alt="file-icon"
                                 srcset="">
                             <p class="text-block text-lead">Balance Sheet</p>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 mb-2 d-flex align-items-center">
-                            <img src="../images/new/icons/file-icon.svg" class="icon-regular mr-2" alt="file-icon"
+                            <img src="../images/new/icons/file-icon.svg" class="text-block mb-0 icon-regular mr-2" alt="file-icon"
                                 srcset="">
                             <p class="text-block text-lead">PAN</p>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 mb-2 d-flex align-items-center">
-                            <img src="../images/new/icons/file-icon.svg" class="icon-regular mr-2" alt="file-icon"
+                            <img src="../images/new/icons/file-icon.svg" class="text-block mb-0 icon-regular mr-2" alt="file-icon"
                                 srcset="">
                             <p class="text-block text-lead">Property Details</p>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 mb-2 d-flex align-items-center">
-                            <img src="../images/new/icons/file-icon.svg" class="icon-regular mr-2" alt="file-icon"
+                            <img src="../images/new/icons/file-icon.svg" class="text-block mb-0 icon-regular mr-2" alt="file-icon"
                                 srcset="">
                             <p class="text-block text-lead">Bank Statement (last 6 months)</p>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 mb-2 d-flex align-items-center">
-                            <img src="../images/new/icons/file-icon.svg" class="icon-regular mr-2" alt="file-icon"
+                            <img src="../images/new/icons/file-icon.svg" class="text-block mb-0 icon-regular mr-2" alt="file-icon"
                                 srcset="">
                             <p class="text-block text-lead">Bank Guarantee Letter/CC limit</p>
                         </div>
