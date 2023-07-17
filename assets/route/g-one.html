@@ -43,6 +43,17 @@
     <!-- scroll-reveal -->
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
+    <style>
+        h3.banner-price::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            background-color: bisque;
+        }
+    </style>
+
 
 </head>
 
@@ -141,7 +152,7 @@
                             <!-- <h2 class="large-heading text-uppercase text--action">powered</h2> -->
                             <div class="text-block text-lead">
                                 <h6 class="text--action text-uppercase">starting at</h6>
-                                <h3 class="text--action large-heading text-uppercase font-italic">Rs. 79,999/-</h3>
+                                <h3 class="text--action large-heading text-uppercase font-italic banner-price">Rs. 79,999/-</h3>
                             </div>
                             <a class="btn btn-primary btn-accent has-icon" href="#book-ride"><span>Book test
                                     ride</span><i class="fas fa-arrow-right"></i></a> <!-- btn-hover-text-action -->
