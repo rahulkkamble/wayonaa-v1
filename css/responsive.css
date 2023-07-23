@@ -1,5 +1,5 @@
  /* Responsive css start */
- @media only screen and (max-width: 1639px) {
+@media only screen and (max-width: 1639px) {
 	.container {max-width: 1366px; width: 100%;}
 	h1.large-heading {font-size: 7.75rem;}
 	h1.large-heading span{font-size: 4.725rem;}
@@ -352,5 +352,5 @@
 }
 
 @media only screen and (max-height:450px) {
-
+	
 } 

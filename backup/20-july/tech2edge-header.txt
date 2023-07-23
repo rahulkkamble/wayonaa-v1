@@ -1,0 +1,64 @@
+<body>
+  <header class="header -light -sticky-light js-header">
+	<div class="header__bar">
+	  <div class="header__logo js-header-logo">
+		<a data-barba="" href="http://uat.tech2edge.co/home"><img src="http://uat.tech2edge.co/frontend/primary/assets/images/logo/t2e-logo-light.png" alt="Tech2Edge" class="header__logo__light"/></a>
+		<a data-barba="" href="http://uat.tech2edge.co/home"><img src="http://uat.tech2edge.co/frontend/primary/assets/images/logo/t2e-logo-dark.png" alt="Tech2Edge" id="i83fc" class="header__logo__dark"/></a>
+	  </div>
+	  <div class="header__menu js-header-menu">
+		<button type="button" class="nav-button-open js-nav-open"><i data-feather="menu" class="icon">
+		  </i></button>
+	  </div>
+	</div>
+	<nav class="nav js-nav">
+	  <div class="nav__inner js-nav-inner">
+		<div class="nav__bg js-nav-bg">
+		</div>
+		<div class="nav__container">
+		  <div class="nav__header">
+			<button type="button" class="nav-button-back js-nav-back"><i data-feather="arrow-left-circle" class="icon">
+			  </i></button>
+			<button type="button" class="nav-btn-close js-nav-close pointer-events-none"><i data-feather="x" class="icon">
+			  </i></button>
+		  </div>
+		  <div class="nav__content">
+			<div class="nav__content__left">
+			  <div class="navList__wrap">
+				<ul class="navList js-navList">
+				  <li>
+					<a data-barba="" href="http://uat.tech2edge.co/about">People</a>
+				  </li>
+				  <li>
+					<a data-barba="" href="http://uat.tech2edge.co/service-page">Services</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+			<div class="nav__content__right">
+			  <div class="nav__info">
+				<div class="nav__info__item js-navInfo-item">
+				  <div class="nav__info__content text-lg text-white mt-16">
+					<p>
+					  Identity is Relative,
+					  <br/>
+					  Branding is Perception!
+					</p>
+				  </div>
+				</div>
+				<div class="nav__info__item js-navInfo-item">
+				  <h5 class="text-sm tracking-none fw-500">
+					Let&#039;s unleash your true potential
+				  </h5>
+				  <div class="nav__info__content text-lg text-white mt-16">
+					<a href="mailto:team@tech2edge.co">team@tech2edge.co</a>
+					<a href="tel:+91%2099879%2083488">+91 99879 83488</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</nav>
+  </header>
+</body>
