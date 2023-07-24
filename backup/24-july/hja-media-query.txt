@@ -1,0 +1,9 @@
+
+@media screen and (max-width: 768px){
+  .our-img-outer{
+	height:400px;
+  }
+  .mt-5{
+	margin-top:3rem;
+  }
+}

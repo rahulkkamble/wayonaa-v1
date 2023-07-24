@@ -1,0 +1,135 @@
+<!-- feature Section Start -->
+	  <section id="feature" class="feature-section flag-bg">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12">
+			  <div class="heading-wrapper text-center">
+				<h2 class="large-heading text-uppercase fs--4rem">MODEL-G
+				</h2>
+				<h4 class="large-heading fs--40 text-uppercase">IMPECCABLE CRAFTSMANSHIP,
+				  PRECISION IN EVERY DETAIL
+				</h4>
+			  </div>
+			</div>
+			<div class="col-lg-2 feature-flex-column col-12">
+			  <div class="features-box py-3">
+				<div class="feature-ico">
+				  <img src="https://wayonaaev.in/frontend/live/assets/images/new/icons/load-capacity.png" alt="" class="red-img"/>
+				</div>
+				<h4 id="iyp5ao">Load Capacity
+				</h4>
+				<p id="i3awgn">160 kgs
+				</p>
+			  </div>
+			  <div class="features-box py-3">
+				<div class="feature-ico">
+				  <img src="https://wayonaaev.in/storage/laravel-grapesjs/media/bldc-motor-3.png" alt="" class="red-img"/>
+				</div>
+				<h4>Motor Power
+				</h4>
+				<p id="ithgyr">250W BLDC Hub Motor 
+				</p>
+			  </div>
+			  <div class="features-box py-3">
+				<div class="feature-ico">
+				  <img src="https://wayonaaev.in/storage/laravel-grapesjs/media/led-drl-blue-3.png" alt="" class="red-img"/>
+				</div>
+				<h4 id="iotprk">Headlight
+				</h4>
+				<p id="i4ifu9">LED with DRL
+				</p>
+			  </div>
+			</div>
+			<div class="col-lg-2 feature-flex-column col-12">
+			  <div class="features-box py-3">
+				<div class="feature-ico">
+				  <img src="https://wayonaaev.in/frontend/live/assets/images/new/icons/battery.png" alt="" class="red-img"/>
+				</div>
+				<h4>Battery
+				</h4>
+				<p id="ie6z9n">48V 30Ah LFP Safe Lithium-ion Battery 
+				</p>
+			  </div>
+			  <div class="features-box py-3">
+				<div class="feature-ico">
+				  <img src="https://wayonaaev.in/frontend/live/assets/images/new/icons/suspensions.png" alt="" class="red-img"/>
+				</div>
+				<h4>Suspension
+				</h4>
+				<p id="iwswm4">Front Forks, Rear Shock Absorbers
+				</p>
+			  </div>
+			</div>
+			<div class="col-lg-4 col-12 feature-flex-column">
+			  <div data-wow-duration="1s" data-wow-delay="none" class="circle-animation wow fadeIn">
+			  </div>
+			  <div id="carouselExampleControls-2" data-ride="carousel" data-interval="3000" class="carousel vert slide">
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="https://wayonaaev.in/storage/laravel-grapesjs/media/g-razor-front-updated.webp" alt="First slide" class="features-middle-img zoomIn animated"/>
+				  </div>
+				  <div class="carousel-item">
+					<img src="https://wayonaaev.in/storage/laravel-grapesjs/media/Gone-front-updated.webp" alt="Second slide" class="features-middle-img zoomIn animated"/>
+				  </div>
+				  <div class="carousel-item">
+					<img src="https://wayonaaev.in/storage/laravel-grapesjs/media/GLite-front-updated.webp" alt="Third slide" class="features-middle-img zoomIn animated"/>
+				  </div>
+				</div>
+			  </div>
+			  <!-- <div class="features-middle-img wow zoomInUp" data-wow-duration="2s">
+<img src="https://wayonaaev.in/frontend/live/assets/images/new/H3.webp" alt="">
+</div> -->
+			</div>
+			<div class="col-lg-2 feature-flex-column col-12">
+			  <div class="features-box py-3">
+				<div class="feature-ico">
+				  <img src="https://wayonaaev.in/frontend/live/assets/images/new/icons/Range-per-charge.png" alt="" class="red-img"/>
+				</div>
+				<h4 id="idza78">Range Per Charge
+				</h4>
+				<p id="i6t9xk">70 - 75 kms
+				</p>
+			  </div>
+			  <div class="features-box py-3">
+				<div class="feature-ico">
+				  <img src="https://wayonaaev.in/storage/laravel-grapesjs/media/Top-speed-3--2.png" alt="" class="red-img p-1"/>
+				</div>
+				<h4>Top Speed
+				</h4>
+				<p id="ihsyrg">25 km/h With Reverse Mode
+				</p>
+			  </div>
+			</div>
+			<div class="col-lg-2 feature-flex-column col-12">
+			  <div class="features-box py-3">
+				<div class="feature-ico">
+				  <img src="https://wayonaaev.in/frontend/live/assets/images/new/icons/tyre.png" alt="" class="red-img p-1"/>
+				</div>
+				<h4>Tyre
+				</h4>
+				<p id="iswd1j">90/100 - 10 Tubeless Tyre
+				</p>
+			  </div>
+			  <div class="features-box py-3">
+				<div class="feature-ico">
+				  <img src="https://wayonaaev.in/frontend/live/assets/images/new/icons/disc-brake.png" alt="" class="red-img"/>
+				</div>
+				<h4 id="itpyaq">Front Disc Brake
+				</h4>
+				<p id="iygpd9">80mm Front Disc Brake
+				</p>
+			  </div>
+			  <div class="features-box py-3">
+				<div class="feature-ico">
+				  <img src="https://wayonaaev.in/storage/laravel-grapesjs/media/weight.png" alt="" class="red-img p-1"/>
+				</div>
+				<h4 id="icfhqj">Vehicle Weight
+				</h4>
+				<p id="ih6hyg">80 - 85 kgs With Battery
+				</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <!-- feature section end -->

@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+.text-align-justify{
+  text-align:justify;
+}
+.h--300{
+  height:300px;
+}
+#id5pd-2-2-2{
+  background-size:cover;
+  background-position:center center;
+  background-image:url(http://uat.tech2edge.co//storage/laravel-grapesjs/media/challenge-diyora-web-02.png);
+}
+#ib3w0j-7-2-2-2-2{
+  background-image:url(http://uat.tech2edge.co//storage/laravel-grapesjs/media/sol-diy-web-3.png);
+  background-position:center center;
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+#il1071-2-2-2{
+  background-position:center center;
+  background-size:cover;
+  background-image:url(http://uat.tech2edge.co//storage/laravel-grapesjs/media/ux-approach-diyora-web.png);
+}
+#iapr03-2-2-2{
+  background-image:url(http://uat.tech2edge.co//storage/laravel-grapesjs/media/ui-approach-diyora-web-2.png);
+  background-position:center center;
+  background-size:cover;
+}
+#iyun0w-2-2-2{
+  background-image:url(http://uat.tech2edge.co//storage/laravel-grapesjs/media/our-approach-typo-web-diyora.png);
+  background-position:center center;
+  background-size:cover;
+}
