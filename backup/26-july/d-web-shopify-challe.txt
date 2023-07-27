@@ -1,0 +1,163 @@
+<body>
+  [[This-Is-Component title=&#039;Defer&#039;]]
+  <div data-barba="container" class="barba-container">
+	<div data-cursor="" class="backButton js-backButton">
+	  <span class="backButton__bg"></span>
+	  <div class="backButton__icon__wrap">
+		<i data-feather="arrow-up" class="backButton__button js-top-button">
+		</i>
+	  </div>
+	</div>
+	<main id="i7lr-2-2-7-2-2-2-2-2">
+	  [[This-Is-Component title=&#039;Header&#039;]]	 
+	  <section data-bg="#5C6462" class="layout-pt-lg buisness-color advBg">
+		<div class="container">
+		  <div class="row justify-content-center text-center">
+			<div class="col-lg-6 sectionHeading -md">
+			  <h2 id="izi1h-2-2-7-2-2-2-2-2" class="text-left sectionHeading__title">DIYORA
+			  </h2>
+			  <p id="idoa0d-2-2" class="text-xl text-align-justify text-xl-subheading">House of Diyora, with the existence of heritage since 1982, is one of the pioneers of the lab-grown diamond manufacturer in India, creating timeless jewellery for a brilliant tomorrow.
+			  </p>
+			</div>
+			<div class="col-lg-6">
+			  <h2 class="sectionHeading__title">B2C SHOPIFY PLATFORM
+			  </h2>
+			  <p id="iktcdy-2-2" class="serviceCard__text text-xl text-xl-subheading">Jewellery store UX/UI design
+			  </p>
+			</div>
+		  </div>
+		  <div class="row justify-content-center text-center mt-32">
+			<div class="col-lg-12">
+			  <div class="p-6">
+				<img src="http://uat.tech2edge.co//storage/laravel-grapesjs/media/diyora-web-mockup-fixed.png" id="ivsgw-2-2-7-2-2-2-2-2" class="img-fluid img responsive-img mt-5"/>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pt-sm layout-pb-sm">
+		<div data-anim-wrap="" class="container animated">
+		  <div class="row">
+			<div class="col-xl-12">
+			  <div data-anim-child="slide-up" class="sectionHeading -lg is-in-view">
+				<h2 id="i30ap-2-2-7-2-2-2-2-2" class="text-6xl fw-700 pb-md-4 mb-48">Background of the brand
+				</h2>
+				<p class="serviceCard__text text-xl py-4 text-align-justify">Diyora has developed a cutting-edge technology that employs advanced imaging technology to generate a high-resolution 3D image of a diamond, including any impurities or fractures present within the sample. The machine is designed to analyse a single diamond sample and generate a detailed 3D image of the diamond on a computer.
+				  <br/>This innovative technology provides a non-destructive means of analysing the diamond sample and can be used to virtually cut the diamond to identify the number of diamonds that can be made.
+				</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pt-sm layout-pb-sm">
+		<div data-anim-wrap="" class="container animated">
+		  <div id="inmua-2-7-2-2-2-2-2" class="row">
+			<div id="iqk5e-2-7-2-2-2-2-2" class="col-xl-12">
+			  <div data-anim-child="slide-up" id="i1ylg-2-7-2-2-2-2-2" class="row sectionHeading -lg is-in-view">
+				<div id="i5zcu-2-7-2-2-2-2-2" class="col-md-8 order--2">
+				  <h2 class="text-6xl fw-700 mb-48">The challenge
+				  </h2>
+				  <p class="serviceCard__text text-xl text-align-justify">As a team, we were tasked with designing the user experience (UX) and user interface (UI) for House of Diyora&#039;s Shopify store. Our primary goal was to create an interface that would provide an intuitive and seamless shopping experience for users, focusing on enhancing overall user satisfaction.
+					<br/>
+				  </p>
+				  <p class="serviceCard__text text-xl text-align-justify">Given the design limitations of the Shopify platform, this was a significant challenge that required us to think innovatively and wear our creative hats.  
+				  </p>
+				  <br/>
+				</div>
+				<div id="id5pd-2-2-2-2" class="our-img-outer d-flex justify-content-center col-md-4 order--1 pb-md-0">
+				</div>
+			  </div>
+			</div>
+			<div class="col-xl-12 mt-48">
+			  <h2 class="text-6xl fw-700 mb-48">Solution
+			  </h2>
+			  <div class="row mb-64">
+				<div class="col-md-6 order-sm-2 mt-md-0 mt-5 order-1 order-md-2">
+				  <p class="serviceCard__text text-xl text-align-justify">We approached the task of designing the House of Diyora Shopify store with a thorough analysis of the user psychology. Our primary focus was creating a user-friendly interface offering a seamless shopping experience. We meticulously planned the content flow for each section of the platform, ensuring easy navigation for the users.
+					<br/>
+				  </p>
+				  <p class="serviceCard__text text-xl text-align-justify">We adopted a strategic approach to incorporate colours to maintain Diyora&#039;s brand identity and colour palette, primarily featuring grey tones. We opted for a splash of colour through the stunning jewellery designs, providing that required &quot;pop of colour.&quot; This approach was aimed at creating a balance between the brand&#039;s aesthetics and user engagement.
+				  </p>
+				  <p class="serviceCard__text text-xl">
+				  </p>
+				</div>
+				<div id="ib3w0j-7-2-2-2-2-2" class="col-md-6 d-flex justify-content-center align-items-center solution-column order-sm-1 order-md-2 order-md-1 our-img-outer">
+				  <div class="our-img">
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pt-sm layout-pb-sm">
+		<div data-anim-wrap="" id="i3r3w-2-2-2-2-2" class="container animated">
+		  <div class="row">
+			<div class="col-xl-12">
+			  <div data-anim-child="slide-up" id="iy416-2-7-2-2-2-2-2" class="sectionHeading -lg is-in-view">
+				<h2 class="text-6xl fw-700 mb-16">Our Approach
+				</h2>
+				<div class="row mb-32 mt-32">
+				  <div class="col-md-8 serviceCard__text text-xl order-md-2 order-1">
+					<b id="ijub1o-2-7-2-2-2-2-2" class="serviceCard__text text-xl">User Experience Design - UX
+					</b>
+					<br/>
+					<br/>
+					<p id="i0pez-2-2-2-2" class="text-align-justify">Our UX design approach involved careful consideration of the customer journey. We developed a user-friendly navigation system that would make it easy for customers to find what they are looking for and integrated search and filtering features to help streamline the product discovery process.
+					</p>
+				  </div>
+				  <div id="il1071-2-2-2-2" class="col-md-4 our-img-outer d-flex justify-content-center align-items-center my-4 order-md-1 h--300">
+				  </div>
+				</div>
+				<div class="row mb-32 mt-64">
+				  <div id="iapr03-2-2-2-2" class="col-md-4 our-img-outer d-flex justify-content-center align-items-center h--300">
+				  </div>
+				  <div class="col-md-8 serviceCard__text text-xl">
+					<b id="ivt0pn-2-2-2-2">User Interface Design - UI
+					</b>
+					<br/>
+					<br/>
+					<p id="i90dyf-2-2-2-2" class="text-align-justify">In terms of UI design, we focused on creating a visually appealing and engaging interface that would captivate users&#039; attention and encourage them to browse further. We ensured that the overall aesthetic was consistent with the house of diyora&#039;s brand identity, using subtle colour and typography to create an impactful user experience. 
+					</p>
+				  </div>
+				</div>
+				<div id="iobyhh-2-2" class="row mb-32 mt-64">
+				  <div class="col-md-8 serviceCard__text text-xl order-md-2 order-1">
+					<b id="iq8i1a-2-7-2-2-2-2-2">Typography 
+					</b>
+					<br/>
+					<br/>
+					<p id="i4la2z-2-2-2-2" class="text-align-justify">Typography plays a crucial role in design, communication, and branding. It involves the art and technique to make written language visually appealing, legible, and expressive. We used three different fonts and here’s what it means:
+					</p>
+					<br/>
+					<p id="isjg98-2-2-2-2">
+					  <strong>Playfair Display:</strong> This timeless and elegant serif font adds a touch of sophistication to luxury branding and formal designs.
+					</p>
+					<br/>
+					<p id="i9unmb-2" class="text-align-justify">
+					  <strong>Sofia Pro:</strong> With its clean and minimalist sans-serif style, Sofia Pro is perfect for creating modern digital interfaces and contemporary designs.
+					</p>
+					<br/>
+					<p id="izl8lz-2" class="text-align-justify">
+					  <strong>Sorts Mill Goudy:</strong> A serif font that combines familiarity, tradition, and approachability. Its merging of old-style and transitional serifs creates a warm and readable typeface. With classic letterforms and balanced proportions, Sorts Mill Goudy exudes timeless elegance.
+					</p>
+				  </div>
+				  <div id="iyun0w-2-2-2-2" class="col-md-4 our-img-outer d-flex justify-content-center align-items-center order-md-1">
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div id="ic0zmy-2-7-2-2-2-2-2">
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section id="isbdn1-2-7-2-2-2-2-2">[[This-Is-Component title=&#039;slider-diyora-website-case-study&#039;]]
+	  </section>
+	  [[This-Is-Component title=&#039;Footer&#039;]]
+	</main>
+  </div>
+  [[This-Is-Footer-Script]]
+  [[This-Is-Asset-Loader style=&quot;case-study&quot; script=&quot;case-study&quot;]]
+</body>

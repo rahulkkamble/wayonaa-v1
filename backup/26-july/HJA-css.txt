@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+.our-img-outer{
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+.solution-column{
+  max-height:450px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+.mt-md-0{
+  margin-top:0px;
+}
+.mb-md-48{
+  margin-bottom:3rem !important;
+}
+#ib3w0j-7-2-2-2{
+  background-image:url("http://uat.tech2edge.co//storage/laravel-grapesjs/media/hja-sol-1.png");
+  background-position-x:50%;
+  background-position-y:50%;
+  background-size:cover;
+}
+#i4ir0g-7-2-2-2{
+  background-image:url("http://uat.tech2edge.co//storage/laravel-grapesjs/media/hja-sol-2.png");
+  background-position-x:50%;
+  background-position-y:50%;
+  background-size:cover;
+  background-repeat-x:no-repeat;
+  background-repeat-y:no-repeat;
+}
+#il1071-2-2{
+  background-position-x:50%;
+  background-position-y:50%;
+  background-repeat-x:no-repeat;
+  background-repeat-y:no-repeat;
+  background-size:cover;
+  background-image:url("http://uat.tech2edge.co//storage/laravel-grapesjs/media/HJA-app-1-2.jpg");
+}
+#id5pd-2-2{
+  background-image:url("http://uat.tech2edge.co//storage/laravel-grapesjs/media/HJA-challenge-new-01.png");
+  background-position-x:50%;
+  background-position-y:50%;
+  background-size:cover;
+  background-repeat-x:no-repeat;
+  background-repeat-y:no-repeat;
+}
+#iapr03-2-2{
+  background-image:url("http://uat.tech2edge.co//storage/laravel-grapesjs/media/HJA-app-2-2.jpg");
+  background-position-x:50%;
+  background-position-y:50%;
+  background-size:cover;
+}
+#iyun0w-2-2{
+  background-image:url("http://uat.tech2edge.co//storage/laravel-grapesjs/media/dev-HJA-new-01.png");
+  background-position-x:50%;
+  background-position-y:50%;
+  background-size:cover;
+  background-repeat-x:no-repeat;
+  background-repeat-y:no-repeat;
+}
+.text--justify{
+  text-align:justify;
+}
+@media screen and (max-width: 768px){
+  .our-img-outer{
+	margin-bottom:1rem;
+	height:400px;
+  }
+  .our-img{
+	height:100%;
+	width:100%;
+	object-fit:contain;
+  }
+  .mb-md-48{
+	margin-bottom:2rem !important;
+  }
+  h2{
+	margin-bottom:2rem !important;
+  }
+  .order--1{
+	order:1;
+  }
+  .order--2{
+	order:2;
+  }
+}
+@media screen and (max-width: 576px){
+  .text-xl{
+	text-align:left;
+  }
+  .text-6xl, h2{
+	font-size:2.5rem;
+  }
+  .sectionHeading__title{
+	font-size:2.75rem;
+	text-align:center;
+  }
+  .mb-md-48{
+	margin-bottom:1rem !important;
+  }
+  .layout-pt-sm{
+	padding-top:0.25rem !important;
+  }
+}

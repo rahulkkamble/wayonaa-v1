@@ -1,0 +1,191 @@
+<body>
+  [[This-Is-Component title=&#039;Defer&#039;]]
+  <div data-barba="container" class="barba-container">
+	<div data-cursor="" class="backButton js-backButton">
+	  <span class="backButton__bg"></span>
+	  <div class="backButton__icon__wrap">
+		<i data-feather="arrow-up" class="backButton__button js-top-button">
+		</i>
+	  </div>
+	</div>
+	<main id="i7lr-2-2-7-2">
+	  [[This-Is-Component title=&#039;Header&#039;]]	 
+	  <section data-bg="#c07a54" class="layout-pt-lg layout-pb-sm buisness-color advBg">
+		<div class="container">
+		  <div class="row justify-content-center text-center">
+			<div class="col-lg-6 sectionHeading -md mb-32">
+			  <h2 id="izi1h-2-2-7-2" class="text-left sectionHeading__title mb-16">DIYORA
+			  </h2>
+			  <p id="i8trx-2-2-7-2" class="text-left tracking-none text-xl mb-3">House of Diyora with the existence of heritage since 1982 is one of the pioneers of the lab-grown diamond manufacturer in India, creating timeless jewellery for a brilliant tomorrow.
+				<br/>
+			  </p>
+			</div>
+			<div class="col-lg-6">
+			  <h2 class="sectionHeading__title mb-32">KIOSK SAAS Development
+			  </h2>
+			</div>
+		  </div>
+		  <div class="row justify-content-center text-center">
+			<div class="col-lg-12">
+			  <div class="p-6">
+				<img src="http://uat.tech2edge.co//storage/laravel-grapesjs/media/d-mock-sh-5.png" id="ivsgw-2-2-7-2" class="img-fluid img responsive-img mt-5"/>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pb-sm layout-pt-sm">
+		<div data-anim-wrap="" class="container animated">
+		  <div class="row">
+			<div class="col-xl-12">
+			  <div data-anim-child="slide-up" class="sectionHeading -lg is-in-view">
+				<h2 id="i30ap-2-2-7-2" class="text-6xl fw-700 pb-4 mb-md-48">Background of the brand
+				</h2>
+				<p class="serviceCard__text text-xl py-4">Diyora has developed a cutting-edge machine that employs advanced imaging technology to generate a high-resolution 3D image of a diamond, including any impurities or fractures present within the sample. The machine is designed to analyse a single diamond sample and generate a detailed 3D image of the diamond on a computer.
+				  <br/>
+				  <br/>
+				</p>
+				<p class="serviceCard__text text-xl py-4">This innovative technology provides a non-destructive means of analysing the diamond sample and can be used to virtually cut the diamond to identify the number of diamonds that can be made.
+				</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pb-sm layout-pt-sm">
+		<div data-anim-wrap="" class="container animated">
+		  <div id="inmua-2-7-2" class="row">
+			<div id="iqk5e-2-7-2" class="col-xl-12">
+			  <div data-anim-child="slide-up" id="i1ylg-2-7-2" class="row sectionHeading -lg is-in-view">
+				<div class="our-img-outer col-md-4 order-md-2">
+				  <img src="http://uat.tech2edge.co//storage/laravel-grapesjs/media/d-cha-2.png" id="ijo6e-2-2" class="img challenge-img img-fluid"/>
+				</div>
+				<div id="i5zcu-2-7-2" class="col-md-8">
+				  <h2 class="text-6xl fw-700 mb-48">The challenge
+				  </h2>
+				  <p class="serviceCard__text text-xl">Diyora recognized a challenge faced by small, local jewellery retailers in India, where customers hesitated to purchase from these retailers due to a perceived lack of design options and uncertainty about product quality.
+					<br/>
+					<br/>
+				  </p>
+				  <p class="serviceCard__text text-xl">Diyora envisioned becoming the mediator between these small local jewellery shops and customers. They wanted to build a platform where customers visit these small jewellery shops and have kiosks placed by Diyora to help them browse through an excellent top-notch array of designer jewellery. The jewellery should also be authenticated to assure customers of its quality, which helps generate more footfall for local retailers.
+					<br/>
+					<br/>
+				  </p>
+				  <p class="serviceCard__text text-xl">The ultimate aim of the platform is to empower local jewellery shop owners, enabling them to increase their sales and move beyond being mere repairers. A major challenge in developing this platform was the volatility of gold jewellery prices, which fluctuate significantly, resulting in difficulty in obtaining real-time values along with diamond price calculations as every design is fully customised.
+					<br/>
+				  </p>
+				  <br/>
+				</div>
+			  </div>
+			</div>
+			<div class="col-xl-12 mt-48">
+			  <h2 class="text-6xl fw-700 mb-48">Solution
+			  </h2>
+			  <div class="row">
+				<div class="col-md-6 order--2 mb-md-48">
+				  <p class="serviceCard__text text-xl">We developed a kiosk management system to facilitate the management of kiosks installed in associated retailers&#039; outlets. This system enables customers to browse through thousands of listed jewellery designs seamlessly.
+					<br/>
+					<br/>
+				  </p>
+				  <p class="serviceCard__text text-xl">The system&#039;s primary challenge was the complexity of pricing diamonds based on three critical variables: size, shape, and quality. We leveraged technology to develop a 3D matrix structure that automates the calculation of diamond prices.
+					<br/>
+					<br/>
+				  </p>
+				  <p class="serviceCard__text text-xl">The kiosk browsing process is user-friendly, and as the customer selects a particular design, the system generates the real-time value of the selected product. Once an order is placed, it is transferred to the associated retailer, who forwards it to Diyora manufacturers. These manufacturers are responsible for producing and delivering the design to the retailer to fulfill the customer&#039;s order.
+					<br/>
+					<br/>
+				  </p>
+				</div>
+				<div id="ib3w0j-7-2" class="col-md-6 p-2 order--1 mb-md-48">
+				  <div class="our-img">
+					<img src="http://uat.tech2edge.co//storage/laravel-grapesjs/media/d-sol-sh-new-1.png" class="img-fluid overflow-hidden"/>
+				  </div>
+				</div>
+				<div id="i4ir0g-7-2" class="col-md-6 p-2 overflow-hidden">
+				  <div class="our-img">
+					<img src="http://uat.tech2edge.co//storage/laravel-grapesjs/media/d-sol-sh-new-2.png" class="img-fluid"/>
+				  </div>
+				</div>
+				<div class="col-md-6">
+				  <p id="ivgmn-2" class="serviceCard__text text-xl">The Diyora platform includes an admin panel for managing product inventory. The panel allows for creating multiple product entries, which can be assigned categories and subcategories, as well as multiple variants. These variants include different types of metals, such as gold, rose gold, white gold, yellow gold, and varying carat weights. Additionally, multiple diamond qualities such as shape, carat, purity, and size can be assigned to each product.
+					<br/>
+					<br/>
+				  </p>
+				  <p class="serviceCard__text text-xl">Once inventory is uploaded to the admin panel, multiple retailers can be created and assigned specific sets of products from the product database. These retailers can then create and manage their own kiosks, where they can customise which products to display and manage their own discount systems. Retailers can also fully customise their kiosks by adding their logos and banners.
+				  </p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div id="i91fo-2-7-2" class="row">
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pb-sm layout-pt-sm">
+		<div data-anim-wrap="" class="container animated">
+		  <div class="row">
+			<div class="col-xl-12">
+			  <div data-anim-child="slide-up" id="iy416-2-7-2" class="sectionHeading -lg is-in-view">
+				<h2 class="text-6xl fw-700 mb-md-48">Our Approach
+				</h2>
+				<div class="row mb-32">
+				  <div class="col-md-8 serviceCard__text text-xl order--2">
+					<br/>
+					<b id="ijub1o-2-7-2" class="serviceCard__text text-xl">User Experience Design
+					</b>
+					<br/>
+					<br/>Our team conducted a thorough analysis of user psychology to understand the design elements that would make the kiosk user-friendly and intuitive. We evaluated the key information that retailers and customers need to access and map out the entire user journey from start to finish. Our UX design process considered various factors, including how users would interact with the kiosk and what information should be displayed first.
+					<br/>
+				  </div>
+				  <div class="col-md-4 our-img-outer order--1">
+					<img src="http://uat.tech2edge.co//storage/laravel-grapesjs/media/d-app-new-2.png" class="img-fluid our-img"/>
+				  </div>
+				</div>
+				<div class="row mb-32">
+				  <div class="col-md-4 our-img-outer order--3">
+					<img src="http://uat.tech2edge.co//storage/laravel-grapesjs/media/d-app-new-1.png" class="img-fluid our-img"/>
+				  </div>
+				  <div class="col-md-8 serviceCard__text text-xl order--4">
+					<br/>
+					<b>User Interface Design
+					</b>
+					<br/>
+					<br/>We designed the user interfaces for both the retailer dashboard and the kiosk, focusing on creating an intuitive and seamless experience for the users. Our team identified potential user challenges and worked to solve them creatively. Our design process involved sketching concepts on paper and creating a grey-scale version before refining the final visual design. The design team employed a 3D effect on the kiosk interface to create a lifelike experience for the customers, unlike just listing products on an ecommerce platform. This design approach was adopted to enhance the visual appeal of the kiosk and create an immersive experience for the users. 
+					<br/>
+					<br/>
+				  </div>
+				</div>
+				<div class="row mb-32">
+				  <div class="col-md-8 serviceCard__text text-xl order--6">
+					<br/>
+					<b id="iq8i1a-2-7-2">Development
+					</b>
+					<br/>
+					<br/>The development of the kiosk management system started with breaking down existing problems and with the creation of Database schema and development of APIs, followed by several rounds of testing,  which served as the foundation for the platform. We then built the kiosk app and the single-page application (SPA) dashboard for retailers and administrators. The dashboard includes features for settings management, order management, product management, kiosk management, and retailer management, providing Diyora with the ability to manage and customise its catalogues and designs.
+					<br/>
+					<br/>The system&#039;s algorithms were designed to accurately calculate the real-time value of diamonds based on size, shape, and quality, which are the key variables determining the price of diamonds using a 3d matrix.
+					<br/>
+					<br/>We also used the recursive waterfall engineering model and agile methodology to cover the changes request. By this, we ensured to reach the optimal functional requirement of the application 
+					<br/>
+					<br/>
+				  </div>
+				  <div class="col-md-4 our-img-outer order--5">
+					<img src="http://uat.tech2edge.co//storage/laravel-grapesjs/media/d-app-new-3.png" class="img-fluid our-img our-dev-img"/>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div id="ic0zmy-2-7-2">
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section id="isbdn1-2-7-2">
+		[[This-Is-Component title=&#039;slideshow&#039;]]
+	  </section>
+	  [[This-Is-Component title=&#039;Footer&#039;]]
+	</main>
+  </div>
+  [[This-Is-Footer-Script]]
+  [[This-Is-Asset-Loader style=&quot;case-study&quot; script=&quot;case-study&quot;]]
+</body>

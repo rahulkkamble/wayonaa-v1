@@ -1,0 +1,196 @@
+<body>
+  [[This-Is-Component title=&#039;Defer&#039;]]
+  <div data-barba="container" class="barba-container">
+	<div data-cursor="" class="backButton js-backButton">
+	  <span class="backButton__bg"></span>
+	  <div class="backButton__icon__wrap">
+		<i data-feather="arrow-up" class="backButton__button js-top-button">
+		</i>
+	  </div>
+	</div>
+	<main id="i7lr-2-2-7-2-2-2">
+	  [[This-Is-Component title=&#039;Header&#039;]]	 
+	  <section data-bg="#444" class="layout-pt-lg buisness-color advBg">
+		<div class="container">
+		  <div class="row justify-content-center text-center">
+			<div class="col-lg-6 sectionHeading -md">
+			  <h2 id="izi1h-2-2-7-2-2-2" class="text-left sectionHeading__title">HJA
+			  </h2>
+			</div>
+			<div class="col-lg-6">
+			  <h2 class="sectionHeading__title">Website design and development
+			  </h2>
+			</div>
+		  </div>
+		  <div class="row justify-content-center text-center">
+			<div class="col-lg-12">
+			  <div class="p-6">
+				<img src="http://uat.tech2edge.co//storage/laravel-grapesjs/media/HJA-mockup-without-shadow.png" id="ivsgw-2-2-7-2-2-2" class="img-fluid img responsive-img mt-5"/>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pt-sm layout-pb-sm">
+		<div data-anim-wrap="" class="container animated">
+		  <div class="row">
+			<div class="col-xl-12">
+			  <div data-anim-child="slide-up" class="sectionHeading -lg is-in-view">
+				<h2 id="i30ap-2-2-7-2-2-2" class="text-6xl fw-700 pb-4 mb-md-48">Background of the brand
+				</h2>
+				<p class="serviceCard__text text-xl py-4 text--justify">HJA is a distinguished legal compliance and accounting firm with offices branched across multiple cities, including Gurgaon, Hyderabad, Bangalore, Mumbai, Dubai, Singapore, and more. The firm specialises in providing financial services, legal compliance, and financial services to startups, venture capital, and private equity firms. 
+				</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pt-sm layout-pb-sm">
+		<div data-anim-wrap="" class="container animated">
+		  <div id="inmua-2-7-2-2-2" class="row">
+			<div id="iqk5e-2-7-2-2-2" class="col-xl-12">
+			  <div data-anim-child="slide-up" id="i1ylg-2-7-2-2-2" class="row sectionHeading -lg is-in-view">
+				<div id="i5zcu-2-7-2-2-2" class="col-md-8 order--2">
+				  <h2 class="text-6xl fw-700 mb-48">The challenge
+				  </h2>
+				  <p class="serviceCard__text text-xl text--justify">The challenge presented to us by HJA was to design a website that would establish them as a unique brand compared to their competitors in the legal industry. They wanted an online platform where they could showcase the comprehensive range of services they offer to startups, venture capital, and private equity firms.
+					<br/>
+					<br/>
+				  </p>
+				  <p class="serviceCard__text text-xl text--justify">Although clients across various industries utilise their services, HJA was keen on highlighting their specially crafted services and tailor-made solutions uniquely designed for startups and VC firms.
+					<br/>
+					<br/>
+				  </p>
+				  <p class="serviceCard__text text-xl text--justify">During our initial brainstorming, we were faced with a challenge. We often associate colours with emotions and wondered what a law firm&#039;s website should look like. Should it be blue, green, or orange? As each colour evokes a certain emotion, we questioned what the best approach would be.
+					<br/>
+					<br/>
+				  </p>
+				  <br/>
+				</div>
+				<div id="id5pd-2-2" class="our-img-outer d-flex justify-content-center col-md-4 order--1">
+				</div>
+			  </div>
+			</div>
+			<div class="col-xl-12 mt-48">
+			  <h2 class="text-6xl fw-700 mb-48">Solution
+			  </h2>
+			  <div class="row mb-64">
+				<div class="col-md-6 order-sm-2 mt-md-0 mt-5 order-1 order-md-2">
+				  <p class="serviceCard__text text-xl text--justify">A law firm is considered an essential service and is primarily
+					sought out during times of legal troubles; it was crucial that the website&#039;s colour palette
+					reflected the seriousness and professionalism of the brand. Thus, our team carefully considered
+					various colour schemes and ultimately decided on a predominantly black and white palette, with
+					accent colours used as the brand colours.
+					<br/>
+					<br/>
+				  </p>
+				  <p class="serviceCard__text text-xl text--justify">The decision to stick with a monochromatic colour scheme was
+					deliberate. We wanted to convey that the law firm makes decisions based solely on logic and not
+					emotions. It was crucial to establish the brand as a trusted and reliable source of legal advice.
+				  </p>
+				</div>
+				<div id="ib3w0j-7-2-2-2" class="col-md-6 d-flex justify-content-center align-items-center solution-column order-sm-1 order-md-2 order-md-1 our-img-outer">
+				  <div class="our-img">
+				  </div>
+				</div>
+			  </div>
+			  <div class="row">
+				<div id="i4ir0g-7-2-2-2" class="col-md-6 overflow-hidden d-flex justify-content-center align-items-center solution-column order-sm-3 our-img-outer">
+				  <div class="our-img">
+				  </div>
+				</div>
+				<div class="col-md-6 order-md-4 order-sm-4">
+				  <p class="serviceCard__text text-xl text--justify">We applied a meticulous approach in designing the user interface to
+					ensure that it aligns with the core values of the law firm. The strategic use of white space
+					provides an uncluttered look and facilitates ease of navigation. The information architecture was
+					created with intuitiveness in mind, ensuring that essential information is highlighted using brand
+					colours.
+					<br/>
+					<br/>
+				  </p>
+				  <p class="serviceCard__text text-xl text--justify">Our team developed a website for the law firm that effectively
+					embodied their brand identity. We focused on creating a design that exuded professionalism and
+					seriousness while maintaining a user-friendly interface for easy navigation.
+				  </p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pt-sm layout-pb-sm">
+		<div data-anim-wrap="" id="i3r3w-2-2-2" class="container animated">
+		  <div class="row">
+			<div class="col-xl-12">
+			  <div data-anim-child="slide-up" id="iy416-2-7-2-2-2" class="sectionHeading -lg is-in-view">
+				<h2 class="text-6xl fw-700 mb-16">Our Approach
+				</h2>
+				<div class="row mb-32 mt-32">
+				  <div class="col-md-8 serviceCard__text text-xl order-md-2 order-1">
+					<b id="ijub1o-2-7-2-2-2" class="serviceCard__text text-xl">User Experience Design
+					</b>
+					<br/>
+					<br/>
+					<p id="i0pez-2-2" class="text--justify">With a thorough understanding of the user&#039;s needs and preferences, we began the overall design process, starting with pen-and-paper sketches and creating a comprehensive user journey map. The user journey map helped us determine which information users should see first. We organised the services into three distinct categories: expansion services for companies looking to expand their operations in India, startup services for new businesses, and fund accounting services for investment firms.
+					  <br/>
+					  <br/>
+					  To ensure that each category was represented effectively, we mapped out the services and placed them into the appropriate category. This approach not only helped us understand the client&#039;s services better, but it also allowed us to present the information clearly and concisely to the website&#039;s visitors.
+					</p>
+				  </div>
+				  <div id="il1071-2-2" class="col-md-4 our-img-outer d-flex justify-content-center align-items-center my-4 order-md-1">
+				  </div>
+				</div>
+				<div class="row mb-32 mt-64">
+				  <div id="iapr03-2-2" class="col-md-4 our-img-outer d-flex justify-content-center align-items-center">
+				  </div>
+				  <div class="col-md-8 serviceCard__text text-xl">
+					<b id="ivt0pn-2-2">User Interface Design
+					</b>
+					<br/>
+					<br/>
+					<p id="i90dyf-2-2" class="text--justify">By employing a categorical approach, we successfully segregated the law firm&#039;s services into distinct groups, enhancing the overall user experience. Our design strategy focused on creating a website that was visually appealing and easy to navigate, with an intuitive content flow that streamlined user interaction.
+					  <br/>
+					  An integral aspect of the design process was the development of a seamless user experience. We placed a significant emphasis on creating a user-friendly interface, incorporating clear call to action, and designing a responsive layout optimised for all devices. 
+					  <br/>
+					  <br/>
+					  Our design team implemented a meticulous approach to ensure the website&#039;s usability, employing heat mapping and A/B testing to determine the most effective design elements. 
+					</p>
+				  </div>
+				</div>
+				<div class="row mb-32 mt-64">
+				  <div class="col-md-8 serviceCard__text text-xl order-md-2 order-1">
+					<b id="iq8i1a-2-7-2-2-2">Development
+					</b>
+					<br/>
+					<br/>
+					<p id="ipk87h-2-2" class="text--justify">As part of our website development services, we provided our client with a proprietary mandala CMS (content management system) for their website. This custom CMS allows them to create and manage multiple pages effortlessly while seamlessly updating and editing their website&#039;s content.
+					</p>
+					<br/>
+					<p id="i4la2z-2-2" class="text--justify">
+					  <strong>Typography: </strong> We incorporated Cormorant as the primary font to lend the website a timeless elegance. It&#039;s sweeping curves, and graceful flourishes provide a sense of refinement and sophistication. For a contemporary feel, we integrated Cinzel, a bold and impactful font with clean lines and sharp angles. Lastly, we opted for Montserrat, a modern and minimalist font that emphasises clarity, legibility, and functionality. It&#039;s clean lines and geometric shapes make it ideal for headings and body copy, enhancing the website&#039;s readability.
+					  <br/>By combining these three distinct fonts, we created a unique and harmonious typography palette that enhances the website&#039;s overall visual appeal.
+					  <br/>
+					</p>
+					<br/>
+					<p id="isjg98-2-2" class="text--justify">
+					  <strong>Colours: </strong> The choice of colours on a website can significantly influence its visual appeal and functionality. In selecting the website&#039;s colour palette, we opted for shades of grey, with a deliberate balance between very dark and very light hues, to establish an aura of steadiness and transparency. This choice facilitated the creation of a minimalist yet sophisticated look appropriate for the website&#039;s objective and ensured easy readability and navigation. The colour selection was, without a doubt, a critical component of the website&#039;s design, which we thoroughly considered to provide users with the best possible experience.
+					</p>
+				  </div>
+				  <div id="iyun0w-2-2" class="col-md-4 our-img-outer d-flex justify-content-center align-items-center order-md-1">
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div id="ic0zmy-2-7-2-2-2">
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section id="isbdn1-2-7-2-2-2">[[This-Is-Component title=&#039;slide-show-HJA&#039;]]
+	  </section>
+	  [[This-Is-Component title=&#039;Footer&#039;]]
+	</main>
+  </div>
+  [[This-Is-Footer-Script]]
+  [[This-Is-Asset-Loader style=&quot;case-study&quot; script=&quot;case-study&quot;]]
+</body>
