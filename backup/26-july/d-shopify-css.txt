@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+.text-align-justify{
+  text-align:justify;
+}
+.h--300{
+  height:300px;
+}
+#id5pd-2-2-2-2{
+  background-image:url(http://uat.tech2edge.co//storage/laravel-grapesjs/media/challenge-diyora-web-02.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#ib3w0j-7-2-2-2-2-2{
+  background-image:url(http://uat.tech2edge.co//storage/laravel-grapesjs/media/sol-diy-web-3.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#il1071-2-2-2-2{
+  background-image:url(http://uat.tech2edge.co//storage/laravel-grapesjs/media/ux-approach-diyora-web.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#iapr03-2-2-2-2{
+  background-image:url(http://uat.tech2edge.co//storage/laravel-grapesjs/media/ui-approach-diyora-web-2.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#iyun0w-2-2-2-2{
+  background-image:url(http://uat.tech2edge.co//storage/laravel-grapesjs/media/our-approach-typo-web-diyora.png);
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+@media screen and (max-width: 768px){
+  .our-img-outer{
+	margin-bottom:1rem;
+	height:400px;
+  }
+  .our-img{
+	height:100%;
+	width:100%;
+	object-fit:contain;
+  }
+  .order--1{
+	order:1;
+  }
+  .order--2{
+	order:2;
+  }
+  h2{
+	margin-bottom:2rem !important;
+  }
+}
+@media screen and (max-width: 576px){
+  .text-xl{
+	text-align:left;
+	padding-bottom:1.5rem;
+  }
+  .text-xl-subheading{
+	text-align:center;
+  }
+  .text-6xl, h2{
+	font-size:2.5rem;
+  }
+  .sectionHeading__title{
+	font-size:2.75rem;
+	text-align:center;
+  }
+  .layout-pt-sm{
+	padding-top:0.25rem !important;
+  }
+}

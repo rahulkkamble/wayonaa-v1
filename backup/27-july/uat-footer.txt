@@ -1,0 +1,109 @@
+<body>
+  <footer class="footer -type-1 bg-dark-1">
+	<div class="container">
+	  <div class="footer__top">
+		<div class="row y-gap-48 justify-content-between">
+		  <div class="col-lg-auto col-sm-12">
+			<a href="index.html" class="footer__logo text-white">Tech2Edge</a>
+		  </div>
+		  <div class="col-lg-3 col-sm-6">
+			<h4 class="text-xl fw-500 text-white">Studio
+			</h4>
+			<div class="footer__content text-base text-light mt-16 sm:mt-12">
+			  <p>
+				Mumbai:
+				<br/>
+				Office 1902, 19th Floor, Arihant Aura, Turbhe, Navi
+				Mumbai, Maharashtra 400703
+				<br/>
+				- - - - - - - 
+				<br/>
+				Delhi NCR:
+				<br/>
+				WeWork, DLF Forum, Gurugram, Haryana
+			  </p>
+			  <p class="mt-8">
+				<a href="mailto:info@tech2edge.co">info@tech2edge.co</a>
+			  </p>
+			  <p class="mt-8">
+				<a href="tel:+91%2099879%2083488">+91 99879 83488</a>
+			  </p>
+			</div>
+		  </div>
+		  <div class="col-lg-auto col-sm-4">
+			<h4 class="text-xl fw-500 text-white">Links
+			</h4>
+			<div class="footer__content text-base text-light mt-16 sm:mt-12">
+			  <div>
+				<a data-barba="" href="http://uat.tech2edge.co/about-final" class="button -underline">About Us</a>
+			  </div>
+			  <div>
+				<a data-barba="" href="http://uat.tech2edge.co/contact-us-page" class="button -underline">Contact Us</a>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-lg-auto col-auto">
+			<h4 class="text-xl fw-500 text-white">Follow us
+			</h4>
+			<div class="social -bordered mt-16 sm:mt-12">
+			  <a href="https://www.linkedin.com/company/tech2edge/" class="social__item text-white border-light"><i class="fa fa-linkedin">
+				</i></a>
+			  <a href="https://www.facebook.com/tech2edge" class="social__item text-white border-light"><i class="fa fa-facebook">
+				</i></a>
+			  <a href="https://www.instagram.com/tech2edge/" class="social__item text-white border-light"><i class="fa fa-instagram">
+				</i></a>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="footer__bottom -light">
+		<div class="row">
+		  <div class="col">
+			<div class="footer__copyright">
+			  <p class="text-light">
+				© 2022 Tech2Edge. 
+				<span class="d-inline-block"><span>Crafted with</span><span id="isyhl"><svg height="20px" version="1.1" viewBox="0 0 90.65 85.04" width="20px" class="by-heart">
+				  <path d="M45.137,23.041c4.912-24.596,40.457-27.775,42.128-0.435c1.398,22.88-21.333,40.717-42.128,50.522 M45.137,23.041C40.225-1.555,5.057-4.734,3.387,22.606c-1.398,22.88,20.955,40.717,41.75,50.522" fill="none" stroke="#f44336" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5" class="by-heart-path">
+				  </path>
+				  </svg> </span><span>&amp;</span><span id="isuhl"><svg enable-background="new 0 0 98 100" height="20px" id="Layer_1" version="1.1" viewBox="0 0 98 100" width="20px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+				  <path d="M85.715,26.547h-7.457c1.711-5.512,0.539-11.744-3.043-15.975c-3.587-4.236-9.158-6.766-14.896-6.766 c-4.109,0-7.852,1.29-10.733,3.6c-3.045-4.6-9.469-7.03-15.613-7.03c-7.055,0-14.166,3.225-16.001,10.323 c-1.147-0.196-2.492-0.347-3.91-0.347c-8.456,0-13.503,5.16-13.846,14.155c-0.185,4.844,1.047,8.677,3.662,11.394 c1.359,1.413,3.049,2.442,4.988,3.094v48.546c0,6.663,5.421,12.083,12.083,12.083h43.364c6.662,0,12.084-5.42,12.084-12.083v-9.373 c0,0,0,0.001,0.002,0.001c0.006,0,0.013-0.007,0.018-0.008l9.305,0.004c6.661,0,12.084-5.419,12.084-12.083V38.63 C97.799,31.968,92.378,26.547,85.715,26.547z" fill="#dddddd">
+				  </path>
+				  <path d="M89.982,34.364c-1.094-1.085-2.597-1.759-4.25-1.759h-10.69h-0.001v-0.016h-0.018v-0.146 c-2.687,2.988-6.527,4.588-11.254,4.588c-4.215,0-8.302-1.25-10.777-2.188c-2.215,2.709-6.747,6.942-13.576,7.167 c-0.236,0.008-0.467,0.012-0.696,0.012c-4.621,0-7.912-1.501-10.207-3.332c-1.038-0.825-1.872-1.717-2.534-2.569 c-2.942,2.09-7.031,3.487-11.056,3.667v47.769c0,1.66,0.68,3.17,1.774,4.265c1.094,1.086,2.597,1.76,4.25,1.76h43.366 c3.322,0,6.041-2.72,6.041-6.041v-9.376c0-3.322,2.723-6.041,6.043-6.041h9.318c3.322,0,6.043-2.719,6.043-6.042v-27.45 C91.758,36.97,91.078,35.459,89.982,34.364z M85.6,59.297c0.01,0.526-0.062,2.496-1.494,3.98c-0.656,0.681-1.832,1.492-3.692,1.492 h-7.19c-1.502,0-2.721-1.219-2.721-2.72V42.999c0-1.502,1.219-2.719,2.721-2.719h7.03c1.979,0,3.205,0.814,3.884,1.498 c1.405,1.417,1.467,3.22,1.463,3.567V59.297z" fill="#FF9C08">
+				  </path>
+				  <path d="M28.018,81.221c0,1.975-1.6,3.573-3.574,3.573l0,0 c-1.974,0-3.574-1.601-3.574-3.573l0,0c0-1.975,1.601-3.574,3.574-3.574l0,0C26.418,77.646,28.018,79.246,28.018,81.221 L28.018,81.221z" enable-background="new" fill="#FFFFFF" opacity="0.5">
+					<animateTransform attributeName="transform" attributeType="XML" dur="2.8s" repeatCount="indefinite" type="translate" values="0 50;0 -50;">
+					</animateTransform>
+				  </path>
+				  <path d="M39.018,51.221c0,1.975-1.6,3.573-3.574,3.573l0,0 c-1.974,0-3.574-1.601-3.574-3.573l0,0c0-1.975,1.601-3.575,3.574-3.575l0,0C37.418,47.646,39.018,49.246,39.018,51.221 L39.018,51.221z" enable-background="new" fill="#FFFFFF" opacity="0.5">
+					<animateTransform attributeName="transform" attributeType="XML" dur="4s" repeatCount="indefinite" type="translate" values="0 50;0 -50;">
+					</animateTransform>
+				  </path>
+				  <path d="M65.018,81.221c0,1.975-1.6,3.573-3.574,3.573l0,0 c-1.973,0-3.573-1.601-3.573-3.573l0,0c0-1.975,1.601-3.574,3.573-3.574l0,0C63.418,77.646,65.018,79.246,65.018,81.221 L65.018,81.221z" enable-background="new" fill="#FFFFFF" opacity="0.5">
+					<animateTransform attributeName="transform" attributeType="XML" dur="2.2s" repeatCount="indefinite" type="translate" values="2 50;2 -50;">
+					</animateTransform>
+				  </path>
+				  <path d="M58.018,59.221c0,1.975-1.6,3.573-3.574,3.573l0,0 c-1.973,0-3.573-1.601-3.573-3.573l0,0c0-1.975,1.601-3.574,3.573-3.574l0,0C56.418,55.646,58.018,57.246,58.018,59.221 L58.018,59.221z" enable-background="new" fill="#FFFFFF" opacity="0.5">
+					<animateTransform attributeName="transform" attributeType="XML" dur="2.5s" repeatCount="indefinite" type="translate" values="0 50;0 -50;">
+					</animateTransform>
+				  </path>
+				  <path d="M23.165,61.221c0,0.949-0.771,1.719-1.721,1.719l0,0 c-0.949,0-1.72-0.77-1.72-1.719l0,0c0-0.951,0.771-1.721,1.72-1.721l0,0C22.394,59.5,23.165,60.27,23.165,61.221L23.165,61.221z" enable-background="new" fill="#FFFFFF" opacity="0.5">
+					<animateTransform attributeName="transform" attributeType="XML" dur="3s" repeatCount="indefinite" type="translate" values="0 50;0 -50;">
+					</animateTransform>
+				  </path>
+				  <path d="M45.165,71.221c0,2.055-1.667,3.719-3.721,3.719l0,0 c-2.053,0-3.719-1.664-3.719-3.719l0,0c0-2.056,1.667-3.72,3.719-3.72l0,0C43.498,67.501,45.165,69.165,45.165,71.221L45.165,71.221 z" enable-background="new" fill="#FFFFFF" opacity="0.5">
+					<animateTransform attributeName="transform" attributeType="XML" dur="4s" repeatCount="indefinite" type="translate" values="0 50;0 -50;">
+					</animateTransform>
+				  </path>
+				  <path d="M43.877,86.221c0,1.344-1.09,2.432-2.434,2.432l0,0 c-1.343,0-2.433-1.088-2.433-2.432l0,0c0-1.345,1.09-2.434,2.433-2.434l0,0C42.788,83.787,43.877,84.876,43.877,86.221 L43.877,86.221z" enable-background="new" fill="#FFFFFF" opacity="0.5">
+					<animateTransform attributeName="transform" attributeType="XML" dur="3s" repeatCount="indefinite" type="translate" values="0 50;0 -50;">
+					</animateTransform>
+				  </path>
+				  </svg> </span><span>in India</span></span>
+			  </p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </footer>
+</body>

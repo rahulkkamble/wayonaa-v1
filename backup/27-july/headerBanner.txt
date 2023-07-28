@@ -1,0 +1,134 @@
+<body>
+  <section data-autoplay-delay="2900" data-speed="1200" class="sliderMain -type-3 js-sliderMain-type-3 sm:layout-mt-headerBar">
+	<div class="container-fluid h-full px-0 sm:px-20">
+	  <div class="row sm:justify-content-center h-full">
+		<div class="col-xl-3 offset-xl-2 col-lg-4 offset-lg-1 col-md-5 offset-md-1 col-sm-9">
+		  <div class="slider__content__wrapper sm:text-center h-full z-3">
+			<div class="slider__content is-active js-slider-content">
+			  <div data-split="lines">
+				<p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle">
+				  Capture your Space
+				</p>
+			  </div>
+			  <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
+				<h1 class="slider__title fw-700 leading-xs js-title">
+				  Positioning is the Differentiator
+				</h1>
+			  </div>
+			  <div class="slider__button overflow-hidden mt-32">
+				<div class="js-button py-4">
+				  <a data-barba="" href="http://uat.tech2edge.co/contact-us-page" class="button -md -black text-white">get in touch</a>
+				</div>
+			  </div>
+			</div>
+			<div class="slider__content js-slider-content">
+			  <div data-split="lines">
+				<p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle">
+				  Creating what matters
+				</p>
+			  </div>
+			  <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
+				<h1 class="slider__title fw-700 leading-xs js-title">
+				  Helping Brands Win Dominant Market &amp; Mind Share
+				</h1>
+			  </div>
+			  <div class="slider__button overflow-hidden mt-32">
+				<div class="js-button py-4">
+				  <a data-barba="" href="http://uat.tech2edge.co/contact-us-page" class="button -md -black text-white">get in touch</a>
+				</div>
+			  </div>
+			</div>
+			<div class="slider__content js-slider-content">
+			  <div data-split="lines">
+				<p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle">
+				  Making You Stand Apart
+				</p>
+			  </div>
+			  <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
+				<h1 class="slider__title fw-700 leading-xs js-title">
+				  Escape Competition through Positioning Focused Growth
+				</h1>
+			  </div>
+			  <div class="slider__button overflow-hidden mt-32">
+				<div class="js-button py-4">
+				  <a data-barba="" href="http://uat.tech2edge.co/contact-us-page" class="button -md -black text-white">get in touch</a>
+				</div>
+			  </div>
+			</div>
+			<div class="slider__content js-slider-content">
+			  <div data-split="lines">
+				<p class="slider__subtitle text-sm uppercase tracking-md leading-md mb-32 js-subtitle">
+				  Together We Can
+				</p>
+			  </div>
+			  <div data-split="lines" class="mr-minus-col-2 sm:mr-0">
+				<h1 class="slider__title fw-700 leading-xs js-title">
+				  A Reliable &amp; Leading Digital Agency that acts as
+				  your Partner
+				</h1>
+			  </div>
+			  <div class="slider__button overflow-hidden mt-32">
+				<div class="js-button py-4">
+				  <a data-barba="" href="http://uat.tech2edge.co/contact-us-page" class="button -md -black text-white">get in touch</a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="col layout-pr-headerBar lg:pr-0 col-lg-7 col-md-6 swiper-col">
+		  <div class="swiper-container h-100vh">
+			<div class="swiper-wrapper z-2">
+			  <div class="swiper-slide overflow-hidden">
+				<div data-parallax="0.7" data-swiper-parallax="150" data-swiper-parallax-opacity="0" class="slider__img">
+				  <div data-background="http://uat.tech2edge.co/frontend/primary/assets/images/headers/1.jpg" data-parallax-target="" class="bg-image swiper-lazy js-image">
+				  </div>
+				</div>
+				<div class="slider__img__cover js-image-cover">
+				</div>
+				<div class="slider__img__bg bg-dark-1">
+				</div>
+			  </div>
+			  <div class="swiper-slide overflow-hidden">
+				<div data-parallax="0.7" data-swiper-parallax="150" data-swiper-parallax-opacity="0" class="slider__img">
+				  <div data-background="http://uat.tech2edge.co/frontend/primary/assets/images/headers/2.jpg" data-parallax-target="" class="bg-image swiper-lazy js-image">
+				  </div>
+				</div>
+				<div class="slider__img__bg bg-dark-1">
+				</div>
+			  </div>
+			  <div class="swiper-slide overflow-hidden">
+				<div data-parallax="0.7" data-swiper-parallax="150" data-swiper-parallax-opacity="0" class="slider__img">
+				  <div data-background="http://uat.tech2edge.co/frontend/primary/assets/images/headers/3.jpg" data-parallax-target="" class="bg-image swiper-lazy js-image">
+				  </div>
+				</div>
+				<div class="slider__img__bg bg-dark-1">
+				</div>
+			  </div>
+			  <div class="swiper-slide overflow-hidden">
+				<div data-parallax="0.7" data-swiper-parallax="150" data-swiper-parallax-opacity="0" class="slider__img">
+				  <div data-background="http://uat.tech2edge.co/frontend/primary/assets/images/headers/4.jpg" data-parallax-target="" class="bg-image swiper-lazy js-image">
+				  </div>
+				</div>
+				<div class="slider__img__bg bg-dark-1">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="slider__navs js-slider-nav js-ui">
+		<div class="navButton">
+		  <button type="button" class="navButton__item button -outline-black text-black js-prev"><i data-feather="arrow-left" class="icon">
+			</i></button>
+		  <button type="button" class="navButton__item button -outline-black text-black mt-12 js-next"><i data-feather="arrow-right" class="icon">
+			</i></button>
+		</div>
+	  </div>
+	</div>
+	<div class="ui-element -bottom-left sm:d-none js-ui">
+	  <button type="button" class="ui-element__scroll text-black js-ui-scroll-button">
+		scroll more <i data-feather="arrow-down" class="icon">
+		</i></button>
+	</div>
+  </section>
+</body>
