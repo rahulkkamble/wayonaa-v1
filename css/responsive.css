@@ -10,10 +10,6 @@
 	.innovative-box{padding: 120px 40px;}
 }
 
-@media only screen and (min-width: 1539px) {		/* fixed overlay issue in USP section */
-	.tab-content .img-overlay.overlay-1{left: auto; bottom: 1.5rem; transform: scale(0.95);}
-}
-
 @media only screen and (max-width: 1400px) {
 	.main-container > section{padding:80px 0px;}
 	.container {max-width: 1280px; width: 100%;}
@@ -86,6 +82,22 @@
 	.astino-section {height: 780px;}
 	.tab-content .overlay-2,.tab-content .overlay-3 {top: 80px;}
 }
+/* updated on 28 july */
+@media only screen and (min-width: 991.5px) and (max-width:1298.5px){
+	h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{margin: 0px 0px 10px;}
+	h1.large-heading {font-size: 4rem !important;}
+	h1.large-heading span {font-size: 3.5rem !important;}
+	h2.large-heading {font-size: 3.625rem !important;}
+	h2.large-heading span{font-size: 2rem !important;}
+	h3.large-heading {font-size: 2.725rem !important;}
+	h3.large-heading span {font-size: 2.5rem !important;}
+	h4.large-heading, h4.large-heading.fs--40{font-size: 2rem !important;}
+	h4.large-heading span, h4.large-heading.fs--40 span{font-size: 1.5rem !important;}
+	.text-lead, p.text-lead, .text-lead > * {font-size: 20px;line-height: 1.5;}
+	.text-block {margin-bottom: 20px;}
+	.m-top-30 {margin-top: 20px;}
+}
+/* till here updated on 28 july */
 @media only screen and (max-width: 991px) {
 	.logo{padding-top:15px; padding-bottom:15px; z-index: 100;}
 	.logo{-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
@@ -175,7 +187,8 @@
 
 
 @media screen and (min-width: 767.5px) and (max-width: 990.5px) {
-	#banner-bg-3, #banner-bg-lite-3, #banner-bg-razor{background-position: 100% 105%; background-size: 100%;}
+	/* #banner-bg-3, #banner-bg-lite-3, #banner-bg-razor{background-position: 100% 105%; background-size: 100%;} old data */
+	#banner-bg-3, #banner-bg-lite-3, #banner-bg-razor{background-position: 100% 100%; background-size: 65%;}	/* new updated 28-july */
 	.rect-image-2 img{    height: 110%; object-fit: contain; left: 0%; top: 5%;}
 	.rect-image{width: 100%; height: auto;}
 	#astino-banner-page{height: 900px;}

@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+#about.design-section{
+  padding-top:60px;
+}
+.main-container > section{
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+.features-box h4{
+  white-space-collapse:collapse;
+  text-wrap:nowrap;
+  font-size:1.2rem;
+}
+.red-img{
+  height:85px;
+  width:85px;
+}
+.feature-flex-column{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.features-box{
+  padding-top:0px;
+  min-width:200px;
+}
+.text--none{
+  border-bottom-width:0px;
+  border-bottom-style:initial;
+  border-bottom-color:initial;
+  text-decoration-line:none !important;
+  text-decoration-thickness:initial !important;
+  text-decoration-style:initial !important;
+  text-decoration-color:initial !important;
+}
+.pt--30{
+  padding-top:30px;
+}
+.pt--30{
+  padding-top:30px !important;
+}
+@media screen and (min-width: 1580px){
+  .tab-content .img-overlay.overlay-1{
+	transform:scale(0.95);
+	left:auto;
+  }
+}
+@media screen and (max-width: 991px){
+  .feature-flex-column{
+	flex-direction:row;
+	flex-wrap:wrap;
+  }
+  .features-middle-img{
+	max-width:400px;
+  }
+}

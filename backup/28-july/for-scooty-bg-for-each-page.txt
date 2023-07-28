@@ -1,0 +1,8 @@
+@media screen and (min-width: 767.5px) and (max-width: 990.5px){
+#banner-bg-3, #banner-bg-lite-3, #banner-bg-razor {
+    background-position: 100% 100%;
+    background-size: 65%;
+} 
+}
+
+

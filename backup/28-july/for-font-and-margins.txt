@@ -1,0 +1,14 @@
+@media only screen and (min-width: 991.5px) and (max-width:1298.5px){
+	h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{margin: 0px 0px 10px;}
+	h1.large-heading {font-size: 4rem !important;}
+	h1.large-heading span {font-size: 3.5rem !important;}
+	h2.large-heading {font-size: 3.625rem !important;}
+	h2.large-heading span{font-size: 2rem !important;}
+	h3.large-heading {font-size: 2.725rem !important;}
+	h3.large-heading span {font-size: 2.5rem !important;}
+	h4.large-heading, h4.large-heading.fs--40{font-size: 2rem !important;}
+	h4.large-heading span, h4.large-heading.fs--40 span{font-size: 1.5rem !important;}
+	.text-lead, p.text-lead, .text-lead > * {font-size: 20px;line-height: 1.5;}
+	.text-block {margin-bottom: 20px;}
+	.m-top-30 {margin-top: 20px;}
+}
