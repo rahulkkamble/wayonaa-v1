@@ -1443,7 +1443,7 @@ section#home {
     background-position: center center;
     background-size: cover;
     visibility: visible;
-    margin-top: 80px;
+    /* margin-top: 80px; removed 31st july */
 }
 
 .section-background .background-wrapper .background-inner {
@@ -4501,7 +4501,7 @@ h2.large-heading>span.only-text-main {
     background-position: right bottom;
     max-height: 700px;
     right: 0%;
-    top: 15%;
+    top: 0%;
     background-size: 750px;
     position: absolute;
 }
