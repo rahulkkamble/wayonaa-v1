@@ -1443,6 +1443,7 @@ section#home {
     background-position: center center;
     background-size: cover;
     visibility: visible;
+    height: 570px; /* update added 1st august */
     /* margin-top: 80px; removed 31st july */
 }
 
@@ -1743,7 +1744,7 @@ h3.large-heading span {
     color: #ffffff;
     font-weight: 300;
     font-size: 22px;
-    top: 100px;
+    /* top: 100px; updated on 1st aug top-40px */ top: 40px;
     padding: 0px 15px;
 }
 
@@ -4464,12 +4465,18 @@ h2.large-heading>span.only-text-main {
 /* banner update */
 #hero-bg-3 {
     overflow: hidden;
+    /* added after 1st august update */
+    height: 650px;
 }
 
 .bg-inner-left-black {
     background-image: url('../assets/images/new/new-home-banner/Rectangle-12.webp');
     background-repeat: no-repeat;
-    height: 680px;
+    background-position: -44% 16%;
+    height: 680px !important;
+    /* updated after 1st august added below */
+    left: -20px !important;
+    top: -110px !important;
 }
 
 #shape-big-1 {
@@ -4499,11 +4506,15 @@ h2.large-heading>span.only-text-main {
     background-image: url(../assets/images/new/new-home-banner/Scooty.webp);
     background-repeat: no-repeat;
     background-position: right bottom;
-    max-height: 700px;
+    /* max-height: 700px; old before 1st august*/
+    max-height: 650px;
     right: 0%;
     top: 0%;
-    background-size: 750px;
+    /* background-size: 750px; old before 1st august*/
+    background-size: 650px;
     position: absolute;
+    /* updated 1st august added below */
+    bottom: 0px;
 }
 
 /* @media screen and (min-width: 1500px) {
@@ -4542,7 +4553,8 @@ h2.large-heading>span.only-text-main {
     }
 
     #shape-big-1 {
-        background-position: 5.5% -20%;
+        /* background-position: 5.5% -20%; old before 1st august*/
+        background-position: 5.5% -12%;
         background-size: 9%;
     }
 
@@ -4562,7 +4574,7 @@ h2.large-heading>span.only-text-main {
     }
 }
 
-@media screen and (max-width: 1359px) {
+@media screen and (max-width: 1359.5px) {   /* updated 1st august modified 1359 to 1359.5 */
     .bg-inner-left-black {
         background-position: -96% 20%;
         background-size: 81%;
@@ -4574,13 +4586,14 @@ h2.large-heading>span.only-text-main {
     }
 
     #shape-big-2 {
-        background-position: 44.4% 120%;
+        background-position: 48.4% 120%; /* background-position: 44.4% 120%; modified after 1st august update*/
         background-size: 9%;
     }
 
     #shape-small-1 {
-        background-position: 60.8% 7%;
-        background-size: 3%;
+        background-position: 58% 31%; /* background-position: 60.8% 7%; modified 1st august*/
+        background-size: 3%; /* background-size: 3%; modified 1st august*/
+        transform: skewX(2deg); /* added 1st august*/
     }
 
     #shape-big-3 {
@@ -4596,13 +4609,14 @@ h2.large-heading>span.only-text-main {
     }
 
     #shape-big-2 {
-        background-position: 41.4% 116%;
+        background-position: 46.4% 116%; /* background-position: 41.4% 116%; modified after update 1st august */
         background-size: 9%;
     }
 
     #shape-small-1 {
-        background-position: 59.1% 7%;
+        background-position: 56.5% 31%; /* background-position: 59.1% 7%; modified 1st august*/
         background-size: 3%;
+        transform: skewX(2deg); /* added 1st august*/
     }
 }
 
@@ -4613,25 +4627,49 @@ h2.large-heading>span.only-text-main {
     }
 
     #shape-big-1 {
-        background-position: 3.5% -6%;
+        background-position: 3.5% -3%; /* background-position: 3.5% -6%;  modified after 1st august update*/
         background-size: 9%;
     }
 
     #shape-big-2 {
-        background-position: 37.4% 116%;
+        background-position: 41.4% 116%; /* background-position: 37.4% 116%; modified after 1st august update */
         background-size: 9%;
     }
 
     #shape-small-1 {
-        background-position: 55.1% 10%;
+        background-position: 53.1% 30%;/* background-position: 55.1% 10%; modified after 1st august update*/
         background-size: 3%;
     }
 
-    #shape-big-3 {
+    /* #shape-big-3 {   removed @1st august update
         background-position: 104.3% 107%;
         background-size: 9%;
-    }
+    } */    
 }
+/* after 1st august update */
+@media screen and (max-width: 991px) {
+    .bg-inner-left-black {
+        background-position: -170% 65%;
+        background-size: 90%;
+    }
+
+    #shape-big-1 {
+        background-position: 3.5% -3%; /* background-position: 3.5% -6%;  modified after 1st august update*/
+        background-size: 9%;
+    }
+
+    #shape-big-2 {
+        background-position: 44.4% 116%; /* background-position: 37.4% 116%; modified after 1st august update */
+        background-size: 9%;
+    }
+
+    #shape-small-1 {
+        background-position: 58.5% 30%;/* background-position: 55.1% 10%; modified after 1st august update*/
+        background-size: 3%;
+    }
+
+}
+/* after 1st august update end */
 
 
 
@@ -5229,3 +5267,68 @@ section.began {
     height: 25px;
     width: 25px;
 }
+
+/* carousel update */
+.hero-section .carousel .first-slide>.section-background{
+    height: 670px;
+}
+
+.hero-section .carousel .carousel-item{
+    height: 650px;
+}
+
+.sub-bold-heading.pricing-text{
+    top: 40px;
+}
+
+.carousel-item>img.img-fluid{
+    height: 570px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-section .carousel .carousel-control-next,
+.hero-section .carousel .carousel-control-prev{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: var(--black-color);
+    margin: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.548);
+}
+
+.hero-section .banner-content{
+    padding-top: 20px;
+}
+
+section.design-section{
+    padding-top: 20px !important;
+}
+
+@media screen and (max-width: 1359.5px) {
+    .hero-section .banner-content{
+        margin: 0rem 2rem;
+    }
+}
+@media screen and (max-width: 1199.5px) {
+    .hero-section .banner-content{
+        margin: 0rem 4rem;
+    }
+}
+@media screen and (max-width: 768.5px) {
+    .hero-section .banner-content{
+        margin: 0rem 2rem;
+    }
+}
+@media screen and (max-width: 567.5px) {
+    .hero-section .carousel .carousel-control-next,
+    .hero-section .carousel .carousel-control-prev{
+        margin-top: auto;
+        margin-bottom: 30%;
+    }
+}
+/* 1st august update done here carousel update */
