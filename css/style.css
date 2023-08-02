@@ -5268,7 +5268,14 @@ section.began {
     width: 25px;
 }
 
-/* carousel update */
+/* carousel update 1st august*/
+.hero-section .carousel:hover{
+    cursor: grab;
+}
+.hero-section .carousel:active{
+    cursor: grabbing;
+}
+
 .hero-section .carousel .first-slide>.section-background{
     height: 670px;
 }
@@ -5297,8 +5304,45 @@ section.began {
     margin: auto;
     margin-left: 1rem;
     margin-right: 1rem;
-    border: 2px solid white;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.548);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 15px;
+
+}
+
+.hero-section .carousel .carousel-control-next i,
+.hero-section .carousel .carousel-control-prev i{
+    color: #fff;
+    transition: color .3s ease-in-out;
+}
+
+.hero-section .carousel .carousel-control-next:focus, 
+.hero-section .carousel .carousel-control-next:hover, 
+.hero-section .carousel .carousel-control-prev:focus, 
+.hero-section .carousel .carousel-control-prev:hover {
+    border: 2px solid black;
+    background-color: #fff;
+    color: #000 !important;
+}
+.hero-section .carousel .carousel-control-next:focus i, 
+.hero-section .carousel .carousel-control-next:hover i, 
+.hero-section .carousel .carousel-control-prev:focus i, 
+.hero-section .carousel .carousel-control-prev:hover i {
+    color: #000 !important;
+}
+
+.hero-section .carousel-indicators{
+    bottom: -10px;
+}
+
+.hero-section .carousel-indicators li{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid var(--action-color);
+    height: 15px;
+    width: 15px;
+}
+
+.hero-section .carousel-indicators .active{
+    background-color: var(--main-color);
 }
 
 .hero-section .banner-content{
@@ -5323,12 +5367,20 @@ section.design-section{
     .hero-section .banner-content{
         margin: 0rem 2rem;
     }
+   
 }
 @media screen and (max-width: 567.5px) {
     .hero-section .carousel .carousel-control-next,
     .hero-section .carousel .carousel-control-prev{
         margin-top: auto;
         margin-bottom: 30%;
+    }
+    .carousel-item>img.img-fluid{
+        object-position: left;
+        -o-object-position: left;
+    } 
+    section.design-section{
+        padding-top: 0px !important;
     }
 }
 /* 1st august update done here carousel update */

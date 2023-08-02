@@ -262,7 +262,6 @@
               jQuery(".tab-section ul.nav").hide();
             });
         }
-  
   })(jQuery);
 
   function navmenuOpen(){
