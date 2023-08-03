@@ -4976,7 +4976,17 @@ section.began {
 #variation-models img {
     max-height: 470px;
     max-width: 640px;
+    cursor: grab;   /* updated on 3rd august */
+    cursor: -moz-grabbing;   /* updated on 3rd august */
 }
+
+/* updated on 3rd august */
+#variation-models img:active{
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+}
+/* updated on 3rd august end here */
+
 
 .customer-feedback-cards .cus-img img.rounded-circle {
     height: 60px;
