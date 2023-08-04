@@ -1,0 +1,91 @@
+<body>
+  <header class="main-header bg-white menu-absolute transparent light-header">
+	<div class="container">
+	  <div class="row">
+		<div class="col-sm-3 logo">
+		  <a href="https://wayonaaev.in" title="Wheels Bicycle"><img src="https://wayonaaev.in/frontend/live/assets/images/new-Logo/logo-dark.png" alt="" class="img-fluid"/></a>
+		  <div class="menu-icon">
+			<span class="top"></span>
+			<span class="middle"></span>
+			<span class="bottom"></span>
+		  </div>
+		</div>
+		<div class="col-sm-9 menu-container">
+		  <nav class="site-navigation">
+			<ul class="main-menu">
+			  <li>
+				<a href="#feature">Models</a>
+				<ul class="sub-menu">
+				  <li>
+					<a href="https://wayonaaev.in/g-one" class="redirect">G-One</a>
+				  </li>
+				  <li>
+					<a href="https://wayonaaev.in/g-lite" class="redirect">G-Lite</a>
+				  </li>
+				  <li>
+					<a href="https://wayonaaev.in/g-razor" class="redirect">G-Razor</a>
+				  </li>
+				  <li>
+					<a href="https://wayonaaev.in/astino" class="redirect">Astino</a>
+				  </li>
+				</ul>
+			  </li>
+			  <li>
+				<a href="https://wayonaaev.in/about" class="redirect">About Us</a>
+			  </li>
+			  <li>
+				<a href="#dealer">Dealer</a>
+				<ul class="sub-menu">
+				  <li>
+					<a href="https://wayonaaev.in/locate-dealer" class="redirect">Locate Dealer</a>
+				  </li>
+				  <li>
+					<a href="https://wayonaaev.in/become-a-dealer" class="redirect">Become a
+					  Dealer</a>
+				  </li>
+				</ul>
+			  </li>
+			  <li>
+				<a href="https://wayonaaev.in/contact" class="redirect">Contact Us</a>
+			  </li>
+			  <li class="d-none">
+				<a href="#capability" id="ico7l" class="d-none">Media</a>
+				<ul class="sub-menu">
+				  <li>
+					<a href="#capability">News</a>
+				  </li>
+				  <li>
+					<a href="#capability">Videos</a>
+				  </li>
+				  <li>
+					<a href="#capability">Blogs</a>
+				  </li>
+				  <li>
+					<a href="#capability">Press Release</a>
+				  </li>
+				</ul>
+			  </li>
+			  <li>
+				<a href="#technical" id="ibb0s" class="d-none">Career</a>
+			  </li>
+			</ul>
+			<ul class="header-social-media">
+			  <li>
+				<a href="#"><i class="fab fa-facebook-f">
+				  </i></a>
+			  </li>
+			  <li>
+				<a href="#"><i class="fab fa-instagram">
+				  </i></a>
+			  </li>
+			  <li>
+				<a href="#"><i class="fab fa-youtube">
+				  </i></a>
+			  </li>
+			</ul>
+		  </nav>
+		</div>
+	  </div>
+	</div>
+  </header>
+</body>

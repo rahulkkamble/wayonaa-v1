@@ -1,0 +1,73 @@
+<!-- Specifications Section Start -->
+            <section id="technical" class="specifications-section-g-razor gray-bg">
+                <div class="section-background">
+                    <div class="background-wrapper">
+                        <div class="background-inner">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="heading-wrapper mb-0">
+                                <h2 class="large-heading text-uppercase mb-2 pb-0"><span>Technical</span>Specifications
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="tab-section vertical-tab m-top-30">
+                                <!-- Nav tabs -->
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="engine" role="tabpanel"
+                                        aria-labelledby="engine-tab">
+                                        <!-- <h3 class="tab-title">Engine</h3> -->
+                                        <table class="specifications">
+                                            <tr>
+                                                <th scope="row">Motor Power</th>
+                                                <td>250W BLDC Hub Motor</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Load Capacity</th>
+                                                <td>160 kg</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Speed</th>
+                                                <td>25 km/h With Reverse Mode</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Tyre</th>
+                                                <td>90/100 - 10, 3.0 - 10 (Tubeless)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Charger</th>
+                                                <td>Lithium 6A with Auto Cut-Off
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Battery</th>
+                                                <td>48V 30Ah LFP Safe Lithium-ion Battery</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Range Per Charge</th>
+                                                <td>75 kms</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Brake system</th>
+                                                <td>Front Disc Brake 220mm, Rear Drum Brake</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Suspension</th>
+                                                <td>Front Hydraulic Telescopic, Rear 2-Shocker</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Features Section End -->
