@@ -1,0 +1,130 @@
+<body>
+  [[This-Is-Component title=&#039;Defer&#039;]]
+  <div data-barba="container" class="barba-container">
+	<div data-cursor="" class="backButton js-backButton">
+	  <span class="backButton__bg"></span>
+	  <div class="backButton__icon__wrap">
+		<i data-feather="arrow-up" class="backButton__button js-top-button">
+		</i>
+	  </div>
+	</div>
+	<main id="i7lr-3-2-2">
+	  [[This-Is-Asset-Loader style=portfolio]]
+	  [[This-Is-Component title=&#039;Header&#039;]]
+	  <section data-parallax="0.7" class="layout-pt-lg layout-pb-lg">
+		<div data-bg="https://tech2edge.co/assets/images/backgrounds/potential.jpg" data-parallax-target="" class="overlay-black-sm bg-image js-lazy">
+		</div>
+		<div class="container z-5">
+		  <div class="row justify-content-center text-center">
+			<div class="col-12 col-md-8">
+			  <p class="sectionHeading__subtitle text-white">WORK IS WORSHIP
+			  </p>
+			  <h2 class="text-5xl sm:text-5xl xs:text-4xl leading-sm fw-700 text-white">
+				Our Work
+			  </h2>
+			  <p class="text-xl md:text-lg text-white mt-16">
+				Take a look at the remarkable work for distinguished industries, a true testament of our commitment to excellence.
+			  </p>
+			  <a data-barba="" href="http://uat.tech2edge.co/contact" class="d-none button -md -white text-black mt-32">Schedule Free Consultation</a>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section id="il5sh-3-2-2" class="d-none layout-pt-lg layout-pb-sm">
+		<div class="container">
+		  <div class="row justify-content-center text-center">
+			<div class="col-lg-7">
+			  <div class="sectionHeading -md">
+				<p class="sectionHeading__subtitle">WORK IS WORSHIP
+				</p>
+				<h1 class="sectionHeading__title">Our Work
+				</h1>
+				<p class="text-lg sm:text-base mt-24">Take a look at the remarkable work for distinguished industries, a true testament of our commitment to excellence.
+				</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="work-portfolio layout-pt-lg layout-pb-lg">
+		<div class="container">
+		  <div class="row">
+			<div class="col-lg-6 col-sm-12 img-box">
+			  <a href="http://uat.tech2edge.co/casetest" target="_blank" class="hover-link"><div data-business-color="#DAB88B" class="business-card">
+				<img src="http://uat.tech2edge.co//storage/laravel-grapesjs/media/kiosk-compressed-portfolio.png" alt="brand-img" class="img img-fluid"/>
+				</div><div class="img-overlay overlay-1 bg-white px-3">
+				<h2 class="pt-md-3 overlay-Heading">DIYORA
+				</h2>
+				<p id="iprk8">KIOSK SAAS Development
+				</p>
+				<div class="tags-wrapper py-md-2 mb-md-2">
+				  <span class="tag rounded p-2 me-2 mb-2">Kiosk</span>
+				  <span class="tag rounded me-2 p-2 mb-2">Saas Development</span>
+				  <span class="tag rounded p-2 me-2 mb-2">Technology</span>
+				  <span class="tag rounded p-2 me-2 mb-2">Development</span>
+				  <span class="tag rounded p-2 me-2 mb-2">UX</span>
+				  <span class="tag rounded p-2 me-2 mb-2">UI</span>
+				  <span class="tag rounded p-2 mb-2">Kiosk Management System</span>
+				</div>
+				</div></a>
+			</div>
+			<div class="col-lg-6 col-sm-12 img-box">
+			  <a href="http://uat.tech2edge.co/diyora-website-case-study" target="_blank" class="hover-link"><div data-business-color="#f4f4f4" class="business-card">
+				<img src="http://uat.tech2edge.co//storage/laravel-grapesjs/media/diyora-web-compressed-portfolio.png" alt="brand-img" class="img img-fluid"/>
+				</div><div class="img-overlay bg-white overlay-2 px-3">
+				<h2 class="pt-md-3 overlay-Heading">DIYORA
+				</h2>
+				<p id="i02wj">B2C SHOPIFY PLATFORM DESIGN
+				</p>
+				<div class="tags-wrapper py-md-2 mb-md-2">
+				  <span class="tag rounded me-2 mb-2 p-2">UX</span>
+				  <span class="tag rounded me-2 mb-2 p-2">UI</span>
+				  <span class="tag rounded me-2 mb-2 p-2">Typography</span>
+				</div>
+				</div></a>
+			</div>
+			<div class="col-lg-6 col-sm-12 img-box">
+			  <a href="http://uat.tech2edge.co/hja-website-case-study" target="_blank" class="hover-link"><div data-business-color="#cf8c8c" class="business-card">
+				<img src="http://uat.tech2edge.co//storage/laravel-grapesjs/media/hja-compressed-portfolio.png" alt="brand-img" class="img img-fluid"/>
+				</div><div class="img-overlay bg-white px-3 overlay-3">
+				<h2 class="pt-md-3 overlay-Heading">HJA
+				</h2>
+				<p id="ix7o1">WEBSITE DESIGN AND DEVELOPMENT
+				</p>
+				<div class="tags-wrapper py-md-2 mb-md-2">
+				  <span class="tag rounded me-2 mb-2 p-2">UX</span>
+				  <span class="tag rounded me-2 mb-2 p-2">UI</span>
+				  <span class="tag rounded me-2 mb-2 p-2">Website Development</span>
+				  <span class="tag rounded me-2 mb-2 p-2">Colours</span>
+				  <span class="tag rounded p-2 mb-2">Marketing</span>
+				</div>
+				</div></a>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <div class="d-none col-lg-auto">
+	  </div>
+	  <section data-parallax="0.7" class="layout-pt-lg layout-pb-lg">
+		<div data-bg="https://tech2edge.co/assets/images/backgrounds/potential.jpg" data-parallax-target="" class="overlay-black-sm bg-image js-lazy">
+		</div>
+		<div class="container z-5">
+		  <div class="row justify-content-center text-center">
+			<div class="col-12">
+			  <p class="text-sm uppercase tracking-lg text-white mb-20">
+				Get in Touch
+			  </p>
+			  <h2 class="text-5xl sm:text-5xl xs:text-4xl leading-sm fw-700 text-white">Wait no more.
+			  </h2>
+			  <p class="text-xl md:text-lg text-white mt-16">Let&#039;s get started!
+			  </p>
+			  <a data-barba="" href="http://uat.tech2edge.co/contact" class="button -md -white text-black mt-32">Contact Us</a>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  [[This-Is-Component title=&#039;Footer&#039;]]
+	</main>
+  </div>
+  [[This-Is-Footer-Script]]
+</body>
