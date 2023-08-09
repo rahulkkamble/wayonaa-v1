@@ -5298,9 +5298,21 @@ section.began {
     top: 40px;
 }
 
-.carousel-item>img.img-fluid{
+.carousel-item .for-mobile-bg{
+        /* background-image: url('../assets/images/new/new-home-banner/banner-bg.webp'); */
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.carousel-item img.img-fluid.banner2{
+    margin-top: 10px;
     height: 570px;
+    max-width: 1320px;
     width: 100%;
+    object-position: left;
     object-fit: cover;
 }
 
@@ -5385,9 +5397,16 @@ section.design-section{
         margin-top: auto;
         margin-bottom: 30%;
     }
-    .carousel-item>img.img-fluid{
+
+    .carousel-item .for-mobile-bg{
+        background-image: url("../assets/images/Updated-Assests/Homepage/g-razor-front-updated.webp");
+        background-position: left;
+        background-size: cover;
+    }
+    .carousel-item img.img-fluid.banner2{
         object-position: left;
         -o-object-position: left;
+        opacity: 0;
     } 
     section.design-section{
         padding-top: 0px !important;
