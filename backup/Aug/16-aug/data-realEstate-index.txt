@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Information</title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 2px solid black;
+            line-height: 2.5rem;
+            padding: 0rem 0.5rem;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Project Information</h1>
+    <div id="pagination">
+        <button id="prev-page">Previous</button>
+        <label for="page-number">Page:</label>
+        <input type="number" id="page-number" min="1" value="1">
+        <button id="go-to-page">Go</button>
+        <span id="total-pages">Total Pages: 1</span>
+        <button id="next-page">Next</button>
+    </div>
+    <!-- filter -->
+    <div id="filter">
+        <label for="filter-category">Filter by:</label>
+        <select id="filter-category" name="State/Pincode/City/Division">
+            <option value="Project_State">State</option>
+            <option value="Project_Village">City</option>
+            <option value="PinCode">Pincode</option>
+            <option value="Project_Division">Division</option>
+        </select>
+
+        <label for="filter-value">Select value:</label>
+        <select id="filter-value" disabled>
+            <option value="" selected disabled>Select a category first</option>
+        </select>
+
+        <button id="apply-filter">Filter</button>
+    </div>
+    <!-- filter end -->
+    <table id="project-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name of Project</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Pincode</th>
+                <th>Project Division</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <!-- <div id="pagination">
+        <button id="prev-page">Previous</button>
+        <label for="page-number">Page:</label>
+        <input type="number" id="page-number" min="1" value="1">
+        <button id="go-to-page">Go</button>
+        <span id="total-pages">Total Pages: 1</span>
+        <button id="next-page">Next</button>
+    </div> -->
+
+    <script>
+        const projectsPerPage = 50;
+        let currentPage = 1;
+        let projectData = [];
+
+        async function fetchData() {
+            try {
+                const response = await fetch('data.json');
+                projectData = await response.json();
+                displayProjects();
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        }
+
+        function createTableRow(project) {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${project.id}</td>
+                <td>${project.Name_of_Project}</td>
+                <td>${project.Project_State}</td>
+                <td>${project.Project_Taluka}</td>
+                <td>${project.PinCode}</td>
+                <td>${project.Project_Division}</td>
+            `;
+            return row;
+        }
+
+        function displayProjects() {
+            const startIndex = (currentPage - 1) * projectsPerPage;
+            const endIndex = startIndex + projectsPerPage;
+            const tableBody = document.querySelector('#project-table tbody');
+            tableBody.innerHTML = '';
+
+            for (let i = startIndex; i < endIndex && i < projectData.length; i++) {
+                const row = createTableRow(projectData[i]);
+                tableBody.appendChild(row);
+                updateTotalPages();
+            }
+        }
+
+        function goToPage() {
+            const pageNumberInput = document.querySelector('#page-number');
+            const newPage = parseInt(pageNumberInput.value);
+
+            if (newPage >= 1 && newPage <= Math.ceil(projectData.length / projectsPerPage)) {
+                currentPage = newPage;
+                displayProjects();
+            }
+        }
+
+        document.querySelector('#go-to-page').addEventListener('click', goToPage);
+
+        function goToPreviousPage() {
+            if (currentPage > 1) {
+                currentPage--;
+                displayProjects();
+                updatePageNumberInput();
+            }
+        }
+
+        function goToNextPage() {
+            const totalPages = Math.ceil(projectData.length / projectsPerPage);
+            if (currentPage < totalPages) {
+                currentPage++;
+                displayProjects();
+                updatePageNumberInput();
+            }
+        }
+
+        function updatePageNumberInput() {
+            const pageNumberInput = document.querySelector('#page-number');
+            pageNumberInput.value = currentPage;
+        }
+
+        document.querySelector('#prev-page').addEventListener('click', goToPreviousPage);
+        document.querySelector('#next-page').addEventListener('click', goToNextPage);
+        // total pages
+        function updateTotalPages() {
+            const totalPagesSpan = document.querySelector('#total-pages');
+            const totalPages = Math.ceil(projectData.length / projectsPerPage);
+            totalPagesSpan.textContent = `Total Pages: ${totalPages}`;
+        }
+
+        // ... (filter function)
+
+        const filterCategorySelect = document.querySelector('#filter-category');
+        const filterValueSelect = document.querySelector('#filter-value');
+        const applyFilterButton = document.querySelector('#apply-filter');
+
+        function populateFilterValues(category) {
+
+            const uniqueValues = [...new Set(projectData.map(project => project[category]))];
+            filterValueSelect.innerHTML = '';
+
+            uniqueValues.forEach(value => {
+                const option = document.createElement('option');
+                option.value = value;
+                option.textContent = value;
+                filterValueSelect.appendChild(option);
+            });
+            filterValueSelect.disabled = false;
+        }
+
+        filterCategorySelect.addEventListener('change', () => {
+            const selectedCategory = filterCategorySelect.value;
+            console.log(selectedCategory)
+            if (selectedCategory !== '') {
+                populateFilterValues(selectedCategory);
+            } else {
+                filterValueSelect.innerHTML = '<option value="" selected disabled>Select a category first</option>';
+                filterValueSelect.disabled = true;
+            }
+        });
+
+        function applyFilter() {
+            const selectedCategory = filterCategorySelect.value;
+            const selectedValue = filterValueSelect.value;
+
+            if (selectedCategory !== '' && selectedValue !== '') {
+
+                const filteredProjects = projectData.filter(project => {
+                    const fieldValue = project[selectedCategory];
+                    return fieldValue === selectedValue;
+                });
+
+                currentPage = 1;
+                projectData = filteredProjects;
+                displayProjects();
+                updatePageNumberInput();
+                updateTotalPages();
+            }
+        }
+
+        applyFilterButton.addEventListener('click', applyFilter);
+
+        // ... (filter function)
+
+        fetchData();
+    </script>
+</body>
+
+</html>

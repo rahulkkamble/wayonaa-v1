@@ -1,0 +1,263 @@
+<body>
+  [[This-Is-Component title=&#039;Defer&#039;]]
+  <div data-barba="container" class="barba-container">
+	<div data-cursor="" class="backButton js-backButton">
+	  <span class="backButton__bg"></span>
+	  <div class="backButton__icon__wrap">
+		<i data-feather="arrow-up" class="backButton__button js-top-button">
+		</i>
+	  </div>
+	</div>
+	<main id="i7lr-2-2-7-2-2-2-2-2">
+	  [[This-Is-Component title=&#039;Header&#039;]]
+	  <section data-parallax="0.7" class="masthead -blog js-masthead-blog-article">
+		<div data-parallax-target="" class="masthead__img overlay-black-md">
+		  <div data-bg="http://uat.tech2edge.co//storage/laravel-grapesjs/media/Diyora-Kiosk-mockup-forNewLayout.png" class="bg-image js-lazy">
+		  </div>
+		</div>
+		<div class="masthead__content">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-xl-9 col-lg-10">
+				<div class="d-flex align-items-center text-white js-info">
+				  <div class="masthead__tags text-xl">Fashion Panda
+				  </div>
+				</div>
+				<div data-split="lines">
+				  <h1 class="masthead__title text-white fw-600 leading-md md:mt-24 js-title">Website Creation
+				  </h1>
+				</div>
+				<div data-anim="slide-up delay-2">
+				  <p class="mt-32 text-white text-xl md:mt-24">Fashion Panda is a leading apparel manufacturer focused on sustainable and future fashion.
+				  </p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section data-bg="#5C6462" class="d-none layout-pt-lg buisness-color advBg">
+		<div class="container">
+		  <div class="row justify-content-center text-center">
+			<div class="col-lg-12 sectionHeading -md">
+			  <h2 id="izi1h-2-2-7-2-2-2-2-2" class="text-left sectionHeading__title">DIYORA
+			  </h2>
+			  <p id="idoa0d-2-2" class="text-xl text-align-justify text-xl-subheading mt-40">House of Diyora, with the existence of heritage since 1982, is one of the pioneers of the lab-grown diamond manufacturer in India, creating timeless jewellery for a brilliant tomorrow.
+			  </p>
+			</div>
+			<div class="col-lg-0">
+			  <h2 class="sectionHeading__title d-none">B2C SHOPIFY PLATFORM
+			  </h2>
+			  <p id="iktcdy-2-2" class="serviceCard__text text-xl text-xl-subheading d-none">Jewellery store UX/UI design
+			  </p>
+			</div>
+		  </div>
+		  <div class="row justify-content-center text-center mt-32">
+			<div class="col-lg-12 md:mt-32 mt-48">
+			  <div class="p-6">
+				<img src="http://uat.tech2edge.co//storage/laravel-grapesjs/media/diyora-web-mockup-fixed.png" id="ivsgw-2-2-7-2-2-2-2-2" class="img-fluid img responsive-img mt-5"/>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section id="idrjn" class="layout-pt-lg layout-pb-lg">
+		<div data-anim-wrap="" class="container animated">
+		  <div class="row">
+			<div class="col-xl-12">
+			  <div data-anim-child="slide-up delay-1" class="sectionHeading">
+				<h2 id="i30ap-2-2-7-2-2-2-2-2" class="sm:text-4xl text-6xl fw-700 pb-md-4 mb-40">Background of the brand
+				</h2>
+				<p class="serviceCard__text text-xl py-4 text-align-justify">Fashion Panda started with a small team and five sewing machines. Today, it has grown its workforce, product capabilities, and client base. As the fashion industry evolves in the digital era, Fashion Panda remains agile and experienced. 
+				</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pt-lg bg-dark-1 layout-pb-lg">
+		<div class="container">
+		  <div class="row align-items-center">
+			<div class="col-lg-6 col-md-10 md:order-1">
+			  <div data-anim="slide-up delay-1">
+				<h2 class="text-6xl sm:text-3xl fw-500 text-white mt-32">The Challenge
+				</h2>
+				<p class="text-lg fw-300 text-white mt-24">The fashion industry has long been criticised for its negative impact on the environment, employing practices that harm ecosystems and contribute to pollution. However, there are visionary brands that recognize the urgency to address these concerns and are committed to transform the industry.
+				</p>
+				<p class="text-lg fw-300 text-white mt-24">
+				  Our task was to create a website that not only communicated the brand&#039;s core beliefs but also captivated visitors with an aesthetically pleasing design. The primary objective was to highlight the brand&#039;s commitment to sustainability and showcase the future of fashion while maintaining a user-friendly experience reminiscent of the physical store&#039;s atmosphere.
+				</p>
+			  </div>
+			</div>
+			<div class="col-lg-5 offset-lg-1 md:order-2 md:mt-32 mt-48">
+			  <div data-parallax="0.7" class="ratio ratio-3:4">
+				<div data-parallax-target="" data-bg="http://uat.tech2edge.co//storage/laravel-grapesjs/media/d-cha-2.png" class="bg-image js-lazy">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pt-lg layout-pb-lg">
+		<div class="container">
+		  <div class="row align-items-center">
+			<div class="col-lg-5 md:order-2 md:mt-32">
+			  <div data-parallax="0.7" class="ratio ratio-3:4">
+				<div data-parallax-target="" data-bg="http://uat.tech2edge.co//storage/laravel-grapesjs/media/d-sol-sh-new-1.png" class="bg-image js-lazy">
+				</div>
+			  </div>
+			</div>
+			<div class="col-lg-6 offset-lg-1 col-md-10 md:order-1">
+			  <div data-anim="slide-up delay-1">
+				<h2 class="text-6xl sm:text-3xl fw-500 text-black mt-32">Solution
+				</h2>
+				<p class="text-lg fw-300 text-black mt-24">To ensure a seamless alignment with the brand&#039;s philosophy, we deliberately chose to employ a predominant colour palette consisting of shades of green across the website. This strategic selection of green hues serves as a visual representation of the brand&#039;s commitment to nature and sustainability, establishing a cohesive connection between the brand&#039;s core values and the website&#039;s overall design.
+				</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pt-lg layout-pb-lg bg-dark-1">
+		<div class="container">
+		  <div class="row align-items-center">
+			<div class="col-xl-12 d-none">
+			  <div data-anim="slide-up delay-1" id="ievb8">
+				<h1 class="sm:text-3xl fw-500 text-white text-6xl mt-32">Our Approach
+				</h1>
+			  </div>
+			</div>
+			<div class="col-lg-6 col-md-10 md:order-1">
+			  <div data-anim="slide-up delay-1">
+				<h1 class="text-6xl sm:text-3xl md:mt-32 fw-500 text-white mt-32">Our Approach
+				</h1>
+				<h2 class="text-4xl sm:text-3xl md:mt-32 fw-500 text-white mt-48">User Experience Design - UX
+				</h2>
+				<p class="text-lg fw-300 text-white mt-24">During the UX (User Experience) process, we conducted extensive research to understand the brand&#039;s target audience, preferences, and expectations. This helped us create a website that catered to their needs and provided a seamless browsing experience. We analysed user flows, identified pain points, and iterated on the design to ensure optimal usability.
+				</p>
+			  </div>
+			</div>
+			<div class="col-lg-5 offset-lg-1 md:order-2 md:mt-32">
+			  <div data-parallax="0.7" class="ratio ratio-3:4">
+				<div data-parallax-target="" data-bg="http://uat.tech2edge.co//storage/laravel-grapesjs/media/d-app-new-2.png" class="bg-image js-lazy">
+				</div>
+			  </div>
+			</div>
+			<div class="col-lg-5 md:order-4 md:mt-32 mt-48">
+			  <div data-parallax="0.7" class="ratio ratio-3:4">
+				<div data-parallax-target="" data-bg="http://uat.tech2edge.co//storage/laravel-grapesjs/media/d-app-new-1.png" class="bg-image js-lazy">
+				</div>
+			  </div>
+			</div>
+			<div class="col-lg-6 offset-lg-1 col-md-10 md:order-3 mt-48">
+			  <div data-anim="slide-up delay-1">
+				<h2 class="text-4xl sm:text-3xl d-none fw-500 text-white mt-32">User Interface Design - UI
+				</h2>
+				<p class="text-lg fw-300 text-white mt-24">In the UI (User Interface) design phase, we focused on creating an aesthetically pleasing and visually cohesive website. We designed intuitive menus, clear navigation, and visually appealing layouts to enhance the overall user experience. 
+				  <br/> Throughout the process, we collaborated closely with the fashion brand, incorporating their feedback and aligning the design with their brand identity. User testing and feedback loops were essential in refining the website&#039;s usability and addressing any user experience issues.
+				</p>
+				<p class="text-lg fw-300 text-white mt-24">
+				  In conclusion, our solution addressed Sandhouse&#039;s goal of effectively communicating their unique value proposition for each sub-brand within a comprehensive pitch deck. By crafting a compelling story, conducting thorough research, and adhering to their brand guidelines, we enabled Sandhouse to captivate investors and highlight their potential for success in the QSR market.
+				</p>
+			  </div>
+			</div>
+			<div class="col-lg-6 col-md-10 md:order-5 mt-48">
+			  <div data-anim="slide-up delay-1">
+				<h2 class="text-4xl sm:text-3xl fw-500 text-white mt-32">Colour Palette
+				</h2>
+				<p class="text-lg fw-300 text-white mt-24">Jade (#3BB36D):
+				  We used Jade (#3BB36D) as it symbolises nature, growth, and harmony. This colour aligns perfectly with our website&#039;s focus on eco-friendliness and sustainability. It brings a sense of freshness and renewal, creating a calming and balanced atmosphere for our visitors.
+				</p>
+				<p class="text-lg fw-300 text-white mt-24">
+				  <strong>Playfair Display:</strong> This timeless and elegant serif font adds a touch of sophistication to luxury branding and formal designs.
+				</p>
+				<p class="text-lg fw-300 text-white mt-24">
+				  Honeydew (#D8F1E0):
+				  Honeydew (#D8F1E0) was chosen for its soft and gentle tone, evoking feelings of sweetness and purity. It complements our website&#039;s theme, which involves nurturing and relaxation. This colour adds a touch of cleanliness and freshness, making it an ideal fit for our content related to health and well-being.
+				</p>
+				<p class="text-lg fw-300 text-white mt-24">
+				  Black (#000000):
+				  We incorporated Black (#000000) for its classic elegance and versatility. It creates a strong contrast and draws attention to important elements on our website. While it symbolises formality and authority, we balanced its usage with other colours to maintain a positive and engaging user experience.
+				</p>
+				<p class="text-lg fw-300 text-white mt-24">
+				  White (#FFFFFF):
+				  We integrated White (#FFFFFF) into our colour palette for its simplicity, purity, and versatility. White serves as a clean canvas, allowing other colours and content to stand out effectively. It enhances readability and provides a sense of openness, giving our website a modern and uncluttered appearance. This colour choice reinforces our commitment to a clean and minimalist design, aligning well with our website&#039;s overall aesthetic and user-friendly experience.
+				</p>
+			  </div>
+			</div>
+			<div class="col-lg-5 offset-lg-1 md:order-6 md:mt-32 mt-48">
+			  <div data-parallax="0.7" class="ratio ratio-3:4">
+				<div data-parallax-target="" data-bg="http://uat.tech2edge.co//storage/laravel-grapesjs/media/Our-approCH-3-new2.png" class="bg-image js-lazy">
+				</div>
+			  </div>
+			</div>
+			<div class="col-lg-5 md:order-4 md:mt-32 mt-48">
+			  <div data-parallax="0.7" class="ratio ratio-3:4">
+				<div data-parallax-target="" data-bg="http://uat.tech2edge.co//storage/laravel-grapesjs/media/Our-approCH-3-new2.png" class="bg-image js-lazy">
+				</div>
+			  </div>
+			</div>
+			<div class="col-lg-6 offset-lg-1 col-md-10 md:order-3 mt-48">
+			  <div data-anim="slide-up delay-1">
+				<h2 class="text-4xl sm:text-3xl d-none fw-500 text-white mt-32">Typography
+				</h2>
+				<p class="text-lg fw-300 text-white mt-24">Montserrat:
+				  We used Montserrat as our typography choice for its excellent readability and versatility. Its balanced letterforms and spacing make it ideal for both body text and headings. The font&#039;s modern, clean design aligns perfectly with our website&#039;s minimalist and contemporary look, giving it a polished and professional appearance. Moreover, Montserrat being available as a Google Font allowed easy integration and quick loading times, ensuring a consistent user experience.
+				</p>
+				<p class="text-lg fw-300 text-white mt-24">
+				  Sofia Pro:
+				  Sofia Pro was chosen for its excellent readability and modern aesthetic. With multiple weights and styles available, we could create a consistent visual hierarchy on our website. The font&#039;s uniqueness, supported by a web font licence, gave our website a distinctive look while maintaining a professional and polished appearance. Its web-friendly nature ensured Sofia Pro was chosen for its excellent readability and modern aesthetic. With multiple weights and styles available, we could create a consistent visual hierarchy on our website. The font&#039;s uniqueness, supported by a web font licence, gave our website a distinctive look while maintaining a professional and polished appearance. Its web-friendly nature ensured accurate display across various devices and browsers, enhancing the overall user experience.
+				</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pt-lg layout-pb-lg">
+		<div class="container">
+		  <div class="row align-items-center">
+			<div class="col-lg-6 offset-lg-1 col-md-10 md:order-1">
+			  <div data-anim="slide-up delay-1">
+				<h2 class="text-6xl sm:text-3xl fw-500 text-black mt-32">Key Features
+				</h2>
+				<p class="text-lg fw-300 text-black mt-24">Lookbooks: In order to bridge the gap between the online and offline shopping experience, we incorporated digital versions of the brand&#039;s lookbooks. These digital lookbooks replicate the physical experience by providing visitors with an interactive and hassle-free way to explore the brand&#039;s designs. Users can easily navigate through different collections, gaining inspiration and understanding the brand&#039;s innovative approach to fashion.
+				</p>
+			  </div>
+			</div>
+			<div class="col-lg-5 md:order-2 md:mt-32">
+			  <div data-parallax="0.7" class="ratio ratio-3:4">
+				<div data-parallax-target="" data-bg="http://uat.tech2edge.co//storage/laravel-grapesjs/media/d-sol-sh-new-1.png" class="bg-image js-lazy">
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section class="layout-pt-lg bg-dark-1 layout-pb-lg">
+		<div class="container">
+		  <div class="row align-items-center">
+			<div class="col-lg-5 offset-lg-1 md:order-2 md:mt-32 mt-48">
+			  <div data-parallax="0.7" class="ratio ratio-3:4">
+				<div data-parallax-target="" data-bg="http://uat.tech2edge.co//storage/laravel-grapesjs/media/d-cha-2.png" class="bg-image js-lazy">
+				</div>
+			  </div>
+			</div>
+			<div class="col-lg-6 col-md-10 md:order-1">
+			  <div data-anim="slide-up delay-1">
+				<h2 class="text-6xl sm:text-3xl fw-500 text-white mt-32">Conclusion
+				</h2>
+				<p class="text-lg fw-300 text-white mt-24">Through thoughtful design choices and strategic implementation, we successfully transformed the fashion brand&#039;s online presence to reflect their commitment to sustainability and environmental consciousness. 
+				</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section id="isbdn1-2-7-2-2-2-2-2">[[This-Is-Component title=&#039;slideshow&#039;]]
+	  </section>
+	  [[This-Is-Component title=&#039;Footer&#039;]]
+	</main>
+  </div>
+  [[This-Is-Footer-Script]]
+  [[This-Is-Asset-Loader style=&quot;case-study&quot; script=&quot;case-study&quot;]]
+</body>

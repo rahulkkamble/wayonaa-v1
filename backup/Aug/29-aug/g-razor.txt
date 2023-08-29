@@ -1,0 +1,423 @@
+<body>
+  <!-- Preloader start -->
+  [[This-Is-Component title=&#039;preloader&#039;]]
+  <!-- preloader end -->
+  <!--Main Wrapper Start-->
+  <div id="top" class="wrapper">
+	[[This-Is-Component title=&#039;header&#039;]]
+	<!--Header End-->
+	<!-- Content Section Start -->
+	<div class="main-container">
+	  <!-- feature banner -->
+	  <section id="g-razor-section" class="height-100 model-g-home-section light-text">
+		<div class="section-background">
+		  <div class="background-wrapper">
+			<div id="banner-bg-lite-1" class="background-inner">
+			</div>
+			<div id="banner-bg-razor" class="background-inner">
+			</div>
+			<div id="banner-bg-lite-2" class="background-inner">
+			</div>
+		  </div>
+		</div>
+		<div class="container double-top-padding double-bottom-padding">
+		  <div class="row mt-5">
+			<div class="col-md-8 banner-content position-relative">
+			  <h3 class="large-heading font-italic text--action">
+				<span class="only-text-main text-uppercase fw-600">LAUNCHING G-RAZOR!
+				</span>
+			  </h3>
+			  <h4 class="large-heading fs--40 font-italic text--action text-uppercase">UPGRADE THE WAY YOU TRAVEL
+			  </h4>
+			  <!-- <h2 class="large-heading text-uppercase text--action">powered</h2> -->
+			  <div class="text-block text-lead">
+				<h6 class="text--action text-uppercase shadow-white-2">starting at
+				</h6>
+				<h3 class="text--action center-768 d-flex large-heading font-italic shadow-white-2">
+				  <span class="rupees-regular text-1em text--action text--none border-0">₹</span> 74,999/-
+				</h3>
+			  </div>
+			  <a role="button" href="/book-test-ride" class="btn btn-primary btn-accent has-icon"><span id="iowlb">Book a test
+				ride</span><i class="fas fa-arrow-right">
+				</i></a>
+			  <!-- btn-hover-text-action -->
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <!-- feature banner end -->
+	  <!-- dream ride section -->
+	  <section id="dream-ride" class="dream-ride-section mt-md-5 pb-0">
+		<div class="container">
+		  <div class="row">
+			<div class="col-12">
+			  <h3 class="large-heading text-uppercase text-center">THE ULTIMATE RIDE OF 
+				<span class="only-text-main">Your Dreams
+				</span>
+			  </h3>
+			  <p class="text-lead text-block col-12 text-center pb-1 mb-1">Introducing the new G-Razor, a stylish and powerful E-Scooter! Get ready for an exciting ride that combines speed, versatility, and great looks with its sleek and athletic design, which represents adventure and thrilling performance.
+			  </p>
+			  <p class="text-lead text-block col-12 text-center">With an impressive range of 70 - 75 kms, this scooter ensures that you can keep going on your commute without worrying about running out of power.
+			  </p>
+			</div>
+			<div class="col-12 text-center mt-5 d-flex justify-content-center">
+			  <img src="https://wayonaaev.in/frontend/live/assets/images/model-g/g-razor/razor-group.webp" alt="" srcset="" class="img-fluid min-450w"/>
+			</div>
+		  </div>
+		</div>
+		<div class="container-fluid bg-action">
+		  <div class="container shrink-section features-in-bg-action">
+			<div class="row mt-md-3 mt-lg-0">
+			  <div class="col-6 my-2 my-md-0 col-md-3 d-flex justify-content-center text-center">
+				<div class="icon-with-heading d-flex align-items-center">
+				  <img src="https://wayonaaev.in/storage/laravel-grapesjs/media/led-WITH-border.png" alt="clock" id="iv4oe" class="p-1"/>
+				  <h6 class="p-3 mb-0 text-white">LED Headlight With DRL
+				  </h6>
+				</div>
+			  </div>
+			  <div class="col-6 my-2 my-md-0 col-md-3 d-flex justify-content-center text-center">
+				<div class="icon-with-heading d-flex align-items-center">
+				  <img src="https://wayonaaev.in/storage/laravel-grapesjs/media/sdmeter-white.png" alt="clock" class="flex-shrink-none p-1"/>
+				  <h6 class="mb-0 text-white p-3">Smart Digital Meter
+				  </h6>
+				</div>
+			  </div>
+			  <div class="col-6 my-2 my-md-0 col-md-3 d-flex justify-content-center text-center">
+				<div class="icon-with-heading d-flex align-items-center">
+				  <img src="https://wayonaaev.in/storage/laravel-grapesjs/media/strength-lc.png" alt="clock" id="i7083" class="img-fluid"/>
+				  <h6 class="mb-0 text-white p-3">160 kgs Load Capacity
+				  </h6>
+				</div>
+			  </div>
+			  <div class="col-6 my-2 my-md-0 col-md-3 d-flex justify-content-center text-center">
+				<div class="icon-with-heading d-flex align-items-center">
+				  <img src="https://wayonaaev.in/frontend/live/assets/images/new/icons/model-icons/rim_.webp" alt="clock" class="p-2"/>
+				  <h6 class="p-3 mb-0 text-white">Alloy Rim 3.00-10&quot;
+				  </h6>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <!-- dream ride section end -->
+	  <!-- Why should you buy Section Start -->
+	  <section id="why-choose" class="why-choose-section pb-0 mb-0">
+		<div class="container">
+		  <div class="row">
+			<div class="col-lg-5">
+			  <div class="img-wrapper">
+				<img src="https://wayonaaev.in/storage/laravel-grapesjs/media/g-razor-ltr.webp" alt="" class="rounded mb-3"/>
+			  </div>
+			</div>
+			<div class="why-choose-content col-lg-7 py-5 py-md-0 px-md-5 px-1 rounded border-0">
+			  <div class="heading-wrapper">
+				<h3 class="large-heading text-uppercase text-md-left text-center">DISCOVER THE G-RAZOR ADVANTAGE
+				</h3>
+				<h4 class="large-heading text-uppercase fs--40 text--main text-md-left text-center">WHY SHOULD YOU UPGRADE?
+				</h4>
+			  </div>
+			  <div class="row">
+				<div class="col-6">
+				  <div class="icon-with-heading d-flex flex-column flex-md-row align-items-center my-3">
+					<div class="img-before-heading flex-shrink-none">
+					  <img src="https://wayonaaev.in/frontend/live/assets/images/new/icons/model-icons/package-delivery-logistics-100.webp" alt="clock" class="p-2"/>
+					</div>
+					<h6 class="p-3 mb-1 flex-shrink-5">17 Ltrs Boot Space 
+					</h6>
+				  </div>
+				  <div class="icon-with-heading d-flex flex-column flex-md-row align-items-center my-3">
+					<div class="img-before-heading flex-shrink-none">
+					  <img src="https://wayonaaev.in/frontend/live/assets/images/new/icons/model-icons/view-64.webp" alt="clock" class="p-2"/>
+					</div>
+					<h6 class="p-3 mb-1 flex-shrink-5">Modern Design
+					</h6>
+				  </div>
+				  <div class="icon-with-heading d-flex flex-column flex-md-row align-items-center my-3">
+					<div class="img-before-heading flex-shrink-none">
+					  <img src="https://wayonaaev.in/storage/laravel-grapesjs/media/bldc-motor-3.png" alt="clock" id="ievl0c" class="pl-1"/>
+					</div>
+					<h6 class="p-3 mb-1 flex-shrink-5 text-md-left text-center">Powerful Hub Motor And Performance
+					</h6>
+				  </div>
+				</div>
+				<div class="col-6">
+				  <div class="icon-with-heading d-flex flex-column flex-md-row align-items-center my-3">
+					<div class="img-before-heading flex-shrink-none">
+					  <img src="https://wayonaaev.in/frontend/live/assets/images/new/icons/model-icons/seat-heater-100.webp" alt="clock" class="p-2"/>
+					</div>
+					<h6 class="p-3 mb-1 flex-shrink-5">Comfortable Seating
+					</h6>
+				  </div>
+				  <div class="icon-with-heading d-flex flex-column flex-md-row align-items-center my-3">
+					<div class="img-before-heading flex-shrink-none">
+					  <img src="https://wayonaaev.in/frontend/live/assets/images/new/icons/model-icons/car-battery-100.webp" alt="clock" class="p-2"/>
+					</div>
+					<h6 class="p-3 mb-1 flex-shrink-5">Improved Battery Life And Range
+					</h6>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <!-- About Section End -->
+	  <!-- No hustle section EV USP-->
+	  <section id="usp" class="usp">
+		<h2 class="large-heading text-center text-uppercase text--main heading-shadow fw-700">
+		  <span class="text--light">Features of G-RAZOR that makes IT</span>stand apart
+		</h2>
+		<div class="shrink-section mt-5">
+		  <nav class="usp-tabs">
+			<div id="usp-nav-tab" role="tablist" class="nav nav-tabs nav-justified">
+			  <button id="nav-design-tab" data-toggle="tab" data-target="#nav-design" type="button" role="tab" aria-controls="nav-design" aria-selected="true" class="nav-link nav-item font-italic active">Design</button>
+			  <button id="nav-performance-tab" data-toggle="tab" data-target="#nav-performance" type="button" role="tab" aria-controls="nav-performance" aria-selected="false" class="nav-link nav-item font-italic">Performance</button>
+			  <button id="nav-battery-tab" data-toggle="tab" data-target="#nav-battery" type="button" role="tab" aria-controls="nav-battery" aria-selected="false" class="nav-link nav-item font-italic">Battery</button>
+			  <button id="nav-motor-tab" data-toggle="tab" data-target="#nav-motor" type="button" role="tab" aria-controls="nav-motor" aria-selected="false" class="nav-link nav-item font-italic">Motor</button>
+			</div>
+		  </nav>
+		  <div id="nav-tabContent" class="tab-content">
+			<div id="nav-design" role="tabpanel" aria-labelledby="nav-design-tab" class="tab-pane fade show active">
+			  <div class="container">
+				<div class="row">
+				  <div class="col-md-6 col-sm-12 img-box">
+					<a href="javascript:void(0);" class="hover-link"><div data-business-color="#fb7d4d" class="business-card">
+					  <img src="https://wayonaaev.in/storage/laravel-grapesjs/media/d1-headlight-new-razor.webp" alt="brand-img" class="img img-fluid"/>
+					  </div><div class="img-overlay overlay-1 px-3">
+					  <h5 id="ii8j42">The radiant lights that shine
+					  </h5>
+					  <p id="id7dbo" class="mb-4">LED headlight with DRL
+					  </p>
+					  <p>
+					  </p>
+					  </div></a>
+				  </div>
+				  <div class="col-md-6 col-sm-12 tab-content-right-cards mt-4 mt-md-2">
+					<div class="col-sm-12 img-box">
+					  <a href="javascript:void(0);" class="hover-link"><div data-business-color="#338eff" class="business-card">
+						<img src="https://wayonaaev.in/storage/laravel-grapesjs/media/d2-Recovered-razor-smart-meter-.webp" alt="brand-img" class="img img-fluid"/>
+						</div><div class="img-overlay overlay-2 px-3">
+						<h5>Smart meters for smart rides
+						</h5>
+						<p>Smart digital meter
+						</p>
+						</div></a>
+					</div>
+					<div class="col-sm-12 img-box mt-3 mt-md-4">
+					  <a href="javascript:void(0);" class="hover-link"><div data-business-color="#00ffff" class="business-card">
+						<img src="https://wayonaaev.in/storage/laravel-grapesjs/media/d4-razor-load.webp" alt="brand-img" class="img img-fluid"/>
+						</div><div class="img-overlay px-3 overlay-3">
+						<h5 class="pt-lg-3">Tyres built to endure
+						</h5>
+						<p class="mb-5">Tyre - 90/100-10 tubeless alloy rim 3.00-10&quot;
+						</p>
+						</div></a>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div id="nav-performance" role="tabpanel" aria-labelledby="nav-performance-tab" class="tab-pane fade">
+			  <div class="container">
+				<div class="row">
+				  <div class="col-md-6 col-sm-12 img-box">
+					<a href="javascript:void(0);" class="hover-link"><div data-business-color="#fb7d4d" class="business-card">
+					  <img src="https://wayonaaev.in/storage/laravel-grapesjs/media/P1-grazor-performance.webp" alt="brand-img" class="img img-fluid"/>
+					  </div><div class="img-overlay overlay-1 px-3">
+					  <h5 class="pt-0">Discover the perfect range
+					  </h5>
+					  <p class="mb-4">Range per charge 70 - 75 kms
+					  </p>
+					  <p>
+					  </p>
+					  </div></a>
+				  </div>
+				  <div class="col-md-6 col-sm-12 tab-content-right-cards mt-4 mt-md-2">
+					<div class="col-sm-12 img-box">
+					  <a href="javascript:void(0);" class="hover-link"><div data-business-color="#338eff" class="business-card">
+						<img src="https://wayonaaev.in/storage/laravel-grapesjs/media/p2-performance-razor-style.webp" alt="brand-img" class="img img-fluid"/>
+						</div><div class="img-overlay overlay-2 px-3">
+						<h5 class="pt-lg-3">The perfect weight fusion
+						</h5>
+						<p class="mb-5">Vehicle weight 80 kgs with battery
+						</p>
+						</div></a>
+					</div>
+					<div class="col-sm-12 img-box mt-3 mt-md-4">
+					  <a href="javascript:void(0);" class="hover-link"><div data-business-color="#00ffff" class="business-card">
+						<img src="https://wayonaaev.in/storage/laravel-grapesjs/media/p3-razor-performance-comfirt.webp" alt="brand-img" class="img img-fluid"/>
+						</div><div class="img-overlay px-3 overlay-3">
+						<h5>Redefining the art of comfort
+						</h5>
+						<p class="mb-5">Front hydraulic telescopic
+						  <br/> Rear twin-shocker
+						</p>
+						</div></a>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div id="nav-battery" role="tabpanel" aria-labelledby="nav-battery-tab" class="tab-pane fade">
+			  <div class="container">
+				<div class="row">
+				  <div class="col-md-6 col-sm-12 img-box">
+					<a href="javascript:void(0);" class="hover-link"><div data-business-color="#fb7d4d" class="business-card">
+					  <img src="https://wayonaaev.in/frontend/live/assets/images/new/battery/C1.webp" alt="brand-img" class="img img-fluid"/>
+					  </div><div class="img-overlay overlay-1 px-3">
+					  <h5 class="pt-lg-3 mb-3">A quick glance at the Specs
+					  </h5>
+					  <p class="mb-4">48V 30Ah LFP safe lithium-ion battery
+					  </p>
+					  <p>
+					  </p>
+					  </div></a>
+				  </div>
+				  <div class="col-md-6 col-sm-12 tab-content-right-cards mt-4 mt-md-2">
+					<div class="col-sm-12 img-box">
+					  <a href="javascript:void(0);" class="hover-link"><div data-business-color="#338eff" class="business-card">
+						<img src="https://wayonaaev.in/frontend/live/assets/images/new/battery/C2.webp" alt="brand-img" class="img img-fluid"/>
+						</div><div class="img-overlay overlay-2 px-3">
+						<h5>A promise of guaranteed protection
+						</h5>
+						<p class="mb-5">3 Years warranty
+						</p>
+						</div></a>
+					</div>
+					<div class="col-sm-12 img-box mt-3 mt-md-4">
+					  <a href="javascript:void(0);" class="hover-link"><div data-business-color="#00ffff" class="business-card">
+						<img src="https://wayonaaev.in/frontend/live/assets/images/new/battery/C3.webp" alt="brand-img" class="img img-fluid"/>
+						</div><div class="img-overlay px-3 overlay-3">
+						<h5 class="pt-lg-3">Power on the move
+						</h5>
+						<p class="mb-5">
+						  Phone charging available
+						</p>
+						</div></a>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div id="nav-motor" role="tabpanel" aria-labelledby="nav-motor-tab" class="tab-pane fade">
+			  <div class="container">
+				<div class="row">
+				  <div class="col-md-6 col-sm-12 img-box">
+					<a href="javascript:void(0);" class="hover-link"><div data-business-color="#fb7d4d" class="business-card">
+					  <img src="https://wayonaaev.in/frontend/live/assets/images/new/e1new.webp" alt="brand-img" class="img img-fluid"/>
+					  </div><div class="img-overlay overlay-1 px-3">
+					  <h5 class="pt-lg-3 mb-3">Motor of solid build
+					  </h5>
+					  <p class="mb-4">BLDC Hub motor
+					  </p>
+					  <p>
+					  </p>
+					  </div></a>
+				  </div>
+				  <div class="col-md-6 col-sm-12 tab-content-right-cards mt-4 mt-md-2">
+					<div class="col-sm-12 img-box">
+					  <a href="javascript:void(0);" class="hover-link"><div data-business-color="#338eff" class="business-card">
+						<img src="https://wayonaaev.in/frontend/live/assets/images/new/Motor/e2.webp" alt="brand-img" class="img img-fluid"/>
+						</div><div class="img-overlay overlay-2 px-3">
+						<h5 class="pt-lg-3">Warranty shield you can trust
+						</h5>
+						<p class="mb-5">2 Years motor warranty
+						</p>
+						</div></a>
+					</div>
+					<div class="col-sm-12 img-box mt-3 mt-md-4">
+					  <a href="javascript:void(0);" class="hover-link"><div data-business-color="#00ffff" class="business-card">
+						<img src="https://wayonaaev.in/storage/laravel-grapesjs/media/load-capacity-grazor.webp" alt="brand-img" class="img img-fluid"/>
+						</div><div class="img-overlay px-3 overlay-3">
+						<h5 class="pt-lg-3">Unmatched load capacity
+						</h5>
+						<p class="mb-5">Load capacity - 160 kgs
+						</p>
+						</div></a>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <!-- No hustle section ends here -->
+	  <!-- Variation Section Start -->
+	  <section id="variation-models" class="variation-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 mb-3">
+			  <div class="heading-wrapper text-center">
+				<h2 class="large-heading text-uppercase">
+				  <span id="i9tj86">COLOUR VARIANTS</span> CHOOSE YOUr Colour
+				</h2>
+				<!-- Discover Our Unique Colour variants -->
+			  </div>
+			</div>
+			<div class="col-md-12">
+			  <div id="g-razor-model-g" class="tab-pane-model-G">
+				<div class="color-variation-slider owl-carousel m-top-30">
+				  <div data-color="black" class="item">
+					<img src="https://wayonaaev.in/storage/laravel-grapesjs/media/g-razor-black.webp" alt="" class="img-fluid"/>
+					<h6 class="text-center mt-5">Midnight Black
+					</h6>
+				  </div>
+				  <div data-color="blue" class="item">
+					<img src="https://wayonaaev.in/storage/laravel-grapesjs/media/g-razor-blue-2.webp" alt="" class="img-fluid"/>
+					<h6 class="text-center mt-5">Sapphire Blue
+					</h6>
+				  </div>
+				  <div data-color="red" class="item">
+					<img src="https://wayonaaev.in/storage/laravel-grapesjs/media/g-razor-red.webp" alt="" class="img-fluid"/>
+					<h6 class="text-center mt-5">Fire Red
+					</h6>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-12 mt-5 mt-md-3 text-center">
+			  <a role="button" href="/book-test-ride" class="btn mt-5 btn-primary">Book Now</a>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <!-- Variation Section end here -->
+	  <!-- Specifications Section Start -->
+	  [[This-Is-Technical-Specs-G-Razor]]
+	  <!-- Features Section End -->
+	  <!-- Our customers -->
+	  [[This-Is-Testimonials]]
+	  <!-- Our customers section end -->
+	  <!-- Ready to Make?? -->
+	  <section id="book-ride" class="design-section bg-white pt-0 mt-0">
+		<div class="container">
+		  <div class="row align-items-center">
+			<div class="col-lg-8 bg-white py-5 rounded border-0 d-flex flex-column">
+			  <div class="heading-wrapper">
+				<h3 class="large-heading text-uppercase text-md-left text-center">COME AND TEST RIDE THE 
+				  <br/> G-razor TODAY!
+				</h3>
+				<h4 class="large-heading text-uppercase font-italic text--main fs--40 d-none">TAKE A TEST DRIVE NOW!
+				</h4>
+			  </div>
+			  <a role="button" href="/book-test-ride" class="btn mt-2 btn-primary mx-auto mr-md-auto ml-md-0">Book a test ride</a>
+			</div>
+			<div class="col-lg-4">
+			  <div class="img-wrapper rect-image-lite rect-image">
+				<img src="https://wayonaaev.in/storage/laravel-grapesjs/media/g-razor-rtl.webp" alt="" class="img-fluid"/>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <!-- Ready to Make?? end -->
+	</div>
+	<!-- Content Section End -->
+	<!--footer Start-->
+	[[This-Is-Component title=&#039;footer&#039;]]
+	<!--footer end-->
+  </div>
+  <!--Main Wrapper End-->
+</body>

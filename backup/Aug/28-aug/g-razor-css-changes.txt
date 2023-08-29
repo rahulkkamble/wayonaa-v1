@@ -1,0 +1,13 @@
+.tab-content .img-box .business-card{
+  transition: all .2s ease;
+}
+
+.tab-content .business-card img{
+  transition: none;
+}
+
+.tab-content .img-overlay.overlay-1{
+  bottom:0.15rem;
+  transition: all .2s ease;
+  box-shadow: 0px 2px black;
+}

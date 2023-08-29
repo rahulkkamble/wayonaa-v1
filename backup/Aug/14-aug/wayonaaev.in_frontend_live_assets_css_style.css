@@ -49,12 +49,12 @@ Table of Contents
     --black-color: #000000;
     --font--poppins: 'Poppins', sans-serif;
     --box--shadow: 9px 12px 15px rgba(0, 0, 0, 0.28);
-    --star-bullet-url: url('../assets/images/star-bullet-black.svg')
+    --star-bullet-url: url('../images/star-bullet-black.svg')
 }
 
 #bg-blink {
     opacity: 1;
-    background-image: url('../assets/images/new/astino-with-light.webp');
+    background-image: url('../images/new/astino-with-light.webp');
     animation: bg-blink 1s;
     -webkit-animation: bg-blink 1s;
     -moz-animation: bg-blink 1s;
@@ -67,17 +67,17 @@ Table of Contents
 @keyframes bg-blink {
     0% {
         opacity: 1;
-        background-image: url('../assets/images/new/ASTINO.webp');
+        background-image: url('../images/new/ASTINO.webp');
     }
 
     50% {
         opacity: 1;
-        background-image: url('../assets/images/new/astino-with-light.webp');
+        background-image: url('../images/new/astino-with-light.webp');
     }
 
     100% {
         opacity: 1;
-        background-image: url('../assets/images/new/ASTINO.webp');
+        background-image: url('../images/new/ASTINO.webp');
     }
 }
 
@@ -177,7 +177,6 @@ Table of Contents
 .fs--20 {
     font-size: 20px !important;
 }
-
 .fs--22 {
     font-size: 22px !important;
 }
@@ -398,13 +397,13 @@ a:focus {
 a {
     text-decoration: none !important;
     color: var(--main-color);
-    ;
+;
 }
 
 a:hover,
 a:focus {
     color: var(--text-color);
-    ;
+;
 }
 
 a,
@@ -466,7 +465,7 @@ hr {
     margin-bottom: 0;
     border: 0;
     border-top: 1px solid var(--light-gray);
-    ;
+;
 }
 
 pre {
@@ -1288,8 +1287,8 @@ body.menu-open .logo img.sticky-logo {
 
 .site-navigation .main-menu>li>a:hover:after
 
-/* ,.site-navigation .main-menu>li.active>a:after */
-    {
+    /* ,.site-navigation .main-menu>li.active>a:after */
+{
     width: calc(100% - 10px);
 }
 
@@ -1438,13 +1437,12 @@ section#home {
 
 #hero-bg-1.background-inner {
     bottom: 80px;
-    background-image: url('../assets/images/new/new-home-banner/banner-bg.webp');
+    background-image: url('../images/new/new-home-banner/banner-bg.webp');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     visibility: visible;
-    height: 570px; /* update added 1st august */
-    /* margin-top: 80px; removed 31st july */
+    margin-top: 80px;
 }
 
 .section-background .background-wrapper .background-inner {
@@ -1744,7 +1742,7 @@ h3.large-heading span {
     color: #ffffff;
     font-weight: 300;
     font-size: 22px;
-    /* top: 100px; updated on 1st aug top-40px */ top: 40px;
+    top: 100px;
     padding: 0px 15px;
 }
 
@@ -1868,7 +1866,7 @@ h3.large-heading span {
 }
 
 .flag-bg {
-    background: url('../assets/images/temp/tri_bg.png');
+    background: url('../images/temp/tri_bg.png');
     background-size: cover;
 }
 
@@ -2227,7 +2225,7 @@ h3.large-heading span {
 }
 
 .feature-section {
-    background: url('../assets/images/temp/tri_bg.png');
+    background: url('../images/temp/tri_bg.png');
     background-size: cover;
 }
 
@@ -2522,7 +2520,7 @@ select.form-control {
 
 /* specifications-section */
 .specifications-section-g-one .background-inner {
-    background-image: url('../assets/images/model-g/g-one/g-one-orange-rtl.webp');
+    background-image: url('../images/model-g/g-one/g-one-orange-rtl-2.webp');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 70%;
@@ -2530,7 +2528,7 @@ select.form-control {
 }
 
 .specifications-section-g-lite .background-inner {
-    background-image: url('../assets/images/model-g/scooty.webp');
+    background-image: url('../images/model-g/scooty.webp');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 70%;
@@ -2538,7 +2536,7 @@ select.form-control {
 }
 
 .specifications-section-g-razor .background-inner {
-    background-image: url('../assets/images/model-g/g-razor/g-razor-ltr.webp');
+    background-image: url('../images/model-g/g-razor/g-razor-rtl-2.webp');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 40%;
@@ -2688,7 +2686,7 @@ select.form-control {
 }
 
 .vertical-tab .tab-content .tab-pane {
-    padding-left: 30px;
+    padding-left: 0px;
 }
 
 .vertical-tab .tab-content .tab-title {
@@ -2733,7 +2731,7 @@ table.specifications tr:last-child th {
 }
 
 /*--------------------------------------------------------------*
-    Features 
+    Features
   *--------------------------------------------------------------*/
 .features-box {
     text-align: center;
@@ -4087,7 +4085,7 @@ h2.large-heading>span.only-text-main {
     height: 780px;
 }
 
-#astino-banner-page {
+#astino-banner-page{
     position: relative;
 }
 
@@ -4207,7 +4205,7 @@ h2.large-heading>span.only-text-main {
     backdrop-filter: var(--bike-colors-gradients);
 } */
 #usp {
-    background: url('../assets/images/new/Greenbg.webp');
+    background: url('../images/new/Greenbg.webp');
 }
 
 .tab-content h1.heading {
@@ -4338,20 +4336,9 @@ h2.large-heading>span.only-text-main {
 /* Media Querries */
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .usp .shrink-section {
-        max-width: 95% !important;
-        width: 95% !important;
-    }
-
-    .tab-content .overlay-2,
-    .tab-content .overlay-3 {
-        top: 70px !important;
-    }
-
-    .tab-content .img-box:hover .overlay-2,
-    .tab-content .img-box:hover .overlay-3 {
-        width: 100%;
-    }
+    .usp .shrink-section{max-width: 95% !important; width: 95% !important;}
+    .tab-content .overlay-2, .tab-content .overlay-3 {top: 70px !important;}
+    .tab-content .img-box:hover .overlay-2,.tab-content .img-box:hover .overlay-3 {width: 100%;}
 }
 
 @media screen and (max-width: 768px) {
@@ -4465,56 +4452,45 @@ h2.large-heading>span.only-text-main {
 /* banner update */
 #hero-bg-3 {
     overflow: hidden;
-    /* added after 1st august update */
-    height: 650px;
 }
 
 .bg-inner-left-black {
-    background-image: url('../assets/images/new/new-home-banner/Rectangle-12.webp');
+    background-image: url('../images/new/new-home-banner/Rectangle-12.webp');
     background-repeat: no-repeat;
-    background-position: -44% 16%;
-    height: 680px !important;
-    /* updated after 1st august added below */
-    left: -20px !important;
-    top: -110px !important;
+    height: 680px;
 }
 
 #shape-big-1 {
-    background-image: url('../assets/images/new/new-home-banner/shape4-big.webp');
+    background-image: url('../images/new/new-home-banner/shape4-big.webp');
     background-repeat: no-repeat;
 }
 
 #shape-small-1 {
-    background-image: url('../assets/images/new/new-home-banner/shape4-little.webp');
+    background-image: url('../images/new/new-home-banner/shape4-little.webp');
     background-repeat: no-repeat;
 }
 
 #shape-big-2 {
-    background-image: url('../assets/images/new/new-home-banner/shape4-big.webp');
+    background-image: url('../images/new/new-home-banner/shape4-big.webp');
     transform: skewX(2deg);
     background-repeat: no-repeat;
 }
 
 #shape-big-3 {
-    background-image: url('../assets/images/new/new-home-banner/shape4-big.webp');
+    background-image: url('../images/new/new-home-banner/shape4-big.webp');
     transform: skewX(2deg);
     background-repeat: no-repeat;
 }
 
-#bike-bg-2 {
-    /* new change after content updated 1 */
-    background-image: url(../assets/images/new/new-home-banner/Scooty.webp);
+#bike-bg-2 {    /* new change after content updated 1 */
+    background-image: url(../images/new/new-home-banner/Scooty-black-2.webp);
     background-repeat: no-repeat;
     background-position: right bottom;
-    /* max-height: 700px; old before 1st august*/
-    max-height: 650px;
+    max-height: 700px;
     right: 0%;
-    top: 0%;
-    /* background-size: 750px; old before 1st august*/
-    background-size: 650px;
+    top: 15%;
+    background-size: 750px;
     position: absolute;
-    /* updated 1st august added below */
-    bottom: 0px;
 }
 
 /* @media screen and (min-width: 1500px) {
@@ -4553,8 +4529,7 @@ h2.large-heading>span.only-text-main {
     }
 
     #shape-big-1 {
-        /* background-position: 5.5% -20%; old before 1st august*/
-        background-position: 5.5% -12%;
+        background-position: 5.5% -20%;
         background-size: 9%;
     }
 
@@ -4574,7 +4549,7 @@ h2.large-heading>span.only-text-main {
     }
 }
 
-@media screen and (max-width: 1359.5px) {   /* updated 1st august modified 1359 to 1359.5 */
+@media screen and (max-width: 1359px) {
     .bg-inner-left-black {
         background-position: -96% 20%;
         background-size: 81%;
@@ -4586,14 +4561,13 @@ h2.large-heading>span.only-text-main {
     }
 
     #shape-big-2 {
-        background-position: 48.4% 120%; /* background-position: 44.4% 120%; modified after 1st august update*/
+        background-position: 44.4% 120%;
         background-size: 9%;
     }
 
     #shape-small-1 {
-        background-position: 58% 31%; /* background-position: 60.8% 7%; modified 1st august*/
-        background-size: 3%; /* background-size: 3%; modified 1st august*/
-        transform: skewX(2deg); /* added 1st august*/
+        background-position: 60.8% 7%;
+        background-size: 3%;
     }
 
     #shape-big-3 {
@@ -4609,14 +4583,13 @@ h2.large-heading>span.only-text-main {
     }
 
     #shape-big-2 {
-        background-position: 46.4% 116%; /* background-position: 41.4% 116%; modified after update 1st august */
+        background-position: 41.4% 116%;
         background-size: 9%;
     }
 
     #shape-small-1 {
-        background-position: 56.5% 31%; /* background-position: 59.1% 7%; modified 1st august*/
+        background-position: 59.1% 7%;
         background-size: 3%;
-        transform: skewX(2deg); /* added 1st august*/
     }
 }
 
@@ -4627,69 +4600,25 @@ h2.large-heading>span.only-text-main {
     }
 
     #shape-big-1 {
-        background-position: 3.5% -3%; /* background-position: 3.5% -6%;  modified after 1st august update*/
+        background-position: 3.5% -6%;
         background-size: 9%;
     }
 
     #shape-big-2 {
-        background-position: 41.4% 116%; /* background-position: 37.4% 116%; modified after 1st august update */
+        background-position: 37.4% 116%;
         background-size: 9%;
     }
 
     #shape-small-1 {
-        background-position: 53.1% 30%;/* background-position: 55.1% 10%; modified after 1st august update*/
+        background-position: 55.1% 10%;
         background-size: 3%;
     }
 
-    /* #shape-big-3 {   removed @1st august update
+    #shape-big-3 {
         background-position: 104.3% 107%;
         background-size: 9%;
-    } */    
-}
-/* after 1st august update */
-@media screen and (max-width: 991px) {
-    .bg-inner-left-black {
-        background-position: -170% 65%;
-        background-size: 90%;
-    }
-
-    #shape-big-1 {
-        background-position: 3.5% -3%; /* background-position: 3.5% -6%;  modified after 1st august update*/
-        background-size: 9%;
-    }
-
-    #shape-big-2 {
-        background-position: 44.4% 116%; /* background-position: 37.4% 116%; modified after 1st august update */
-        background-size: 9%;
-    }
-
-    #shape-small-1 {
-        background-position: 58.5% 30%;/* background-position: 55.1% 10%; modified after 1st august update*/
-        background-size: 3%;
     }
 }
-@media screen and (max-width: 849px) {
-    .bg-inner-left-black {
-        background-position: -170% 65%;
-        background-size: 90%;
-    }
-
-    #shape-big-1 {
-        background-position: 6% -10%; /* background-position: 3.5% -6%;  modified after 1st august update*/
-        background-size: 5%;
-    }
-
-    #shape-big-2 {
-        background-position: 42% 116%; /* background-position: 37.4% 116%; modified after 1st august update */
-        background-size: 9%;
-    }
-
-    #shape-small-1 {
-        background-position: 60% 30%;/* background-position: 55.1% 10%; modified after 1st august update*/
-        background-size: 3%;
-    }
-}
-/* after 1st august update end */
 
 
 
@@ -4706,7 +4635,7 @@ h2.large-heading>span.only-text-main {
 /* A B O U T */
 /* About page css */
 .banner-about {
-    background: url('../assets/images/about-new/Top-banner-2.webp');
+    background: url('../images/about-new/Top-banner-22.webp');
     height: 400px;
     background-position: top left;
     background-repeat: no-repeat;
@@ -4718,7 +4647,7 @@ h2.large-heading>span.only-text-main {
     object-fit: contain;
 }
 
-#vision-left-img {
+#vision-left-img{
     height: 360px;
 }
 
@@ -4729,7 +4658,7 @@ h2.large-heading>span.only-text-main {
     z-index: 1;
 }
 
-.icon-50px {
+.icon-50px{
     height: 50px;
     width: 50px;
 }
@@ -4888,28 +4817,28 @@ section.began {
 }
 
 #banner-bg-1 {
-    background-image: url('../assets/images/model-g/road.webp');
+    background-image: url('../images/model-g/road.webp');
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: contain;
 }
 
 #banner-bg-2 {
-    background-image: url('../assets/images/model-g/eRectangle-4.webp');
+    background-image: url('../images/model-g/eRectangle-4.webp');
     background-repeat: no-repeat;
     background-position: 0 100%;
     background-size: 100%;
 }
 
 #banner-bg-3 {
-    background-image: url('../assets/images/model-g/g-one/g-one-orange-rtl.webp');
+    background-image: url('../images/model-g/g-one/g-one-orange-rtl-2.webp');
     background-repeat: no-repeat;
     background-position: 85% 85%;
     background-size: 50%;
 }
 
 /* section.dream-ride-section{
-    height: 110vh; 
+    height: 110vh;
     overflow: hidden;
 } */
 
@@ -4996,17 +4925,7 @@ section.began {
 #variation-models img {
     max-height: 470px;
     max-width: 640px;
-    cursor: grab;   /* updated on 3rd august */
-    cursor: -moz-grabbing;   /* updated on 3rd august */
 }
-
-/* updated on 3rd august */
-#variation-models img:active{
-    cursor: grabbing;
-    cursor: -moz-grabbing;
-}
-/* updated on 3rd august end here */
-
 
 .customer-feedback-cards .cus-img img.rounded-circle {
     height: 60px;
@@ -5017,7 +4936,7 @@ section.began {
 
 .customer-feedback-cards .card,
 .customer-feedback-cards .card .card-header,
-.customer-feedback-cards .card .card-body {
+.customer-feedback-cards .card .card-body{
     color: var(--text-faded) !important;
     background-color: var(--action-color-light) !important;
     transition: all .3s ease-in-out;
@@ -5045,28 +4964,27 @@ section.began {
 /* G - Lite */
 
 #banner-bg-lite-1 {
-    background-image: url('../assets/images/model-g/road.webp');
+    background-image: url('../images/model-g/road.webp');
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: contain;
 }
 
 #banner-bg-lite-3 {
-    background-image: url('../assets/images/model-g/scooty.webp');
+    background-image: url('../images/model-g/scooty.webp');
     background-repeat: no-repeat;
     background-position: 85% 85%;
     background-size: 50%;
 }
-
 #banner-bg-razor {
-    background-image: url('../assets/images/model-g/g-razor/g-razor-rtl.webp');
+    background-image: url('../images/model-g/g-razor/g-razor-rtl-2.webp');
     background-repeat: no-repeat;
     background-position: 85% 85%;
     background-size: 50%;
 }
 
 #banner-bg-lite-2 {
-    background-image: url('../assets/images/model-g/eRectangle-4.webp');
+    background-image: url('../images/model-g/eRectangle-4.webp');
     background-repeat: no-repeat;
     background-position: 0 100%;
     background-size: 100%;
@@ -5078,7 +4996,7 @@ section.began {
 /* D E A L E R PAGE */
 /* D E A L E R PAGE */
 .banner-dealer {
-    background: url('../assets/images/dealer/dealer-bg.webp');
+    background: url('../images/dealer/dealer-bg.webp');
     height: 400px;
     background-size: 100%;
     background-position: top top;
@@ -5088,7 +5006,7 @@ section.began {
 }
 
 .banner-become-a-dealer {
-    background: url('../assets/images/become-a-dealer/topbanner.webp');
+    background: url('../images/become-a-dealer/topbanner.webp');
     height: 400px;
     background-size: 100%;
     background-position: top top;
@@ -5133,7 +5051,7 @@ section.began {
 }
 
 .become-a-dealer-cta .bg-right {
-    background: url('../assets/images/model-g/G-lite-footer.webp');
+    background: url('../images/model-g/G-lite-footer.webp');
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -5142,7 +5060,7 @@ section.began {
     bottom: 0.1%;
 }
 
-.become-a-dealer-cta .bg-right .img-wrapper img {
+.become-a-dealer-cta .bg-right .img-wrapper img{
     opacity: 0;
 }
 
@@ -5180,51 +5098,44 @@ section.began {
 
 .whatsapp-float {
     position: fixed;
-    right: 20px;
-    /* Adjust the right distance according to your preference */
-    bottom: 20px;
-    /* Adjust the bottom distance according to your preference */
+    right: 20px; /* Adjust the right distance according to your preference */
+    bottom: 20px; /* Adjust the bottom distance according to your preference */
     z-index: 9999;
 }
 
 .whatsapp-float img {
     /* padding: .65rem; */
-    width: 60px;
-    /* Adjust the width of the WhatsApp logo */
-    height: 60px;
-    /* Adjust the height of the WhatsApp logo */
+    width: 60px; /* Adjust the width of the WhatsApp logo */
+    height: 60px; /* Adjust the height of the WhatsApp logo */
     /* border-radius: 50%; */
 }
 
 .whatsapp-float:focus,
-.whatsapp-float:hover {
+.whatsapp-float:hover{
     transform: scale(1.1);
 }
-
 /* whatsapp logo end here */
 
-.features-box h4 {
-    white-space-collapse: collapse;
-    text-wrap: nowrap;
-    font-size: 1.2rem;
+.features-box h4{
+    white-space-collapse:collapse;
+    text-wrap:nowrap;
+    font-size:1.2rem;
+}
+.red-img{
+    height:85px;
+    width:85px;
 }
 
-.red-img {
-    height: 85px;
-    width: 85px;
-}
-
-.rupees-regular {
+.rupees-regular{
     font-family: sans-serif;
 }
 
 /* features from each model page in blue action color */
 
-.line-through {
+.line-through{
     text-decoration: line-through;
 }
-
-.features-in-bg-action {
+.features-in-bg-action{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -5233,203 +5144,77 @@ section.began {
 }
 
 @media screen and (min-width: 768.5px) and (max-width: 1024px) {
-    .features-in-bg-action .icon-with-heading {
+    .features-in-bg-action .icon-with-heading{
         flex-direction: column;
     }
 }
 
 @media screen and (max-width: 991px) {
-    .variation-section .row a.btn.mt-5 {
+    .variation-section .row a.btn.mt-5{
         margin-top: 5rem !important;
     }
 }
 
 @media screen and (min-width: 576.5px) and (max-width: 768px) {
-    .features-in-bg-action .icon-with-heading {
+    .features-in-bg-action .icon-with-heading{
         flex-direction: column;
     }
-
-    .text-center-in-md {
+    .text-center-in-md{
         text-align: center !important;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .features-in-bg-action .icon-with-heading {
+    .features-in-bg-action .icon-with-heading{
         flex-direction: column;
     }
-
-    .features-in-bg-action .icon-with-heading img {
+    .features-in-bg-action .icon-with-heading img{
         height: 35px;
         width: 35px;
     }
-
-    .features-in-bg-action .icon-with-heading h6 {
+    .features-in-bg-action .icon-with-heading h6{
         font-size: 12px;
         padding: 5px !important;
     }
-
-    .why-choose-content .icon-with-heading h6 {
+    .why-choose-content .icon-with-heading h6{
         text-align: center;
     }
-
-    .variation-section .row a.btn.mt-5 {
+    .variation-section .row a.btn.mt-5{
         margin-top: 3rem !important;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .features-in-bg-action .icon-with-heading h6 {
+    .features-in-bg-action .icon-with-heading h6{
         font-size: 8px;
         padding: 5px !important;
     }
 }
 
 /* smaller book btn for locate dealer page */
-.small-btn-book {
+.small-btn-book{
     font-size: 12px !important;
     height: 44px;
     line-height: 40px;
     padding: 0px 30px;
 }
 
-.icon-regular {
-    height: 25px;
-    width: 25px;
-}
-
-/* carousel update 1st august*/
-.hero-section .carousel:hover{
-    cursor: grab;
-}
-.hero-section .carousel:active{
-    cursor: grabbing;
-}
-
-.hero-section .carousel .first-slide>.section-background{
-    height: 670px;
-}
-
-.hero-section .carousel .carousel-item{
-    height: 650px;
-}
-
-.sub-bold-heading.pricing-text{
-    top: 40px;
-}
-
-.carousel-item .for-mobile-bg{
-        /* background-image: url('../assets/images/new/new-home-banner/banner-bg.webp'); */
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-}
-
-.carousel-item img.img-fluid.banner2{
-    margin-top: 10px;
-    height: 570px;
-    max-width: 1520px;
+/*MAP*/
+.mapouter {
+    position: sticky;
+    text-align: right;
     width: 100%;
-    object-position: left;
-    object-fit: cover;
+    height: 750px;
+    top: 0;
 }
 
-.hero-section .carousel .carousel-control-next,
-.hero-section .carousel .carousel-control-prev{
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    border-radius: 50%;
-    background-color: var(--black-color);
-    margin: auto;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 15px;
-
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 750px;
 }
 
-.hero-section .carousel .carousel-control-next i,
-.hero-section .carousel .carousel-control-prev i{
-    color: #fff;
-    transition: color .3s ease-in-out;
+.gmap_iframe {
+    height: 750px !important;
 }
-
-.hero-section .carousel .carousel-control-next:focus, 
-.hero-section .carousel .carousel-control-next:hover, 
-.hero-section .carousel .carousel-control-prev:focus, 
-.hero-section .carousel .carousel-control-prev:hover {
-    border: 2px solid black;
-    background-color: #fff;
-    color: #000 !important;
-}
-.hero-section .carousel .carousel-control-next:focus i, 
-.hero-section .carousel .carousel-control-next:hover i, 
-.hero-section .carousel .carousel-control-prev:focus i, 
-.hero-section .carousel .carousel-control-prev:hover i {
-    color: #000 !important;
-}
-
-.hero-section .carousel-indicators{
-    bottom: -10px;
-}
-
-.hero-section .carousel-indicators li{
-    background-color: transparent;
-    border-radius: 50%;
-    border: 1px solid var(--action-color);
-    height: 15px;
-    width: 15px;
-}
-
-.hero-section .carousel-indicators .active{
-    background-color: var(--main-color);
-}
-
-.hero-section .banner-content{
-    padding-top: 20px;
-}
-
-section.design-section{
-    padding-top: 20px !important;
-}
-
-@media screen and (max-width: 1359.5px) {
-    .hero-section .banner-content{
-        margin: 0rem 2rem;
-    }
-}
-@media screen and (max-width: 1199.5px) {
-    .hero-section .banner-content{
-        margin: 0rem 4rem;
-    }
-}
-@media screen and (max-width: 768.5px) {
-    .hero-section .banner-content{
-        margin: 0rem 2rem;
-    }
-   
-}
-@media screen and (max-width: 567.5px) {
-    .hero-section .carousel .carousel-control-next,
-    .hero-section .carousel .carousel-control-prev{
-        margin-top: auto;
-        margin-bottom: 35%;
-    }
-
-    .carousel-item .for-mobile-bg{
-        background-image: url("../assets/images/Updated-Assests/Homepage/wayonaa-mobile-banner-2-420w.png");
-        background-position: left;
-        background-size: cover;
-    }
-    .carousel-item img.img-fluid.banner2{
-        object-position: left;
-        -o-object-position: left;
-        opacity: 0;
-    } 
-    section.design-section{
-        padding-top: 0px !important;
-    }
-}
-/* 1st august update done here carousel update */
